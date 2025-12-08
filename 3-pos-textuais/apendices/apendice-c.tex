@@ -1,0 +1,103 @@
+\apendice{Códigos-fontes utilizados para...}
+\label{ap:C}
+
+\lstinputlisting[language=C++,caption={Hello World em C++}]{figuras/main.cpp}
+
+
+\begin{lstlisting}[language=Java,caption={Hello World em Java}]
+public class HelloWorld {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}
+\end{lstlisting}
+
+
+
+
+\begin{algorithm}
+\caption{Roleta de Seleção}
+\KwIn{Lista de pares $(objeto, distancia)$}
+\KwOut{Objeto selecionado}
+\ForEach{$(objeto, distancia)$ em roleta}{
+    \If{$distancia = 0$}{
+        \Return $objeto$
+    }
+    Adicione $objeto$ à lista de objetos\;
+    Adicione $distancia$ à lista de distancias\;
+}
+
+\ForEach{$distancia$ em distancias}{
+    Calcule $peso = 1 / distancia$\;
+    Adicione $peso$ à lista de pesos\;
+}
+
+Calcule $probabilidades = pesos / \sum pesos$\;
+Escolha aleatoriamente um objeto com base nas probabilidades\;
+\Return objeto escolhido\;
+
+\end{algorithm}
+
+
+\begin{algorithm}
+\caption{Gerar Solução}
+\KwOut{Melhor rota gerada}
+
+Inicialize $melhor\_rota\_copia \gets [(inicio, 0)]$\;
+$ativos\_copia \gets copia(ativos)$\;
+$origem \gets inicio$\;
+
+\While{$ativos\_copia \neq \emptyset$}{
+    Inicialize lista $roleta$\;
+
+    \ForEach{$ativo$ em $ativos\_copia$}{
+        \If{$ativo \notin distancia\_entre\_ativos[origem]$}{
+            $rota, distancia, nos, ramificacao \gets algoritmo(origem, ativo)$\;
+            Adicione $rota$ a $caminho\_entre\_ativos$\;
+            Atualize $distancia\_entre\_ativos[origem][ativo] \gets distancia$\;
+        }
+        Adicione $(ativo, distancia)$ à $roleta$\;
+    }
+
+    $elemento \gets Roleta(roleta)$\;
+    Adicione $(elemento, 0)$ à $melhor\_rota\_copia$\;
+    Remova $elemento$ de $ativos\_copia$\;
+    $origem \gets elemento$\;
+}
+
+\If{$inicio \notin distancia\_entre\_ativos[origem]$}{
+    $rota, distancia, nos, ramificacao \gets algoritmo(origem, inicio)$\;
+    Adicione $rota$ a $caminho\_entre\_ativos$\;
+    Atualize $distancia\_entre\_ativos[origem][inicio] \gets distancia$\;
+}
+Adicione $(inicio, 0)$ à $melhor\_rota\_copia$\;
+
+Chame $recalcula\_distancias(melhor\_rota\_copia)$\;
+\Return $melhor\_rota\_copia$\;
+
+\end{algorithm}
+
+
+\begin{algorithm}
+\caption{Melhor Rota}
+\KwOut{Atualiza a melhor rota encontrada}
+
+\For{$i \gets 0$ \KwTo $iteracoes - 1$}{
+    $melhor\_rota\_copia \gets Gerar\_Solucao()$\;
+
+    \If{$melhor\_rota = \emptyset$ \textbf{ou} $melhor\_rota\_copia[-1][1] < melhor\_rota[-1][1]$}{
+        $melhor\_rota \gets melhor\_rota\_copia$\;
+    }
+}
+\end{algorithm}
+
+% \begin{algorithmic}
+% \State $i \gets 10$
+% \If{$i\geq 5$} 
+%     \State $i \gets i-1$
+% \Else
+%     \If{$i\leq 3$}
+%         \State $i \gets i+2$
+%     \EndIf
+% \EndIf 
+% \end{algorithmic}

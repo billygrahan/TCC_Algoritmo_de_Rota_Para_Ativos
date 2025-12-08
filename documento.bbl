@@ -1,0 +1,101 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Amorim \textit{et al.} 2019]{AMORIM2019}
+\abntrefinfo{Amorim \textit{et al.}}{AMORIM \textit{et al.}}{2019}
+{AMORIM, M.; VENCESLAU, J.; CARVALHO, P.; CACHO, N.; LOPES, F.; ADACHI, E.; LIMA, J. Assistente de cena de crime: Solução para auxílio à investigação de homicídios. In:  \textbf{Anais do II Workshop Brasileiro de Cidades Inteligentes}. Porto Alegre, RS, Brasil: SBC, 2019.
+ISSN 0000-0000. Dispon{\'\i}vel em: \url{https://sol.sbc.org.br/index.php/wbci/article/view/6747}.}
+
+\bibitem[Andrade \textit{et al.} 2016]{ANDRADE2016}
+\abntrefinfo{Andrade \textit{et al.}}{ANDRADE \textit{et al.}}{2016}
+{ANDRADE, L. H.~d.; AMORIM, B.; OLIVEIRA, M.~d.; ALVES, A.~L.; ABRANTE, J. N.~d.; LEITE, D.; ROCHA, J.~H.; BAPTISTA, C. Deuzikachico: o poder da agi no monitoramento e combate de epidemias como a de dengue, zika e chikungunya. In:  \textbf{Anais do XII Simpósio Brasileiro de Sistemas de Informação}. Porto Alegre, RS, Brasil: SBC, 2016. p. 377--384.
+ISSN 0000-0000. Dispon{\'\i}vel em: \url{https://sol.sbc.org.br/index.php/sbsi/article/view/5985}.}
+
+\bibitem[Botelho \textit{et al.} 2019]{BOTELHO2019}
+\abntrefinfo{Botelho \textit{et al.}}{BOTELHO \textit{et al.}}{2019}
+{BOTELHO, P.; BORGES, A.; ALVES, G. Proposta de implantação de um sistema ciberfísico para um smart parking baseado em agentes inteligentes. In:  \textbf{Anais do XIII Workshop-Escola de Sistemas de Agentes, seus Ambientes e Aplicações}. Porto Alegre, RS, Brasil: SBC, 2019. p. 259--264.
+ISSN 2326-5434. Dispon{\'\i}vel em: \url{https://sol.sbc.org.br/index.php/wesaac/article/view/33361}.}
+
+\bibitem[Carvalho 2024]{CARVALHO2024}
+\abntrefinfo{Carvalho}{CARVALHO}{2024}
+{CARVALHO, M. D. S.~d.
+\textbf{Smart cities: uso de sensores e dados secundários para cidades inteligentes centradas no cidadão}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade de Caxias do Sul, Caxias do Sul, Brasil, 2024.}
+
+\bibitem[Castro \textit{et al.} 2020]{CASTRO2020}
+\abntrefinfo{Castro \textit{et al.}}{CASTRO \textit{et al.}}{2020}
+{CASTRO, L.; MANOEL, F.; JESUS, V.; PANTOJA, C.; BORGES, A.; ALVES, G. Integrando sistemas multi-agentes embarcados, simulação urbana e aplicações de iot. In:  \textbf{Anais do XIV Workshop-Escola de Sistemas de Agentes, seus Ambientes e Aplicações}. Porto Alegre, RS, Brasil: SBC, 2020. p. 165--176.
+ISSN 2326-5434. Dispon{\'\i}vel em: \url{https://sol.sbc.org.br/index.php/wesaac/article/view/33389}.}
+
+\bibitem[Cormen \textit{et al.} 2012]{CORMEN2012}
+\abntrefinfo{Cormen \textit{et al.}}{CORMEN \textit{et al.}}{2012}
+{CORMEN, T.~H.; LEISERSON, C.~E.; RIVEST, R.~L.; STEIN, C. \textbf{Algoritmos: teoria e prática}. 3. ed. Rio de Janeiro: Elsevier, 2012.}
+
+\bibitem[Costa 2023]{COSTA2023}
+\abntrefinfo{Costa}{COSTA}{2023}
+{COSTA, I.~S.
+Bacharelado em Engenharia Urbana, \textbf{Proposição de elementos para uso de sistemas inteligentes de transportes para potencialização de intervenções estruturantes no sistema viário de cidades de médio porte: uma proposta para o novo anel viário de Bom Despacho-MG}. Ouro Preto - MG, Brasil: [s.n.], 2023.}
+
+\bibitem[Dias \textit{et al.} 2019]{DIAS2019}
+\abntrefinfo{Dias \textit{et al.}}{DIAS \textit{et al.}}{2019}
+{DIAS, C.; LOPES, F.; LEITE, J. Smartnode dashboard: um framework front-end baseado em node-red para criação de city dashboards. In:  \textbf{Anais do II Workshop Brasileiro de Cidades Inteligentes}. Porto Alegre, RS, Brasil: SBC, 2019.
+ISSN 0000-0000. Dispon{\'\i}vel em: \url{https://sol.sbc.org.br/index.php/wbci/article/view/6744}.}
+
+\bibitem[Kitchenham \textit{et al.} 2009]{KITCHENHAM2009}
+\abntrefinfo{Kitchenham \textit{et al.}}{KITCHENHAM \textit{et al.}}{2009}
+{KITCHENHAM, B.; BRERETON, O. P.; BUDGEN, D.; TURNER, M.; BAILEY, J.; LINKMAN, S. Systematic literature reviews in software engineering – a systematic literature review.
+\textbf{Information and Software Technology}, v.~51, n.~1, p. 7--15, 2009.
+ISSN 0950-5849.
+Special Section - Most Cited Articles in 2002 and Regular Research Papers.
+Dispon{\'\i}vel em: \url{https://www.sciencedirect.com/science/article/pii/S0950584908001390}.}
+
+\bibitem[Melonio 2021]{MELONIO2021}
+\abntrefinfo{Melonio}{MELONIO}{2021}
+{MELONIO, A. C.~C.
+\textbf{Smart São Paulo: um estudo da mobilidade urbana sob a ótica de Machine Learning e aspectos espaço-temporais}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade Presbiteriana Mackenzie, 2021.}
+
+\bibitem[Oliveira 2020]{OLIVEIRA2020}
+\abntrefinfo{Oliveira}{OLIVEIRA}{2020}
+{OLIVEIRA, V. A.~T.
+\textbf{Gestão de operações de serviços de emergência no contexto de cidades inteligentes e sustentáveis: o caso da Polícia Militar do Paraná}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade Tecnológica Federal do Paraná, 2020.}
+
+\bibitem[Pinto 2025]{PINTO2025}
+\abntrefinfo{Pinto}{PINTO}{2025}
+{PINTO, N.~R.
+Bacharelado em Engenharia de Controle e Automação, \textbf{Desenvolvimento de uma virtual test bed e digital twin para treinamento de veículos autônomos}. Sorocaba - SP, Brasil: [s.n.], 2025.}
+
+\bibitem[Russell e Norvig 2013]{RUSSELL2013}
+\abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{2013}
+{RUSSELL, S.~J.; NORVIG, P. \textbf{Inteligência artificial}. 3. ed. Rio de Janeiro: Elsevier, 2013. Tradução de: Artificial intelligence, 3rd ed.
+ISBN 978-85-352-3701-6.}
+
+\bibitem[Santiago 2023]{SANTIAGO2023}
+\abntrefinfo{Santiago}{SANTIAGO}{2023}
+{SANTIAGO, T. E.~T.
+\textbf{Cidades inteligentes, gestão urbana e geotecnologias: proposta de city information modeling (CIM) aplicado ao Município de Madre de Deus-BA}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade Católica do Salvador (UCSal), 2023.}
+
+\bibitem[Santos \textit{et al.} 2019]{SANTOS2019}
+\abntrefinfo{Santos \textit{et al.}}{SANTOS \textit{et al.}}{2019}
+{SANTOS, L.; NASCIMENTO, L.; NUNES, S. Reclamando app: um aplicativo para auxiliar na reivindicação de problemáticas urbanas. In:  \textbf{Anais da XIX Escola Regional de Computação Bahia, Alagoas e Sergipe}. Porto Alegre, RS, Brasil: SBC, 2019. p. 184--189.
+ISSN 0000-0000. Dispon{\'\i}vel em: \url{https://sol.sbc.org.br/index.php/erbase/article/view/8976}.}
+
+\bibitem[Storck \textit{et al.} 2017]{STORCK2017}
+\abntrefinfo{Storck \textit{et al.}}{STORCK \textit{et al.}}{2017}
+{STORCK, C.; SALES, E.; ZáRATE, L.; FIGUEIREDO, F. Proposta de um framework baseado em mineração de dados para redes 5g.
+\textbf{Revista Eletrônica de Sistemas de Informação}, v.~16, 2017.
+ISSN 1677-3071.
+Dispon{\'\i}vel em: \url{https://www.periodicosibepes.org.br/index.php/reinfo/article/view/2488}.}
+
+\bibitem[Weiss \textit{et al.} 2015]{WEISS2015}
+\abntrefinfo{Weiss \textit{et al.}}{WEISS \textit{et al.}}{2015}
+{WEISS, M.~C.; BERNARDES, R.~C.; CONSONI, F.~L. Cidades inteligentes como nova prática para o gerenciamento dos serviços e infraestruturas urbanos: a experiência da cidade de porto alegre.
+\textbf{Urbe. Revista Brasileira de Gestão Urbana}, SciELO Brasil, v.~7, p. 310--324, 2015.}
+
+\end{thebibliography}

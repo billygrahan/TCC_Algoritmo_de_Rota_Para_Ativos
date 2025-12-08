@@ -1,0 +1,541 @@
+\chapter{Contextualização}
+\label{cap:fundamentacao-teorica}
+
+% Alguns autores preferem fazer uma ``fundamentação teórica'' no segundo capítulo, outros, preferem fazer uma ``revisão da literatura''. Entretanto, isto é particular de cada trabalho e o autor deve escolher o título mais adequado para o capítulo. Consultar o orientador é importante para determinar o título apropriado.
+
+% Evite começar da seção secundária, ou seja, não passe direto do título do capítulo para o título da seção secundária. Escreva um texto para introduzir as seções subsequentes. Lembre-se de utilizar primeira letra maiúscula quando estiver se referindo a um objeto com numeração específica como capítulo, seção, subseção, figura, tabela, quadro, equação, normalmente, se escreve a primeira letra maiúscula da palavra do objeto seguido do \textit{label}. Por exemplo, a Seção \ref{sec:citacoes} explica como fazer citações bibliográficas. Observe no código fonte deste texto como foi feita a referência cruzada. Isso permite enumerar a seção do modo automático o que facilita caso novas seções sejam criadas.  
+% Esta frase mostra como citar um livro sobre descargas atmosféricas \cite{rakov2003lightning}. Também podem ser citados \textit{sites} como \citeonline{elat2015densidade}. Você precisa escrever o código da referência no arquivo "referencia.bib" dentro da pasta "elementos-pos-textuais". Veja esse, onde estão alguns exemplos que já foram testados.   
+
+Nesta seção serão abordandos os assuntos e conceitos utilizados atualmente para soluções de melhoria de bem-estar da população, 
+como: cidades inteligentes, gestão de ativos públicos, zeladoria urbana, e os algoritmos de busca. 
+
+\section{Cidades inteligentes}
+O conceito de cidades inteligentes (do inglês, \textit{smart cities}) é definido como um ambiente 
+urbano que utiliza ferramentas de tecnologia da informação e comunicação (TIC) para melhorar a 
+infraestrutura urbana, a utilização inteligente dos recursos, a mobilidade, a governança e os 
+serviços públicos, tendo como principal beneficiado o cidadão \cite{WEISS2015}. Embora o conceito 
+de cidades inteligentes seja amplamente implementado em grandes centros urbanos e metrópoles, 
+é possível realizar sua adaptação a pequenos e médios municípios brasileiros. O uso de tecnologias 
+em tempo real, automação de processos e a participação ativa da população possibilitam a 
+adaptação e a melhoria da qualidade da gestão pública local \cite{SANTIAGO2023}.
+
+As cidades inteligentes estruturam-se em múltiplos eixos de atuação que, integrados, promovem 
+o desenvolvimento urbano sustentável e centrado no cidadão. Esses eixos abrangem diferentes 
+dimensões da vida urbana e demandam soluções tecnológicas específicas para enfrentar os 
+desafios contemporâneos das cidades \cite{CARVALHO2024}.
+
+\subsection{Eixos das Cidades Inteligentes}
+
+\subsubsection{Governança Inteligente}
+
+A governança inteligente refere-se à aplicação de tecnologias digitais para promover a 
+participação cidadã, transparência administrativa e eficiência na gestão pública. Neste eixo, 
+sistemas de informação permitem que gestores públicos tomem decisões baseadas em dados, 
+realizem o monitoramento de serviços em tempo real e promovam a interação direta com a 
+população \cite{WEISS2015}. Ferramentas como dashboards interativos e plataformas de dados 
+abertos são exemplos de aplicações que facilitam o acesso à informação e fortalecem a 
+democracia participativa \cite{DIAS2019}. A gestão orientada por dados contribui para a 
+otimização de recursos públicos e para o planejamento estratégico de longo prazo, especialmente 
+em contextos de restrição orçamentária.
+
+\subsubsection{Mobilidade Urbana Inteligente}
+
+A mobilidade urbana inteligente integra sistemas de transporte, tecnologias de 
+geolocalização e análise de dados para otimizar o deslocamento de pessoas e bens nas cidades. 
+Sistemas Inteligentes de Transporte (ITS, do inglês \textit{Intelligent Transportation Systems}) 
+utilizam sensores, câmeras e algoritmos de análise para monitorar o fluxo de tráfego, identificar 
+congestionamentos e propor rotas alternativas \cite{COSTA2023}. Além disso, soluções de 
+estacionamento inteligente baseadas em sistemas ciber-físicos e agentes inteligentes contribuem 
+para a redução do tempo de busca por vagas e diminuição da poluição urbana \cite{BOTELHO2019}. 
+A aplicação de técnicas de aprendizado de máquina permite a análise de padrões espaço-temporais 
+da mobilidade, auxiliando no planejamento de intervenções estruturantes no sistema viário 
+\cite{MELONIO2021}.
+
+\subsubsection{Urbanismo e Planejamento Urbano}
+
+O eixo de urbanismo inteligente envolve o uso de geotecnologias, modelagem de informações 
+urbanas e análise espacial para o planejamento e gestão do território urbano. A adoção de 
+metodologias como \textit{City Information Modeling} (CIM) permite a integração de dados 
+geoespaciais, infraestrutura urbana e informações socioeconômicas em modelos tridimensionais 
+que auxiliam gestores no planejamento territorial e na tomada de decisões \cite{SANTIAGO2023}. 
+Aplicações mobile para relato de problemas urbanos por parte da população, integradas a sistemas 
+de geolocalização, possibilitam o mapeamento colaborativo de demandas e a priorização de 
+intervenções no espaço urbano \cite{SANTOS2019}. A simulação urbana integrada a sistemas 
+multi-agentes e Internet das Coisas (IoT) permite testar cenários de desenvolvimento urbano 
+antes de sua implementação física \cite{CASTRO2020}. 
+
+
+\section{Gestão de ativos públicos}
+
+Os ativos públicos são recursos, direitos e serviços que são acessíveis e disponíveis para 
+todos os membros de uma sociedade, com diversas finalidades, tais como: infraestrutura, serviços 
+essenciais, bens comuns, patrimônio cultural e recursos naturais. A gestão de ativos públicos 
+consiste no conjunto de práticas e processos que visam controlar, inventariar, manter e planejar 
+a utilização desses recursos de forma eficiente e sustentável ao longo de seu ciclo de vida, 
+conforme ilustrado na Figura \ref{fig:ciclo-vida-ativos} \cite{STORCK2017}.
+
+% \begin{figure}[h!]
+%     \centering
+%     \captionsetup{width=12cm}
+%     \Caption{\label{fig:ciclo-vida-ativos} Diagrama do ciclo de vida da gestão de ativos públicos}
+%     \UFCfig{}{
+%         \includegraphics[width=12cm]{figuras/qp1}
+%     }{
+%         \Fonte{O autor (2025).}
+%     }
+% \end{figure}
+
+No contexto das cidades inteligentes, a gestão de ativos públicos torna-se estratégica para 
+garantir a qualidade dos serviços urbanos e a otimização dos recursos públicos. O gerenciamento 
+eficaz desses ativos demanda sistemas de informação capazes de permitir o acompanhamento em 
+tempo real, com dados precisos de localização, estado de conservação e histórico de ações 
+realizadas. A integração de tecnologias de geolocalização, sensores IoT e plataformas de 
+gerenciamento permite que gestores públicos tenham visibilidade completa sobre o patrimônio 
+municipal \cite{SANTIAGO2023}.
+
+Soluções informatizadas de gestão de ativos reduzem erros operacionais, previnem 
+retrabalhos e promovem melhor uso dos recursos públicos \cite{STORCK2017}. Isso é 
+particularmente importante em contextos onde há limitação orçamentária, como em municípios 
+de pequeno e médio porte. A implementação de sistemas integrados de gestão possibilita a 
+criação de inventários digitais georreferenciados, o planejamento preventivo de manutenções 
+e a geração de indicadores de desempenho para a tomada de decisão baseada em evidências.
+
+Além disso, a gestão de ativos públicos no contexto de cidades inteligentes permite a 
+integração com sistemas de participação cidadã, onde a população pode reportar problemas 
+relacionados à infraestrutura urbana através de aplicativos móveis \cite{SANTOS2019}. Essa 
+integração entre gestão de ativos e participação popular fortalece a governança inteligente e 
+contribui para a melhoria contínua dos serviços públicos, promovendo maior transparência e 
+efetividade nas ações do poder público \cite{OLIVEIRA2020}.
+
+\subsection{Zeladoria Urbana}
+
+A zeladoria urbana aborda um conjunto de atividades que visam manter em boas condições 
+de uso os ambientes públicos para a população, realizando serviços essenciais de manutenção e 
+conservação, tais como: manutenção de ruas, poda de árvores, limpeza de vias, conservação de 
+praças e calçadas. Em cidades de pequeno porte, especialmente no interior dos estados do 
+Nordeste brasileiro, é possível encontrar desafios como: limitações operacionais, de 
+infraestrutura e recursos humanos especializados \cite{SANTOS2019}. 
+
+Os processos nesses contextos costumam não ser automatizados e sistematizados, o que 
+compromete seriamente o planejamento, a priorização das demandas, a transparência das ações 
+dos gestores e pode propiciar o mau uso de verba pública. A implementação de sistemas digitais 
+de gestão de demandas de zeladoria urbana, integrados a tecnologias de geolocalização e 
+priorização inteligente, pode contribuir significativamente para a eficiência operacional e para 
+a melhoria da qualidade dos serviços prestados à população \cite{OLIVEIRA2020}.
+
+Aplicativos móveis para reporte de problemas urbanos, como buracos em vias, iluminação 
+pública defeituosa e lixo acumulado, têm se mostrado eficazes na mediação entre cidadãos e 
+gestores públicos \cite{SANTOS2019}. Quando integrados a sistemas de gestão de ativos e 
+algoritmos de otimização de rotas, esses aplicativos possibilitam não apenas o registro das 
+demandas, mas também o planejamento eficiente das equipes de manutenção, a priorização 
+baseada em critérios objetivos e o acompanhamento transparente do andamento das solicitações.
+
+
+\section{Métodos de Otimização}
+
+Problemas de otimização são fundamentais na ciência da computação e em diversas aplicações 
+práticas, como o planejamento de rotas, alocação de recursos e scheduling. Esses problemas 
+buscam encontrar a melhor solução dentre um conjunto de soluções possíveis, de acordo com 
+determinado critério de otimização \cite{CORMEN2012}. Os métodos para resolver problemas 
+de otimização podem ser classificados em diferentes categorias, cada uma com características, 
+vantagens e limitações específicas.
+
+\subsection{Métodos Exatos}
+
+Métodos exatos são aqueles que garantem encontrar a solução ótima para um problema de 
+otimização. Esses métodos exploram sistematicamente o espaço de soluções, avaliando todas 
+as possibilidades ou utilizando técnicas de poda para eliminar soluções que comprovadamente 
+não podem ser ótimas \cite{CORMEN2012}.
+
+Entre as principais técnicas exatas, destacam-se:
+
+\begin{itemize}
+    \item \textbf{Enumeração Completa:} Consiste em avaliar todas as soluções possíveis e 
+    selecionar a melhor. Embora garanta a solução ótima, torna-se impraticável para problemas 
+    com grande espaço de busca, devido ao crescimento exponencial do número de soluções.
+    
+    \item \textbf{Programação Dinâmica:} Técnica que resolve problemas complexos dividindo-os 
+    em subproblemas menores e armazenando os resultados desses subproblemas para evitar 
+    recálculos \cite{CORMEN2012}. É aplicável quando o problema possui subestrutura ótima 
+    (a solução ótima contém soluções ótimas dos subproblemas) e subproblemas sobrepostos.
+    
+    \item \textbf{\textit{Branch-and-Bound}:} Método que particiona o espaço de soluções em 
+    subconjuntos (ramificação) e utiliza limitantes para podar ramos que não podem conter a 
+    solução ótima. É amplamente utilizado em problemas de otimização combinatória, como o 
+    problema do caixeiro viajante.
+    
+    \item \textbf{Programação Linear e Inteira:} Técnicas matemáticas que formulam o problema 
+    de otimização como um conjunto de equações e inequações lineares. Enquanto a programação 
+    linear lida com variáveis contínuas, a programação inteira trata de variáveis discretas, sendo 
+    esta última geralmente mais complexa computacionalmente.
+\end{itemize}
+
+A principal limitação dos métodos exatos é a complexidade computacional. Muitos problemas 
+de otimização pertencem à classe NP-difícil, onde não se conhece algoritmo que encontre a 
+solução ótima em tempo polinomial. Para instâncias de grande porte, o tempo necessário para 
+obter a solução ótima pode ser impraticável, motivando o uso de métodos aproximados 
+\cite{CORMEN2012}.
+
+\subsection{Heurísticas}
+
+Heurísticas são métodos que buscam encontrar boas soluções em tempo computacional 
+razoável, sem necessariamente garantir a otimalidade. Uma heurística é uma regra prática, 
+estratégia ou técnica que simplifica a resolução de problemas complexos \cite{RUSSELL2013}.
+
+As principais características das heurísticas incluem:
+
+\begin{itemize}
+    \item \textbf{Eficiência computacional:} Geralmente possuem complexidade de tempo 
+    polinomial, permitindo resolver instâncias grandes em tempo razoável.
+    
+    \item \textbf{Qualidade de solução:} Embora não garantam a solução ótima, frequentemente 
+    produzem soluções de boa qualidade, próximas ao ótimo.
+    
+    \item \textbf{Especificidade:} Muitas heurísticas são desenvolvidas explorando características 
+    específicas do problema, tornando-as eficazes para determinados tipos de instâncias.
+\end{itemize}
+
+Exemplos de heurísticas construtivas incluem o algoritmo do vizinho mais próximo para o 
+problema do caixeiro viajante, onde, partindo de um vértice inicial, sempre se escolhe o vértice 
+não visitado mais próximo até completar o circuito. Heurísticas de melhoria, como a busca 
+local, partem de uma solução inicial e iterativamente aplicam modificações locais que melhoram 
+a qualidade da solução \cite{CORMEN2012}.
+
+\subsection{Meta-heurísticas}
+
+Meta-heurísticas são estratégias de alto nível que guiam heurísticas subordinadas na busca 
+por soluções de qualidade. Diferentemente das heurísticas clássicas, as meta-heurísticas são 
+mais genéricas e podem ser aplicadas a diversos problemas de otimização com pequenas 
+adaptações \cite{RUSSELL2013}.
+
+A escolha entre métodos exatos, heurísticas ou meta-heurísticas depende do contexto da 
+aplicação, considerando fatores como o tamanho da instância, requisitos de qualidade da 
+solução, tempo disponível para computação e recursos computacionais \cite{CORMEN2012}.
+
+\subsubsection{Algoritmos Genéticos}
+
+Os Algoritmos Genéticos (AG) constituem uma meta-heurística inspirada nos princípios da 
+evolução biológica, simulando o processo de seleção natural para evoluir uma população de 
+soluções candidatas ao longo de gerações sucessivas \cite{RUSSELL2013}. São particularmente 
+eficazes para problemas de otimização combinatória NP-difíceis, como o problema do caixeiro 
+viajante.
+
+A estrutura básica de um AG envolve os seguintes componentes principais: 
+(i) \textbf{Cromossomo} - representação de uma solução candidata, codificada como sequência 
+de genes (no TSP, uma permutação das cidades); 
+(ii) \textbf{População} - conjunto de soluções que evoluem simultaneamente; 
+(iii) \textbf{Função de Aptidão (\textit{Fitness})} - métrica que avalia a qualidade de cada 
+solução, determinando sua probabilidade de reprodução.
+
+O algoritmo opera através de três operadores genéticos fundamentais:
+
+\begin{itemize}
+    \item \textbf{Seleção:} Escolhe indivíduos para reprodução favorecendo aqueles com maior 
+    aptidão. Métodos comuns incluem seleção por torneio, roleta e ranking.
+    
+    \item \textbf{Cruzamento (\textit{Crossover}):} Combina características de dois 
+    cromossomos pais para gerar descendentes. Para problemas de permutação como o TSP, 
+    utiliza-se técnicas como o Cruzamento de Ordem (OX), que preserva a ordem relativa dos 
+    elementos. Outras variantes incluem cruzamento de um ponto, dois pontos e uniforme.
+    
+    \item \textbf{Mutação:} Introduz pequenas alterações aleatórias nos cromossomos (como 
+    troca de posições ou inversão de segmentos), mantendo a diversidade genética e evitando 
+    convergência prematura para ótimos locais.
+\end{itemize}
+
+O ciclo evolutivo segue a sequência: (1) Inicialização de população aleatória; 
+(2) Avaliação da aptidão de cada indivíduo; (3) Seleção dos melhores para reprodução; 
+(4) Aplicação de cruzamento e mutação para gerar nova geração; (5) Substituição da população 
+antiga, frequentemente mantendo os melhores indivíduos (elitismo). O processo se repete até 
+atingir um critério de parada, como número máximo de gerações ou qualidade de solução 
+satisfatória.
+
+No contexto de otimização de rotas, os AGs permitem encontrar 
+soluções de boa qualidade em tempo computacional razoável, mesmo para instâncias com grande 
+número de pontos, onde métodos exatos seriam inviáveis. Suas principais vantagens incluem: 
+exploração simultânea do espaço de soluções, robustez a ótimos locais, flexibilidade para 
+diferentes representações e capacidade de paralelização \cite{CORMEN2012}.
+
+
+\section{Algoritmos de Busca}
+
+Os algoritmos de busca em grafos são fundamentais na ciência da computação e constituem 
+a base para resolver diversos problemas de otimização, incluindo problemas de caminho mínimo 
+e roteamento \cite{CORMEN2012}. Um grafo $G = (V, E)$ é composto por um conjunto de 
+vértices $V$ e um conjunto de arestas $E$, onde cada aresta conecta dois vértices. Em grafos 
+ponderados, cada aresta possui um peso associado, representando distância, custo ou tempo.
+
+\subsection{Busca em Largura (BFS)}
+
+A Busca em Largura (\textit{Breadth-First Search} - BFS) explora o grafo sistematicamente 
+visitando todos os vértices a uma mesma distância da origem antes de avançar para níveis mais 
+profundos \cite{CORMEN2012}. O algoritmo utiliza uma estrutura de fila (FIFO - \textit{First In, 
+First Out}) para controlar a ordem de visitação dos vértices.
+
+A complexidade de tempo da BFS é $O(V + E)$, onde $V$ é o número de vértices e $E$ é o 
+número de arestas. O algoritmo garante encontrar o caminho mais curto em termos de número 
+de arestas quando todas têm o mesmo peso. A BFS é particularmente útil para:
+
+\begin{itemize}
+    \item Encontrar o menor caminho em grafos não ponderados;
+    \item Testar a conectividade de um grafo;
+    \item Encontrar todos os vértices alcançáveis a partir de um vértice de origem;
+    \item Detectar ciclos em grafos não direcionados.
+\end{itemize}
+
+A Figura \ref{fig:bfs-exemplo} ilustra o funcionamento da busca em largura em um grafo, 
+mostrando a ordem de visitação dos vértices nível por nível.
+
+\begin{figure}[h!]
+    \centering
+    \captionsetup{width=14cm}
+    \Caption{\label{fig:bfs-exemplo} Exemplo de execução da Busca em Largura (BFS) em um grafo}
+    \UFCfig{}{
+        \includegraphics[width=14cm]{figuras/exemple_BFS}
+    }{
+        \Fonte{\cite{CORMEN2012}.}
+    }
+\end{figure}
+
+\subsection{Busca em Profundidade (DFS)}
+
+A Busca em Profundidade (\textit{Depth-First Search} - DFS) percorre o grafo explorando o 
+máximo possível cada caminho antes de retroceder \cite{CORMEN2012}. Pode ser implementada 
+recursivamente ou utilizando uma pilha (LIFO - \textit{Last In, First Out}). A DFS também possui 
+complexidade $O(V + E)$.
+
+A DFS é especialmente adequada para:
+
+\begin{itemize}
+    \item Detecção de ciclos em grafos direcionados e não direcionados;
+    \item Ordenação topológica em grafos acíclicos direcionados (DAG);
+    \item Decomposição de grafos em componentes fortemente conexos;
+    \item Resolução de quebra-cabeças e problemas que exigem exploração de todas as 
+    possibilidades, como labirintos.
+\end{itemize}
+
+A Figura \ref{fig:dfs-exemplo} demonstra o processo de busca em profundidade, evidenciando 
+como o algoritmo explora cada ramo até seu limite antes de retroceder.
+
+\begin{figure}[h!]
+    \centering
+    \captionsetup{width=14cm}
+    \Caption{\label{fig:dfs-exemplo} Exemplo de execução da Busca em Profundidade (DFS) em um grafo}
+    \UFCfig{}{
+        \includegraphics[width=14cm]{figuras/exemple_DFS}
+    }{
+        \Fonte{\cite{RUSSELL2013}.}
+    }
+\end{figure}
+
+\subsection{Busca de Custo Uniforme}
+
+A Busca de Custo Uniforme (\textit{Uniform-Cost Search} - UCS) é uma estratégia de busca 
+que expande o nó com menor custo de caminho acumulado, sendo uma generalização da BFS para 
+grafos com arestas de diferentes custos \cite{RUSSELL2013}. Diferentemente da BFS, que trata 
+todas as arestas igualmente, a UCS considera os pesos associados às arestas para determinar 
+a ordem de expansão dos nós.
+
+O algoritmo utiliza uma fila de prioridade onde os nós são ordenados pelo custo total do 
+caminho da origem $g(n)$, sempre expandindo o nó com menor custo acumulado. A cada expansão, 
+os custos dos nós vizinhos são atualizados se um caminho mais barato for encontrado. A UCS 
+é completa e ótima, garantindo encontrar a solução de menor custo quando todos os custos das 
+arestas são não-negativos \cite{RUSSELL2013}.
+
+A complexidade de tempo e espaço da busca de custo uniforme é $O(b^{1+\lfloor C^*/\epsilon \rfloor})$, 
+onde $b$ é o fator de ramificação, $C^*$ é o custo da solução ótima, e $\epsilon$ é o menor 
+custo de aresta. Na prática, com implementação eficiente usando heap binário, a complexidade 
+é $O((V + E) \log V)$.
+
+A UCS é particularmente adequada para:
+
+\begin{itemize}
+    \item Encontrar caminhos de menor custo em grafos ponderados com pesos não-negativos;
+    \item Problemas de roteamento onde diferentes caminhos têm custos variados;
+    \item Planejamento de rotas considerando distâncias, tempos ou custos operacionais;
+    \item Situações onde não há informação heurística disponível sobre a proximidade do objetivo.
+\end{itemize}
+
+A principal diferença entre a UCS e algoritmos informados como o A* é que a UCS não utiliza 
+conhecimento adicional (heurística) sobre a distância até o objetivo, expandindo nós apenas 
+com base no custo acumulado desde a origem \cite{RUSSELL2013}.
+
+
+
+\subsection{Algoritmo A* (A Estrela)}
+
+O algoritmo A* é uma extensão da busca de custo uniforme que incorpora uma função heurística 
+para guiar a busca em direção ao objetivo \cite{RUSSELL2013}. A função de avaliação é definida 
+como $f(n) = g(n) + h(n)$, onde $g(n)$ é o custo do caminho da origem até o vértice $n$, e 
+$h(n)$ é a heurística que estima o custo de $n$ até o objetivo.
+
+Para que o A* garanta encontrar o caminho ótimo, a heurística deve ser admissível, ou seja, 
+nunca superestimar o custo real até o objetivo. Heurísticas comuns incluem a distância 
+euclidiana e a distância de Manhattan em espaços bidimensionais \cite{RUSSELL2013}.
+
+O A* é particularmente eficiente quando existe uma boa heurística disponível, pois reduz 
+significativamente o número de vértices explorados em comparação com Dijkstra. É amplamente 
+utilizado em:
+
+\begin{itemize}
+    \item Jogos e simulações para movimentação de personagens e entidades;
+    \item Robótica para planejamento de trajetórias;
+    \item Sistemas de navegação com informação geográfica;
+    \item Otimização de rotas considerando múltiplos critérios.
+\end{itemize}
+
+A Figura \ref{fig:aestrela-exemplo} apresenta um exemplo clássico de aplicação do algoritmo A* 
+para encontrar o caminho mais curto entre cidades romenas, demonstrando como a heurística 
+guia a busca de forma eficiente.
+
+\begin{figure}[h!]
+    \centering
+    \captionsetup{width=14cm}
+    \Caption{\label{fig:aestrela-exemplo} Exemplo de aplicação do algoritmo A* no problema de roteamento entre cidades da Romênia}
+    \UFCfig{}{
+        \includegraphics[width=14cm]{figuras/exemple_A_Estrela(Bucareste)}
+    }{
+        \Fonte{\cite{RUSSELL2013}.}
+    }
+\end{figure}
+
+
+
+
+% cidades intelihentes: 
+% -eixos(governança, mobilidade, urbanismo)
+% -Gestão de ativos públicos
+% Otimização:
+% -merodos exatos, euristica, etc.
+% -algoritmos de busca
+
+
+
+
+% A Figura \ref{fig:reitoria} apresenta a fotografia da reitoria da Universidade Federal do Ceará. Observe a estrutura do código para ver como inserir figuras. No título, comece especificando o tipo de figura. Por exemplo, fotografia, desenho, diagrama, fluxograma, gráfico e etc. O espaçamento entre linhas no título é de $1~pt$ (espaçamento simples), apenas a primeira letra da frase é maiúscula. As demais palavras são escritas com letra maiúsculas somente quando são nomes próprios e não há ponto final. 
+    
+%     As margens do título da figura são delimitadas pelo tamanho da figura. Por isso, procure ajustar o tamanho da figura para preencher a largura delimitada pelas margens esquerda e direita da página que possui $16~cm$ de largura. Não esqueça de indicar fonte da figura. O autor deve evitar deixar figuras pequenas menores do que $7~cm$ de largura.
+    
+%     A posição da figura deve ser o mais próximo logo após ter sido chamada no texto (a figura nunca deve aparecer antes de ter sido anunciada no texto). 
+    
+%     %troque h pelo b ou t para mudar a posição da figura.
+%  	\begin{figure}[h!] 
+%    	    \captionsetup{width=16cm}%Da mesma largura que a figura
+% 		\Caption{\label{fig:reitoria} Fotografia da reitoria da Universidade Federal do Ceará}
+% 		\UFCfig{}{
+% 			\includegraphics[width=16cm]{figuras/exemplo-1}
+% 		}{
+% 			\Fonte{\citeonline{UFC2012}.}
+% 		}	
+% 	\end{figure}
+                    
+
+% \section{Inserindo figuras}\label{sec:figuras}
+    
+    
+	
+%     Texto1 texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto1.
+
+%     Texto2 texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto. Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto2.
+
+%     Texto3 texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto. Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto3.
+
+%     Texto4 texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto. Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto4.
+
+%     A Figura \ref{fig:sondas} Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto. Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto3.
+
+% 	\begin{figure}[h!]
+% 		\centering
+% 		\captionsetup{width=14cm}%Da mesma largura que a figura
+% 		\Caption{\label{fig:sondas} Gráfico da Atmosfera Superior}	
+% 		\UFCfig{}{
+% 			\includegraphics[width=14cm]{figuras/sondas}
+% 		}{
+% 			\Fonte{adaptado da \citeonline{NASA2016}.}}	
+% 	\end{figure}
+
+%     Texto5 texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto5.
+
+%     Texto6 texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto5.
+
+%     Texto7 texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto6.
+
+%     Evite terminar seções, capítulos e etc com figura. Procure escrever mais.
+
+% \section{Inserindo tabelas}\label{sec:tabelas}
+    
+%     A Tabela \ref{tab:exemplo-1}... texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto. Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.
+	
+% 	\begin{table}[!h]
+% 	\captionsetup{width=7cm}%Deixe da mesma largura que a tabela
+% 	\Caption{\label{tab:exemplo-1} Um Exemplo de tabela alinhada que pode ser longa ou curta}%
+% 	\IBGEtab{}{%
+% 		\begin{tabular}{ccc}
+% 			\toprule
+% 			Nome & Nascimento & Documento \\
+% 			\midrule \midrule
+% 			Maria da Silva & 11/11/1111 & 111.111.111-11 \\
+% 			Maria da Silva & 11/11/1111 & 111.111.111-11 \\
+% 			Maria da Silva & 11/11/1111 & 111.111.111-11 \\
+% 			\bottomrule
+% 		\end{tabular}%
+% 	}{%
+% 	\Fonte{o autor.}%
+% 	\Nota{esta é uma nota, que diz que os dados são baseados na
+% 		regressão linear.}%
+% 	\Nota[Anotações]{uma anotação adicional, seguida de várias outras.}%
+%     }
+%     \end{table}
+
+% 	%\begin{table}[h!]	
+% 	%	\centering
+% 	%	\Caption{\label{tab:exemplo-1} Exemplo de tabela}	
+% 	%	\UFCtab{}{
+% 	%		\begin{tabular}{cll}
+% 	%			\toprule
+% 	%			Ranking & Exon Coverage & Splice Site Support \\
+% 	%			\midrule \midrule
+% 	%			E1 & Complete coverage by a single transcript & Both splice sites\\
+% 	%			E2 & Complete coverage by more than a single transcript & Both splice sites\\
+% 	%			E3 & Partial coverage & Both splice sites\\
+% 	%			E4 & Partial coverage & One splice site\\
+% 	%			E5 & Complete or partial coverage & No splice sites\\
+% 	%			E6 & No coverage & No splice sites\\
+% 	%			\bottomrule
+% 	%		\end{tabular}
+% 	%	}{
+% 	%	\Fonte{elaborado pelo autor.}
+% 	%}
+% 	%\end{table}
+
+% \subsection{Exemplo de subseção} \label{sec:ex_sec}
+	
+%     Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.
+
+%     %acrlong{DATASUS},\acrlong{DNV},\acrlong{DO},\acrlong{ESF},\acrlong{IBGE},\acrlong{MFC},\acrlong{MI},\acrlong{MS},\acrlong{NV},\acrlong{ODM},\acrlong{OI},\acrlong{OMS},\acrlong{ONU},\acrlong{PNI},\acrlong{PSF},\acrlong{RIPSA},\acrlong{RN},\acrlong{SIM},\acrlong{SINASC},\acrlong{SUS},\acrlong{TMI},\acrlong{TMMFC}
+
+
+%     \begin{alineascomponto}
+% 	    \item Integer non lacinia magna. Aenean tempor lorem tellus, non sodales nisl commodo ut
+% 	    \item Proin mattis placerat risus sit amet laoreet. Praesent sapien arcu, maximus ac fringilla efficitur, vulputate faucibus sem. Donec aliquet velit eros, sit amet elementum dolor pharetra eget
+% 	    \item Integer eget mattis libero. Praesent ex velit, pulvinar at massa vel, fermentum dictum mauris. Ut feugiat accumsan augue, et ultrices ipsum euismod vitae
+% 	    \begin{subalineascomponto}
+% 		    \item Integer non lacinia magna. Aenean tempor lorem tellus, non sodales nisl commodo ut
+% 		    \item Proin mattis placerat risus sit amet laoreet.
+% 	    \end{subalineascomponto}
+%     \end{alineascomponto}
+
+% \subsection{Uso de siglas} \label{sec:siglas}
+
+%     Para utilizar siglas, primeiro defina a sigla no arquivo "lista-de-abreviaturas-e-siglas"~ dentro da pasta "1-pre-textuais" com o comando 
+%     \begin{verbatim}
+%         \newacronym{ABNT}{ABNT}{Associação Brasileira de Normas Técnicas}
+%     \end{verbatim}
+%     Depois chame a sigla com o comando:
+%     \begin{verbatim}
+%         \gls{ABNT}
+%     \end{verbatim}
+%     Fica assim: \gls{ABNT}. A primeira vez que o comando é usado para uma determinada sigla, aparece o significado por extenso da sigla com a sua abreviação em seguida. A partir da segunda vez que o comando para uma determinada sigla é usado, aparace apenas a sigla. Por exemplo: \gls{ABNT}.  
+    
+%     Veja o código fonte de outros exemplos: Teste de siglas \gls{TEST}, outros exemplos de siglas: \gls{DA}, \gls{MCEG}. 
+%     Repare que sempre as siglas estão sendo definidas primeiramente no arquivo ``lista-de-abreviaturas-e-siglas''.
