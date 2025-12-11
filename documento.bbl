@@ -5,16 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[Amorim \textit{et al.} 2019]{AMORIM2019}
-\abntrefinfo{Amorim \textit{et al.}}{AMORIM \textit{et al.}}{2019}
-{AMORIM, M.; VENCESLAU, J.; CARVALHO, P.; CACHO, N.; LOPES, F.; ADACHI, E.; LIMA, J. Assistente de cena de crime: Solução para auxílio à investigação de homicídios. In:  \textbf{Anais do II Workshop Brasileiro de Cidades Inteligentes}. Porto Alegre, RS, Brasil: SBC, 2019.
-ISSN 0000-0000. Dispon{\'\i}vel em: \url{https://sol.sbc.org.br/index.php/wbci/article/view/6747}.}
-
-\bibitem[Andrade \textit{et al.} 2016]{ANDRADE2016}
-\abntrefinfo{Andrade \textit{et al.}}{ANDRADE \textit{et al.}}{2016}
-{ANDRADE, L. H.~d.; AMORIM, B.; OLIVEIRA, M.~d.; ALVES, A.~L.; ABRANTE, J. N.~d.; LEITE, D.; ROCHA, J.~H.; BAPTISTA, C. Deuzikachico: o poder da agi no monitoramento e combate de epidemias como a de dengue, zika e chikungunya. In:  \textbf{Anais do XII Simpósio Brasileiro de Sistemas de Informação}. Porto Alegre, RS, Brasil: SBC, 2016. p. 377--384.
-ISSN 0000-0000. Dispon{\'\i}vel em: \url{https://sol.sbc.org.br/index.php/sbsi/article/view/5985}.}
-
 \bibitem[Botelho \textit{et al.} 2019]{BOTELHO2019}
 \abntrefinfo{Botelho \textit{et al.}}{BOTELHO \textit{et al.}}{2019}
 {BOTELHO, P.; BORGES, A.; ALVES, G. Proposta de implantação de um sistema ciberfísico para um smart parking baseado em agentes inteligentes. In:  \textbf{Anais do XIII Workshop-Escola de Sistemas de Agentes, seus Ambientes e Aplicações}. Porto Alegre, RS, Brasil: SBC, 2019. p. 259--264.
@@ -64,11 +54,6 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade Presbiteriana Mackenzie, 2021.}
 {OLIVEIRA, V. A.~T.
 \textbf{Gestão de operações de serviços de emergência no contexto de cidades inteligentes e sustentáveis: o caso da Polícia Militar do Paraná}.
 Disserta\c{c}\~{a}o (Mestrado) --- Universidade Tecnológica Federal do Paraná, 2020.}
-
-\bibitem[Pinto 2025]{PINTO2025}
-\abntrefinfo{Pinto}{PINTO}{2025}
-{PINTO, N.~R.
-Bacharelado em Engenharia de Controle e Automação, \textbf{Desenvolvimento de uma virtual test bed e digital twin para treinamento de veículos autônomos}. Sorocaba - SP, Brasil: [s.n.], 2025.}
 
 \bibitem[Russell e Norvig 2013]{RUSSELL2013}
 \abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{2013}

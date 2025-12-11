@@ -25,65 +25,70 @@
 \contentsline {subsection}{\numberline {2.3.2}Heurísticas}{21}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Meta-heurísticas}{22}{subsection.2.3.3}%
 \contentsline {subsubsection}{\numberline {2.3.3.1}Algoritmos Genéticos}{22}{subsubsection.2.3.3.1}%
-\contentsline {section}{\numberline {2.4}Algoritmos de Busca}{23}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Busca em Largura (BFS)}{23}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Busca em Profundidade (DFS)}{24}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Busca de Custo Uniforme}{25}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Algoritmo A* (A Estrela)}{26}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.4}Teoria dos Grafos e Algoritmos de Busca}{23}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Conceitos Fundamentais de Grafos}{23}{subsection.2.4.1}%
+\contentsline {paragraph}{\numberline {2.4.1.0.1}Grafos Direcionados e Não-Direcionados}{23}{paragraph.2.4.1.0.1}%
+\contentsline {paragraph}{\numberline {2.4.1.0.2}Grafos Ponderados}{24}{paragraph.2.4.1.0.2}%
+\contentsline {paragraph}{\numberline {2.4.1.0.3}Conceitos Adicionais}{24}{paragraph.2.4.1.0.3}%
+\contentsline {paragraph}{\numberline {2.4.1.0.4}Representação Computacional}{24}{paragraph.2.4.1.0.4}%
+\contentsline {subsection}{\numberline {2.4.2}Busca em Largura (BFS)}{25}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Busca em Profundidade (DFS)}{25}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Busca de Custo Uniforme}{27}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Algoritmo A* (A Estrela)}{27}{subsection.2.4.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Revisão da Literatura}}{28}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Planejamento}{28}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Definição de Questões de Pesquisa}{28}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Definição da \textit {string} de busca}{29}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Definições de bases de dados}{29}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Definição dos critérios de inclusão e exclusão}{29}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Condução}{30}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Resultados}{30}{section.3.3}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Revisão da Literatura}}{30}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Planejamento}{30}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Definição de Questões de Pesquisa}{30}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Definição da \textit {string} de busca}{31}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Definições de bases de dados}{31}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Definição dos critérios de inclusão e exclusão}{31}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Condução}{32}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Resultados}{32}{section.3.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Metodologia}}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Exemplo de alíneas}{33}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Usando Fórmulas Matemáticas}{34}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Usando Código-fonte}{36}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Usando Teoremas, Proposições, etc}{36}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Usando Questões}{36}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Metodologia}}{34}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Exemplo de alíneas}{34}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Usando Fórmulas Matemáticas}{35}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Usando Código-fonte}{37}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Usando Teoremas, Proposições, etc}{37}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Usando Questões}{37}{section.4.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Resultados}}{37}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Resultados do Experimento A}{37}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Resultados do Experimento B}{38}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Resultados}}{38}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Resultados do Experimento A}{38}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Resultados do Experimento B}{39}{section.5.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Conclusões e Trabalhos Futuros}}{40}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Conclusões e Trabalhos Futuros}}{41}{chapter.6}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{REFER\^ENCIAS}}{41}{section*.22}%
-\contentsline {chapter}{AP\^ENDICES}{43}{section*.22}%
+\contentsline {chapter}{\MakeTextUppercase []{REFER\^ENCIAS}}{42}{section*.22}%
+\contentsline {chapter}{AP\^ENDICES}{44}{section*.22}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \renewcommand *{\cftappendixname }{\bfseries AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\normalfont Exemplo de apêndice}{43}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\normalfont Exemplo de apêndice}{44}{appendix.A}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\normalfont Questionário utilizado para...}{44}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {B}\normalfont Questionário utilizado para...}{45}{appendix.B}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\normalfont Códigos-fontes utilizados para...}{45}{appendix.C}%
+\contentsline {appendix}{\chapternumberline {C}\normalfont Códigos-fontes utilizados para...}{46}{appendix.C}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {D}\normalfont \textit {IEEE CEFC 2016}}{47}{appendix.D}%
-\contentsline {chapter}{ANEXOS}{49}{appendix.D}%
+\contentsline {appendix}{\chapternumberline {D}\normalfont \textit {IEEE CEFC 2016}}{48}{appendix.D}%
+\contentsline {chapter}{ANEXOS}{50}{appendix.D}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \renewcommand *{\cftappendixname }{\bfseries ANEXO \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\normalfont Exemplo de um anexo}{49}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {A}\normalfont Exemplo de um anexo}{50}{appendix.anexochapback.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\normalfont Exemplo de um anexo em PDF}{50}{appendix.anexochapback.2}%
+\contentsline {appendix}{\chapternumberline {B}\normalfont Exemplo de um anexo em PDF}{51}{appendix.anexochapback.2}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\'INDICE}{53}{section*.26}%
+\contentsline {chapter}{\'INDICE}{54}{section*.26}%

@@ -15,8 +15,6 @@ Database file #1: abntex2-options.bib
 Database file #2: 3-pos-textuais/referencias.bib
 Warning--entry type for "COSTA2023" isn't style-file defined
 --line 71 of file 3-pos-textuais/referencias.bib
-Warning--entry type for "PINTO2025" isn't style-file defined
---line 120 of file 3-pos-textuais/referencias.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
@@ -26,45 +24,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 22 entries,
+You've used 19 entries,
             6714 wiz_defined-function locations,
-            1330 strings with 14054 characters,
-and the built_in function-call counts, 26220 in all, are:
-= -- 2769
-> -- 636
-< -- 501
-+ -- 781
-- -- 186
-* -- 1738
-:= -- 3232
-add.period$ -- 82
-call.type$ -- 24
-change.case$ -- 227
-chr.to.int$ -- 45
-cite$ -- 17
-duplicate$ -- 2160
-empty$ -- 1353
-format.name$ -- 956
-if$ -- 5579
+            1309 strings with 13160 characters,
+and the built_in function-call counts, 21032 in all, are:
+= -- 2224
+> -- 495
+< -- 388
++ -- 610
+- -- 146
+* -- 1375
+:= -- 2614
+add.period$ -- 66
+call.type$ -- 21
+change.case$ -- 182
+chr.to.int$ -- 42
+cite$ -- 14
+duplicate$ -- 1694
+empty$ -- 1123
+format.name$ -- 734
+if$ -- 4504
 int.to.chr$ -- 4
 int.to.str$ -- 3
-missing$ -- 380
-newline$ -- 101
-num.names$ -- 85
-pop$ -- 428
+missing$ -- 317
+newline$ -- 86
+num.names$ -- 70
+pop$ -- 352
 preamble$ -- 1
-purify$ -- 87
+purify$ -- 74
 quote$ -- 0
-skip$ -- 2489
+skip$ -- 2001
 stack$ -- 1
-substring$ -- 1037
-swap$ -- 861
-text.length$ -- 18
+substring$ -- 840
+swap$ -- 672
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
+type$ -- 16
 warning$ -- 0
-while$ -- 130
+while$ -- 107
 width$ -- 0
-write$ -- 291
-(There were 2 warnings)
+write$ -- 241
+(There was 1 warning)
