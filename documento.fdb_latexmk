@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex documento"] 1765495454.61793 "documento.aux" "documento.bbl" "documento" 1765495459.67735 0
-  "./3-pos-textuais/referencias.bib" 1765492697.43829 12542 1fdd563032a3707d98b7c3ae757f8d48 ""
+["bibtex documento"] 1765827290.18304 "documento.aux" "documento.bbl" "documento" 1765827849.18234 0
+  "./3-pos-textuais/referencias.bib" 1765567809.02721 13054 b71c29b78808ec9b7dca0ef3d604d82c ""
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1543183680 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "documento.aux" 1765495458.83758 40178 a4e41a4b26341dcf461fb5e76b77f160 "pdflatex"
+  "documento.aux" 1765827848.63228 42071 26c22fe2bffb31f0385a43408875c0ad "pdflatex"
   (generated)
   "documento.bbl"
   "documento.blg"
   (rewritten before read)
-["makeindex documento.idx"] 1765495454.45487 "documento.idx" "documento.ind" "documento" 1765495459.67666 0
-  "documento.idx" 1765495458.85058 195 ae887a57ba6e52fd9498c57785eb2835 "pdflatex"
+["makeindex documento.idx"] 1765827245.63076 "documento.idx" "documento.ind" "documento" 1765827849.1822 0
+  "documento.idx" 1765827848.64818 195 161f348d07a42e9f32f535c013fde87f "pdflatex"
   (generated)
   "documento.ilg"
   "documento.ind"
   (rewritten before read)
-["pdflatex"] 1765495454.78659 "/home/billygrahan/Modelo_de_Trabalho_Acadêmico_UFC/documento.tex" "documento.pdf" "documento" 1765495459.67768 0
+["pdflatex"] 1765827846.09813 "/home/billygrahan/Modelo_de_Trabalho_Acadêmico_UFC/documento.tex" "documento.pdf" "documento" 1765827849.18251 0
   "/etc/texmf/web2c/texmf.cnf" 1765160907.58453 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/billygrahan/Modelo_de_Trabalho_Acadêmico_UFC/documento.tex" 1765161539.91861 11454 0ab9b2844c239f027236f9fdb1eba82e ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -247,7 +247,7 @@
   "2-textuais/3-metodologia.tex" 1765161380.98406 10580 6d679e11b0a7fc8e5ae0c286deff0064 ""
   "2-textuais/4-resultados.tex" 1765161380.98915 5053 8ed3ee6b28d3078594f9cfb9ae166f4d ""
   "2-textuais/5-conclusao.tex" 1765161380.98915 384 8343fa70a72435ca57076aa09e1c1292 ""
-  "2-textuais/trabalhos-relacionados.tex" 1765495453.22158 5972 b8b1fe69098e19322e11de351e953c98 ""
+  "2-textuais/trabalhos-relacionados.tex" 1765827844.45299 9671 9b85b6090da1fa80d994a9deefe61f00 ""
   "3-pos-textuais/anexos/Sikasil.pdf" 1765161381.06296 68098 afda34e4cccaeef3cdbf9912b7fc6cb5 ""
   "3-pos-textuais/anexos/anexo-a.tex" 1765161381.04898 226 6ef60fdb6cbb6f8cea84deef1be7213b ""
   "3-pos-textuais/anexos/anexo-b.tex" 1765161381.05148 640 bcdec75713061d8d547cf8f685d39a60 ""
@@ -257,21 +257,21 @@
   "3-pos-textuais/apendices/apendice-c.tex" 1765161381.08059 2703 605a577162ed19a7b8aa19d8a1a547ec ""
   "3-pos-textuais/apendices/apendice-d.tex" 1765161381.08932 296 7e8e52e023c144df5b2b5522eb6c4844 ""
   "3-pos-textuais/glossario.tex" 1765161381.01725 1325 bece85bf2ed1bad79d64e9c045f5b991 ""
-  "documento.aux" 1765495458.83758 40178 a4e41a4b26341dcf461fb5e76b77f160 "pdflatex"
-  "documento.bbl" 1765495454.77724 5806 bd4d4ee2e42d9f40fb4f67625157dbbb "bibtex documento"
+  "documento.aux" 1765827848.63228 42071 26c22fe2bffb31f0385a43408875c0ad "pdflatex"
+  "documento.bbl" 1765827290.30008 8815 16299c007a086d0b7e3bffa52f8b704c "bibtex documento"
   "documento.gls" 0 -1 0 ""
-  "documento.ind" 1765495454.60824 274 df53c305e6d1961d00e715411a0ec80b "makeindex documento.idx"
-  "documento.lof" 1765495458.85058 1038 57dd84a3304ed21e3a4f8e8a05a78817 "pdflatex"
-  "documento.lot" 1765495458.85058 289 6b3fa49cf680eacfd604cb7ea2f10e9b "pdflatex"
+  "documento.ind" 1765827245.75099 274 b0148a9734eeef8efa6d00d18aa239a7 "makeindex documento.idx"
+  "documento.lof" 1765827848.64818 1038 9c7040cfa2fca1690eb438de1ff574fb "pdflatex"
+  "documento.lot" 1765827848.64818 289 0de8a3578c64fc7388eb27db8c9e86fd "pdflatex"
   "documento.tex" 1765161539.91861 11454 0ab9b2844c239f027236f9fdb1eba82e ""
-  "documento.toc" 1765495458.85058 7850 6d67c2ff8fe453d44b10bee54b01f8b2 "pdflatex"
+  "documento.toc" 1765827848.64818 7929 00c587e234387d2eb891e2022b313793 "pdflatex"
   "figuras/exemple_A_Estrela(Bucareste).png" 1765205261.42382 261499 2e14ce9084dff51e65f0957177c8df1e ""
   "figuras/exemple_BFS.png" 1765200250.32203 313642 11695cae9f1de7504ff07053e7839ecb ""
   "figuras/exemple_DFS.png" 1765204777.38252 141483 a1d731424884bb4215e2e10676c018f8 ""
   "figuras/figura-3.png" 1765161381.163 17319 5ace66ad26a9305e1dc42def8ee6dc4f ""
   "figuras/main.cpp" 1765161381.163 102 b003a016e7ec66473170c40e37a1ff34 ""
-  "figuras/qp1.png" 1765495361.41974 16879 81ac898b9a43141f3ac3c4bff9cd8df9 ""
-  "figuras/qp2.png" 1765495361.51074 13828 6d8eccd3662a87905dcfacf15cb096a5 ""
+  "figuras/qp1.png" 1765817275.95547 16946 0d20536a50d2a5c03cf8c8085eace4b6 ""
+  "figuras/qp2.png" 1765713786.56581 15125 50ada6b8520dfb28c12b717df72613e1 ""
   "figuras/tensaoimpedanciahumana.PNG" 1765161381.18917 39796 43b8883b2cd57299f9b354e2dec34cb6 ""
   "lib/logo-ufc.PNG" 1765161381.13535 225873 bd8744586e262fc284cb39e1fe099b01 ""
   "lib/preambulo.tex" 1765161381.1142 6194 39ce58b4c601040b7656bb4261362639 ""

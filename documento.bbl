@@ -5,6 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Barth 2016]{BARTH2016}
+\abntrefinfo{Barth}{BARTH}{2016}
+{BARTH, M.~J.
+\textbf{Otimização multi-nível para projeto de redes híbridas (ópticas e sem fio) para implementação de cidades inteligentes}.
+Disserta\c{c}\~{a}o (Mestrado em Computação Aplicada) --- Universidade do Vale do Rio dos Sinos - UNISINOS, São Leopoldo - RS, Brasil, 2016. Orientador: José Vicente Canto dos Santos.}
+
 \bibitem[Botelho \textit{et al.} 2019]{BOTELHO2019}
 \abntrefinfo{Botelho \textit{et al.}}{BOTELHO \textit{et al.}}{2019}
 {BOTELHO, P.; BORGES, A.; ALVES, G. Proposta de implantação de um sistema ciberfísico para um smart parking baseado em agentes inteligentes. In:  \textbf{Anais do XIII Workshop-Escola de Sistemas de Agentes, seus Ambientes e Aplicações}. Porto Alegre, RS, Brasil: SBC, 2019. p. 259--264.
@@ -21,6 +27,11 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade de Caxias do Sul, Caxias do Sul,
 {CASTRO, L.; MANOEL, F.; JESUS, V.; PANTOJA, C.; BORGES, A.; ALVES, G. Integrando sistemas multi-agentes embarcados, simulação urbana e aplicações de iot. In:  \textbf{Anais do XIV Workshop-Escola de Sistemas de Agentes, seus Ambientes e Aplicações}. Porto Alegre, RS, Brasil: SBC, 2020. p. 165--176.
 ISSN 2326-5434. Dispon{\'\i}vel em: \url{https://sol.sbc.org.br/index.php/wesaac/article/view/33389}.}
 
+\bibitem[Chaves \textit{et al.} 2007]{CHAVES2007}
+\abntrefinfo{Chaves \textit{et al.}}{CHAVES \textit{et al.}}{2007}
+{CHAVES, A.~A.; BIAJOLI, F.~L.; MINE, O.~M.; SOUZA, M. J.~F. Metaheurísticas híbridas para resolução do problema do caixeiro viajante com coleta de prêmios.
+\textbf{Produção}, ABEPRO, Brasil, v.~17, n.~2, p. 263--272, 2007.}
+
 \bibitem[Cormen \textit{et al.} 2012]{CORMEN2012}
 \abntrefinfo{Cormen \textit{et al.}}{CORMEN \textit{et al.}}{2012}
 {CORMEN, T.~H.; LEISERSON, C.~E.; RIVEST, R.~L.; STEIN, C. \textbf{Algoritmos: teoria e prática}. 3. ed. Rio de Janeiro: Elsevier, 2012.}
@@ -34,6 +45,11 @@ Bacharelado em Engenharia Urbana, \textbf{Proposição de elementos para uso de 
 \abntrefinfo{Dias \textit{et al.}}{DIAS \textit{et al.}}{2019}
 {DIAS, C.; LOPES, F.; LEITE, J. Smartnode dashboard: um framework front-end baseado em node-red para criação de city dashboards. In:  \textbf{Anais do II Workshop Brasileiro de Cidades Inteligentes}. Porto Alegre, RS, Brasil: SBC, 2019.
 ISSN 0000-0000. Dispon{\'\i}vel em: \url{https://sol.sbc.org.br/index.php/wbci/article/view/6744}.}
+
+\bibitem[Georges 2014]{GEORGES2014}
+\abntrefinfo{Georges}{GEORGES}{2014}
+{GEORGES, M. R.~R. Rotas solidárias: um estudo das rotas de coleta de materiais recicláveis numa cooperativa popular de coleta e seleção de recicláveis.
+\textbf{Revista Gestão Industrial}, UTFPR, Ponta Grossa - PR, Brasil, v.~10, n.~1, p. 1--21, 2014.}
 
 \bibitem[Kitchenham \textit{et al.} 2009]{KITCHENHAM2009}
 \abntrefinfo{Kitchenham \textit{et al.}}{KITCHENHAM \textit{et al.}}{2009}
@@ -55,6 +71,12 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade Presbiteriana Mackenzie, 2021.}
 \textbf{Gestão de operações de serviços de emergência no contexto de cidades inteligentes e sustentáveis: o caso da Polícia Militar do Paraná}.
 Disserta\c{c}\~{a}o (Mestrado) --- Universidade Tecnológica Federal do Paraná, 2020.}
 
+\bibitem[Paz 2023]{PAZ2023}
+\abntrefinfo{Paz}{PAZ}{2023}
+{PAZ, F.~A.
+\textbf{Planejamento de Rotas Veiculares e Otimização de Mobilidade Urbana Utilizando Algoritmo Bioinspirado e Paralelo}.
+Disserta\c{c}\~{a}o (Proposta de Dissertação de Mestrado em Ciência da Computação) --- Universidade Federal de Sergipe, São Cristóvão -- SE, Brasil, 2023. Orientador: Rubens de Souza Matos Júnior; Coorientador: Ricardo José Paiva de Britto Salgueiro.}
+
 \bibitem[Russell e Norvig 2013]{RUSSELL2013}
 \abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{2013}
 {RUSSELL, S.~J.; NORVIG, P. \textbf{Inteligência artificial}. 3. ed. Rio de Janeiro: Elsevier, 2013. Tradução de: Artificial intelligence, 3rd ed.
@@ -70,6 +92,25 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade Católica do Salvador (UCSal), 2
 \abntrefinfo{Santos \textit{et al.}}{SANTOS \textit{et al.}}{2019}
 {SANTOS, L.; NASCIMENTO, L.; NUNES, S. Reclamando app: um aplicativo para auxiliar na reivindicação de problemáticas urbanas. In:  \textbf{Anais da XIX Escola Regional de Computação Bahia, Alagoas e Sergipe}. Porto Alegre, RS, Brasil: SBC, 2019. p. 184--189.
 ISSN 0000-0000. Dispon{\'\i}vel em: \url{https://sol.sbc.org.br/index.php/erbase/article/view/8976}.}
+
+\bibitem[Sati \textit{et al.} 2020]{SATI2020}
+\abntrefinfo{Sati \textit{et al.}}{SATI \textit{et al.}}{2020}
+{SATI, T.~N.; SCARPIN, C.~T.; JUNIOR, J.~E. P.; LOPES, R. M.~Z. Diferentes formulações de programação linear inteira para a roteirização no transporte de funcionários.
+\textbf{Produção}, UFPR, Curitiba - PR, Brasil, v.~17, n.~2, p. 263--272, 2020.}
+
+\bibitem[Silva e Ochi 2017]{VILLELA2017}
+\abntrefinfo{Silva e Ochi}{SILVA; OCHI}{2017}
+{SILVA, A.~R. Villela~da; OCHI, L.~S. Um algoritmo evolutivo para o problema do caixeiro alugador. In:  \textbf{Proceeding Series of the Brazilian Society of Applied and Computational Mathematics}. Gramado - RS, Brasil: SBMAC, 2017. v.~5, n.~1, p. 460--467.}
+
+\bibitem[Silva \textit{et al.} 2022]{SILVA2022}
+\abntrefinfo{Silva \textit{et al.}}{SILVA \textit{et al.}}{2022}
+{SILVA, E. C.~d.; LIMA, D.~R.; SANTOS, L. C.~d.; SILVA, F. D. V.~d. Uso da ferramenta or-tools na geração de rotas otimizadas em agência dos correios utilizando algoritmos para o problema do caixeiro viajante. In:  \textbf{Anais de evento acadêmico (IFCE - Campus Aracati)}. Aracati - CE, Brasil: [s.n.], 2022.}
+
+\bibitem[Silva 2024]{SILVA2024}
+\abntrefinfo{Silva}{SILVA}{2024}
+{SILVA, M. d.~O.
+Bacharelado em Engenharia de Produção, \textbf{Desenvolvimento de uma aplicação gráfica para resolução de problemas de roteamento de veículos}. João Pessoa - PB, Brasil: [s.n.], 2024.
+Orientador: Luciano Carlos Azevedo da Costa.}
 
 \bibitem[Storck \textit{et al.} 2017]{STORCK2017}
 \abntrefinfo{Storck \textit{et al.}}{STORCK \textit{et al.}}{2017}

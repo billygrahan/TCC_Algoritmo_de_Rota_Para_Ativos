@@ -1,6 +1,10 @@
 \chapter{Revisão da Literatura}
 \label{cap:trabalhos-relacionados}
 
+Neste capítulo serão descritas as etapas realizadas durante a Revisão da Literatura do
+trabalho.
+
+\section{Contextualização}
 Diante do objetivo do trabalho, foi necessário a realização de uma revisão sistemática 
 com o intuito de identificar os principais trabalhos relacionados com essa pesquisa. Esta fase 
 da pesquisa foi organizada em três etapas: Planejamento, Condução e Resultados que serão 
@@ -14,23 +18,23 @@ assim, nas próximas seções, serão descritos os passos deste protocolo.
 
 \subsection{Definição de Questões de Pesquisa}
 \textbf{QP1} - Qual a estratégia adotada no trabalho? 
-\begin{itemize}
-    \item Criação de um framework
-    \item Simulação
-    \item Análise conceitual de algum tema relacionado às cidades inteligentes
-    \item Análise de dados
-    \item Abordagem com internet das coisas
-    \item Desenvolvimento/uso de algoritmos de otimização
-\end{itemize}
+    \begin{itemize}
+        \item Criação de um framework
+        \item Simulação
+        \item Análise conceitual de algum tema relacionado às cidades inteligentes
+        \item Análise de dados
+        \item Abordagem com internet das coisas
+        \item Desenvolvimento/uso de algoritmos de otimização
+    \end{itemize}
 \textbf{QP2} - Qual(is) algoritmo(s) adotado(s) no trabalho? 
-\begin{itemize}
-    \item Algoritmo genético
-    \item Busca local
-    \item Colônia de formigas
-    \item Grasp
-    \item Programação linear
-    \item Algoritmo Híbrido
-\end{itemize}
+    \begin{itemize}
+        \item Algoritmo genético
+        \item Busca local
+        \item Colônia de formigas
+        \item Grasp
+        \item Programação linear
+        \item Algoritmo Híbrido
+    \end{itemize}
 
 \subsection{Definição da \textit{string} de busca}
 Após a definição das questões de pesquisas, foi definida a seguinte string de busca: \textit{"cidades inteligentes" AND "framework" AND "serviços" AND "centro urbano" }
@@ -94,7 +98,22 @@ Na fase de condução, foi colocado em prática o planejamento definido na seç�
 \section{Resultados}
 Nesta seção serão descritos os resultados obtidos das duas questões de pesquisa. 
 
-	\begin{figure}[h!] tuacha
+Na figura \ref{fig:qp1} é possível observar um gráfico de barras correspondente a
+QP1, que se refere às estratégias adotadas nos trabalhos selecionados. Ao observar o gráfico, nota-se que
+somente 1 trabalho adotou a estratégia de criação de um framework que é: o trabalho de \cite{SILVA2024}, 
+que os altores utilizaram APIs externas para calcular rotas entre pontos extratégicos para a resolução de Problemas de
+Roteamento de Veículos. 
+
+Outra Alternativa da QP1 é o Desenvolvimento e/ou Uso de algoritmos de otimização, que foi a estratégia mais 
+adotada pelos trabalhos selecionados, totalizando 4 trabalhos sendo eles: \cite{PAZ2023}, que desenvolve um algoritmo para otimizar o transporte 
+urbano no quesito de menor trajeto no menor tempo possivel 
+evitando gargalos como engarrafamentos; \cite{SILVA2022}, que utiliza a ferramenta de código aberto do Google para
+resolver o problema do caixairo viajante em centros urbanos no contexto da entrega dos correios; \cite{VILLELA2017}, que propõe um algoritmo
+para resolver uma variação do problema do caixeiro viajante, o caixeiro alugador, para otimizar viagens utilizando aluguel de veiculos entre cidades; 
+e \cite{CHAVES2007} um método heurístico híbrido, para resolver aproximadamente o Problema do Caixeiro Viajante com Coleta de Prêmios.
+
+
+	\begin{figure}[]
         \captionsetup{width=16cm}
 		\Caption{\label{fig:qp1} Resultados da Questão de Pesquisa 1 (QP1).}
 		%\centering
@@ -104,9 +123,22 @@ Nesta seção serão descritos os resultados obtidos das duas questões de pesqu
 			\Fonte{elaborada pelos autores (2025).}
 		}	
     \end{figure}
- 
 
-    \begin{figure}[h!] tucha 100 vezes
+Ainda Observando o Grafico Qp1 na Alternativa Abordagem com Internet das Coisas o trabalho de \cite{BARTH2016} desenvolve uma metodologia utilizada na elaboração de um sistema computacional,
+baseado em um conjunto de regras definidas por uma modelagem matematica, para apoio ao projeto de redes híbridas (Opticas e sem fio) para atendimento das demandas de cidades inteligentes.
+Na alternativa simulação, o trabalho de \cite{SATI2020} utilizados e comparou três diferentes modelos matemáticos, onde foram observados os 
+benefícios de cada um deles para resulução do problema de roteamento de veículos em centros urbanos para transporte de funcionarios.
+Na alternativa analize de dados o trabalho de \cite{GEORGES2014} apresenta um estudo das rotas de coleta 
+de materiais recicláveis de uma cooperativa, utilizando apenas um modelo conceitual do Caixeiro Viajante para reordenar os pontos de coleta.
+
+Na figura \ref{fig:qp2} é possível observar um gráfico de barras correspondente a QP2, que se refere aos algoritmos adotados nos trabalhos selecionados. 
+O trabalho de \cite{PAZ2023} utilizou o Algoritmo Genético mais alguns conceitos de probabilidade para otimização de rotas e para efeitos de comparação utiliza os 
+algiritmos Colônia de formigas, Grasp, A*(A estrela) e Djikstra;
+O trabalho de \cite{BARTH2016} Adotou o algoritmo Colônia de formigas em seu projeto de redes híbridas para cidades inteligentes;
+Os trabalhos de \cite{VILLELA2017} e \cite{CHAVES2007} adotaram os algoritmos Genético e hibrido de Grasp com outros métodos de Otimização para refinar a solução construida, respectivamente,
+para resolverem vairantes do problema do caixairo viajante; e o trabalho de \cite{SATI2020} adotou a Programação Linear para resolver o problema de roteamento de veículos em centros urbanos.
+
+    \begin{figure}[]
         \captionsetup{width=16cm}
 		\Caption{\label{fig:qp2} Resultados da Questão de Pesquisa 2 (QP2).}
 		%\centering
@@ -116,6 +148,10 @@ Nesta seção serão descritos os resultados obtidos das duas questões de pesqu
 			\Fonte{elaborada pelos autores (2025).}
 		}	
     \end{figure}
+
+Os demais trabalhos de \cite{SILVA2024}, \cite{SILVA2022} e \cite{GEORGES2014} não adotaram nenhum dos algoritmos listados na QP2, mas sim ferramentas
+externas para a resolução dos problemas propostos como OR-Tools (software de código aberto do Google), OpenStreetMap, Open Source Routing Machine e/ou modelos 
+conceituais mas sem aplicar ou fazer comparações diretamente.
 
 
 %\Gls{ambiguidade}
