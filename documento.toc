@@ -10,86 +10,87 @@
 \contentsline {section}{\numberline {1.1}Objetivos}{15}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Objetivos específicos}{15}{subsection.1.1.1}%
 \contentsline {section}{\numberline {1.2}Justificativa}{16}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Organização do Trabalho}{16}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Organização do Trabalho}{17}{section.1.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Contextualização}}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Cidades inteligentes}{17}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Eixos das Cidades Inteligentes}{17}{subsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}Governança Inteligente}{17}{subsubsection.2.1.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.2}Mobilidade Urbana Inteligente}{18}{subsubsection.2.1.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.1.3}Urbanismo e Planejamento Urbano}{18}{subsubsection.2.1.1.3}%
-\contentsline {section}{\numberline {2.2}Gestão de ativos públicos}{18}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Zeladoria Urbana}{19}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}Métodos de Otimização}{20}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Métodos Exatos}{20}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Heurísticas}{21}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Meta-heurísticas}{22}{subsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.3.1}Algoritmos Genéticos}{22}{subsubsection.2.3.3.1}%
-\contentsline {section}{\numberline {2.4}Teoria dos Grafos e Algoritmos de Busca}{23}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Conceitos Fundamentais de Grafos}{23}{subsection.2.4.1}%
-\contentsline {paragraph}{\numberline {2.4.1.0.1}Grafos Direcionados e Não-Direcionados}{23}{paragraph.2.4.1.0.1}%
-\contentsline {paragraph}{\numberline {2.4.1.0.2}Grafos Ponderados}{24}{paragraph.2.4.1.0.2}%
-\contentsline {paragraph}{\numberline {2.4.1.0.3}Conceitos Adicionais}{24}{paragraph.2.4.1.0.3}%
-\contentsline {paragraph}{\numberline {2.4.1.0.4}Representação Computacional}{24}{paragraph.2.4.1.0.4}%
-\contentsline {subsection}{\numberline {2.4.2}Busca em Largura (BFS)}{25}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Busca em Profundidade (DFS)}{25}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Busca de Custo Uniforme}{27}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Algoritmo A* (A Estrela)}{27}{subsection.2.4.5}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Contextualização}}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Cidades inteligentes}{18}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Eixos das Cidades Inteligentes}{18}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Governança Inteligente}{18}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Mobilidade Urbana Inteligente}{19}{subsubsection.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.3}Urbanismo e Planejamento Urbano}{19}{subsubsection.2.1.1.3}%
+\contentsline {section}{\numberline {2.2}Gestão de ativos públicos}{19}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Zeladoria Urbana}{20}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Métodos de Otimização}{21}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Métodos Exatos}{21}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Heurísticas}{22}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Meta-heurísticas}{23}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}Algoritmos Genéticos}{23}{subsubsection.2.3.3.1}%
+\contentsline {section}{\numberline {2.4}Teoria dos Grafos e Algoritmos de Busca}{24}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Conceitos Fundamentais de Grafos}{24}{subsection.2.4.1}%
+\contentsline {paragraph}{\numberline {2.4.1.0.1}Grafos Direcionados e Não-Direcionados}{24}{paragraph.2.4.1.0.1}%
+\contentsline {paragraph}{\numberline {2.4.1.0.2}Grafos Ponderados}{25}{paragraph.2.4.1.0.2}%
+\contentsline {paragraph}{\numberline {2.4.1.0.3}Conceitos Adicionais}{25}{paragraph.2.4.1.0.3}%
+\contentsline {paragraph}{\numberline {2.4.1.0.4}Representação Computacional}{25}{paragraph.2.4.1.0.4}%
+\contentsline {subsection}{\numberline {2.4.2}Busca em Largura (BFS)}{26}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Busca em Profundidade (DFS)}{26}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Busca de Custo Uniforme}{28}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Algoritmo A* (A Estrela)}{28}{subsection.2.4.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Revisão da Literatura}}{30}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Contextualização}{30}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Planejamento}{30}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Definição de Questões de Pesquisa}{30}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Definição da \textit {string} de busca}{31}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Definições de bases de dados}{31}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Definição dos critérios de inclusão e exclusão}{31}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Condução}{32}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Resultados}{32}{section.3.4}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Revisão da Literatura}}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Contextualização}{31}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Planejamento}{31}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Definição de Questões de Pesquisa}{31}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Definição da \textit {string} de busca}{32}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Definições de bases de dados}{32}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Definição dos critérios de inclusão e exclusão}{32}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Condução}{33}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Resultados}{33}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Considerações Finais}{35}{section.3.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Metodologia}}{35}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Exemplo de alíneas}{35}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Usando Fórmulas Matemáticas}{36}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Usando Código-fonte}{38}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Usando Teoremas, Proposições, etc}{38}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Usando Questões}{38}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Metodologia}}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Exemplo de alíneas}{37}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Usando Fórmulas Matemáticas}{38}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Usando Código-fonte}{40}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Usando Teoremas, Proposições, etc}{40}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Usando Questões}{40}{section.4.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Resultados}}{39}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Resultados do Experimento A}{39}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Resultados do Experimento B}{40}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Resultados}}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Resultados do Experimento A}{41}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Resultados do Experimento B}{42}{section.5.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Conclusões e Trabalhos Futuros}}{42}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Conclusões e Trabalhos Futuros}}{44}{chapter.6}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{REFER\^ENCIAS}}{43}{section*.22}%
-\contentsline {chapter}{AP\^ENDICES}{45}{section*.22}%
+\contentsline {chapter}{\MakeTextUppercase []{REFER\^ENCIAS}}{45}{section*.22}%
+\contentsline {chapter}{AP\^ENDICES}{47}{section*.22}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \renewcommand *{\cftappendixname }{\bfseries AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\normalfont Exemplo de apêndice}{45}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\normalfont Exemplo de apêndice}{47}{appendix.A}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\normalfont Questionário utilizado para...}{46}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {B}\normalfont Questionário utilizado para...}{48}{appendix.B}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\normalfont Códigos-fontes utilizados para...}{47}{appendix.C}%
+\contentsline {appendix}{\chapternumberline {C}\normalfont Códigos-fontes utilizados para...}{49}{appendix.C}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {D}\normalfont \textit {IEEE CEFC 2016}}{49}{appendix.D}%
-\contentsline {chapter}{ANEXOS}{51}{appendix.D}%
+\contentsline {appendix}{\chapternumberline {D}\normalfont \textit {IEEE CEFC 2016}}{51}{appendix.D}%
+\contentsline {chapter}{ANEXOS}{53}{appendix.D}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \renewcommand *{\cftappendixname }{\bfseries ANEXO \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\normalfont Exemplo de um anexo}{51}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {A}\normalfont Exemplo de um anexo}{53}{appendix.anexochapback.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\normalfont Exemplo de um anexo em PDF}{52}{appendix.anexochapback.2}%
+\contentsline {appendix}{\chapternumberline {B}\normalfont Exemplo de um anexo em PDF}{54}{appendix.anexochapback.2}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\'INDICE}{55}{section*.26}%
+\contentsline {chapter}{\'INDICE}{57}{section*.26}%

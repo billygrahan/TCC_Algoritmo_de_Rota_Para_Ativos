@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex documento"] 1765827290.18304 "documento.aux" "documento.bbl" "documento" 1765827849.18234 0
+["bibtex documento"] 1765842153.61425 "documento.aux" "documento.bbl" "documento" 1765842259.26561 0
   "./3-pos-textuais/referencias.bib" 1765567809.02721 13054 b71c29b78808ec9b7dca0ef3d604d82c ""
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1543183680 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "documento.aux" 1765827848.63228 42071 26c22fe2bffb31f0385a43408875c0ad "pdflatex"
+  "documento.aux" 1765842258.7042 42471 66948af9e824eeb7d4090b291256e7ab "pdflatex"
   (generated)
   "documento.bbl"
   "documento.blg"
   (rewritten before read)
-["makeindex documento.idx"] 1765827245.63076 "documento.idx" "documento.ind" "documento" 1765827849.1822 0
-  "documento.idx" 1765827848.64818 195 161f348d07a42e9f32f535c013fde87f "pdflatex"
+["makeindex documento.idx"] 1765842153.49947 "documento.idx" "documento.ind" "documento" 1765842259.26548 0
+  "documento.idx" 1765842258.716 195 ebea6678a45e705e51e699133bcc3680 "pdflatex"
   (generated)
   "documento.ilg"
   "documento.ind"
   (rewritten before read)
-["pdflatex"] 1765827846.09813 "/home/billygrahan/Modelo_de_Trabalho_Acadêmico_UFC/documento.tex" "documento.pdf" "documento" 1765827849.18251 0
+["pdflatex"] 1765842255.8914 "/home/billygrahan/Modelo_de_Trabalho_Acadêmico_UFC/documento.tex" "documento.pdf" "documento" 1765842259.26575 0
   "/etc/texmf/web2c/texmf.cnf" 1765160907.58453 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/billygrahan/Modelo_de_Trabalho_Acadêmico_UFC/documento.tex" 1765161539.91861 11454 0ab9b2844c239f027236f9fdb1eba82e ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -242,12 +242,12 @@
   "1-pre-textuais/lista-de-abreviaturas-e-siglas.tex" 1765161380.92585 1172 eaaef39d710271263ef4466f02d1b965 ""
   "1-pre-textuais/lista-de-simbolos.tex" 1765161380.93492 1208 f718a3c85db89696558ddf76d38db836 ""
   "1-pre-textuais/resumo.tex" 1765161380.93753 1673 429245044ea4278a7e3ebc873bf8fa0f ""
-  "2-textuais/1-introducao.tex" 1765161380.97018 5081 1e145b2546253499b528ff3c85bb11bb ""
-  "2-textuais/2-fundamentacao-teorica.tex" 1765493046.7111 36164 9492f7f8d5b1354453afa6c2bf56df32 ""
+  "2-textuais/1-introducao.tex" 1765842255.48495 9509 b843ac397409a14423d20bf21032c33c ""
+  "2-textuais/2-fundamentacao-teorica.tex" 1765836243.83273 36165 eedc359e60aced792eaf57fea168eb1b ""
   "2-textuais/3-metodologia.tex" 1765161380.98406 10580 6d679e11b0a7fc8e5ae0c286deff0064 ""
   "2-textuais/4-resultados.tex" 1765161380.98915 5053 8ed3ee6b28d3078594f9cfb9ae166f4d ""
   "2-textuais/5-conclusao.tex" 1765161380.98915 384 8343fa70a72435ca57076aa09e1c1292 ""
-  "2-textuais/trabalhos-relacionados.tex" 1765827844.45299 9671 9b85b6090da1fa80d994a9deefe61f00 ""
+  "2-textuais/trabalhos-relacionados.tex" 1765829174.40407 15829 7c3104df718aeaa0bafe1f4eec56f16f ""
   "3-pos-textuais/anexos/Sikasil.pdf" 1765161381.06296 68098 afda34e4cccaeef3cdbf9912b7fc6cb5 ""
   "3-pos-textuais/anexos/anexo-a.tex" 1765161381.04898 226 6ef60fdb6cbb6f8cea84deef1be7213b ""
   "3-pos-textuais/anexos/anexo-b.tex" 1765161381.05148 640 bcdec75713061d8d547cf8f685d39a60 ""
@@ -257,20 +257,20 @@
   "3-pos-textuais/apendices/apendice-c.tex" 1765161381.08059 2703 605a577162ed19a7b8aa19d8a1a547ec ""
   "3-pos-textuais/apendices/apendice-d.tex" 1765161381.08932 296 7e8e52e023c144df5b2b5522eb6c4844 ""
   "3-pos-textuais/glossario.tex" 1765161381.01725 1325 bece85bf2ed1bad79d64e9c045f5b991 ""
-  "documento.aux" 1765827848.63228 42071 26c22fe2bffb31f0385a43408875c0ad "pdflatex"
-  "documento.bbl" 1765827290.30008 8815 16299c007a086d0b7e3bffa52f8b704c "bibtex documento"
+  "documento.aux" 1765842258.7042 42471 66948af9e824eeb7d4090b291256e7ab "pdflatex"
+  "documento.bbl" 1765842153.7453 8815 16299c007a086d0b7e3bffa52f8b704c "bibtex documento"
   "documento.gls" 0 -1 0 ""
-  "documento.ind" 1765827245.75099 274 b0148a9734eeef8efa6d00d18aa239a7 "makeindex documento.idx"
-  "documento.lof" 1765827848.64818 1038 9c7040cfa2fca1690eb438de1ff574fb "pdflatex"
-  "documento.lot" 1765827848.64818 289 0de8a3578c64fc7388eb27db8c9e86fd "pdflatex"
+  "documento.ind" 1765842153.60773 274 310450f925b348cf755049aa7a9d8db7 "makeindex documento.idx"
+  "documento.lof" 1765842258.716 1038 1b432a9975b0ef07ab415459cdb9a827 "pdflatex"
+  "documento.lot" 1765842258.716 289 5558de519b2be45c78522a393ecb8634 "pdflatex"
   "documento.tex" 1765161539.91861 11454 0ab9b2844c239f027236f9fdb1eba82e ""
-  "documento.toc" 1765827848.64818 7929 00c587e234387d2eb891e2022b313793 "pdflatex"
+  "documento.toc" 1765842258.716 8012 f3bc39fe9bc984555fef8ba264e5581b "pdflatex"
   "figuras/exemple_A_Estrela(Bucareste).png" 1765205261.42382 261499 2e14ce9084dff51e65f0957177c8df1e ""
   "figuras/exemple_BFS.png" 1765200250.32203 313642 11695cae9f1de7504ff07053e7839ecb ""
   "figuras/exemple_DFS.png" 1765204777.38252 141483 a1d731424884bb4215e2e10676c018f8 ""
   "figuras/figura-3.png" 1765161381.163 17319 5ace66ad26a9305e1dc42def8ee6dc4f ""
   "figuras/main.cpp" 1765161381.163 102 b003a016e7ec66473170c40e37a1ff34 ""
-  "figuras/qp1.png" 1765817275.95547 16946 0d20536a50d2a5c03cf8c8085eace4b6 ""
+  "figuras/qp1.png" 1765828655.97032 16952 15d729c74762676e9b857b1c9e8a59d1 ""
   "figuras/qp2.png" 1765713786.56581 15125 50ada6b8520dfb28c12b717df72613e1 ""
   "figuras/tensaoimpedanciahumana.PNG" 1765161381.18917 39796 43b8883b2cd57299f9b354e2dec34cb6 ""
   "lib/logo-ufc.PNG" 1765161381.13535 225873 bd8744586e262fc284cb39e1fe099b01 ""

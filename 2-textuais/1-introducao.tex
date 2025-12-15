@@ -18,27 +18,99 @@
 
 
 
-A gestão eficiente dos ativos públicos é um desafio constante para as administrações municipais, especialmente quando envolve a necessidade de visitas periódicas para inspeção, manutenção ou levantamento de dados. Em muitos casos, esses ativos — como praças, escolas, unidades de saúde, postes de iluminação, entre outros — estão distribuídos por diferentes regiões da cidade, exigindo um planejamento logístico que minimize o tempo e os custos de deslocamento dos profissionais responsáveis.
+A gestão eficiente dos ativos públicos constitui um desafio constante para as administrações municipais, 
+especialmente quando demanda visitas periódicas para inspeção, manutenção ou levantamento de informações. 
+Esses ativos — como praças, escolas, unidades de saúde, postes de iluminação, equipamentos urbanos, entre outros — 
+encontram-se com algum Problema por diferentes regiões da cidade, exigindo um planejamento logístico criterioso que minimize 
+o tempo de deslocamento e os custos operacionais das equipes responsáveis.
 
-Nesse contexto, o presente trabalho propõe o desenvolvimento de um algoritmo baseado em heurística para resolver uma instância prática do problema do caixeiro viajante (Traveling Salesman Problem – TSP), adaptado à realidade de uma prefeitura. O objetivo é encontrar a rota mais eficiente para que um profissional percorra todos os pontos de visitação e retorne ao ponto de origem, percorrendo a menor distância possível.
+No contexto das cidades inteligentes, a otimização de rotas torna-se fundamental para a eficiência 
+operacional dos serviços públicos. A ausência de planejamento adequado resulta em desperdício de recursos, 
+aumento do tempo de resposta às demandas da população e ineficiência na prestação de serviços essenciais. 
+Este cenário é particularmente crítico em municípios de pequeno e médio porte, onde as limitações orçamentárias 
+e de infraestrutura são mais acentuadas.
 
-A justificativa para este estudo reside na relevância prática da otimização de rotas no setor público, contribuindo para a economia de recursos, aumento da produtividade e melhoria na prestação de serviços à população. Além disso, a aplicação de técnicas heurísticas permite obter soluções satisfatórias mesmo em cenários com grande número de pontos, onde métodos exatos se tornam inviáveis.
+O desafio consiste em determinar a rota mais eficiente para que 
+profissionais da prefeitura percorram todos os pontos de visitação necessários e retornem ao ponto de origem, 
+minimizando a distância total percorrida e, consequentemente, o tempo e os custos operacionais.
 
 \section{Objetivos}
 
-Diante desse contexto, o objetivo desse trabalho consiste em identificar um algoritmo que seja capaz de gerar rotas otimizadas para a visitação de ativos públicos por profissionais da prefeitura.
+% Diante dessa problemática, o presente trabalho propõe o desenvolvimento de uma solução algorítmica 
+% baseada em técnicas heurísticas para resolver o Problema do Caixeiro Viajante (\textit{Traveling Salesman Problem} -- TSP) 
+% aplicado à gestão de ativos públicos municipais. 
+
+Diante do contexto apresentado, o objetivo geral deste trabalho consiste em desenvolver e avaliar um algoritmo 
+capaz de gerar rotas otimizadas para a visitação de ativos públicos por profissionais da administração municipal, 
+aplicando técnicas heurísticas para resolver o Problema do Caixeiro Viajante (\textit{Traveling Salesman Problem} -- TSP) 
+adaptado à realidade da gestão pública.
 
 \subsection{Objetivos específicos}
-    Os objetivos específicos incluem:
+    Para alcançar o objetivo geral, estabelecem-se os seguintes objetivos específicos:
 \begin{itemize}
-    \item Identificar as principais características do caixeiro viajante e suas aplicações no contexto da gestão pública;
-    \item Identificar os principais trabalhos alinhados a esta pesquisa bem como as técnicas adotadas por eles;
-    \item Obter um algoritmo para geração de rotas;
-    \item Obter uma avaliação dos algoritmos com base na análise comparativa realizada com o conjunto de dados de ativos municipais.
+    \item Realizar uma revisão sistemática da literatura para identificar os principais trabalhos relacionados 
+    à otimização de rotas em contextos urbanos e cidades inteligentes, bem como as técnicas e algoritmos empregados;
+    \item Identificar o Problema do Caixeiro Viajante e suas variantes, contextualizando suas 
+    aplicações na gestão de ativos públicos municipais;
+    \item Obter um algoritmo heurístico para geração de rotas otimizadas, 
+    considerando as especificidades da gestão pública;
+    \item Obter uma avaliação do desempenho do algoritmo desenvolvido por meio de análise comparativa utilizando 
+    dados de ativos municipais;
+    % \item Analisar a viabilidade prática da solução proposta para aplicação em prefeituras de pequeno e médio porte.
 \end{itemize}
 
 \section{Justificativa}
+
+A relevância deste trabalho fundamenta-se em múltiplas dimensões que abrangem aspectos técnicos, econômicos e sociais. 
+Do ponto de vista técnico, o Problema do Caixeiro Viajante representa um desafio clássico da ciência da computação, 
+classificado como NP-difícil, cuja solução exata torna-se impraticável para instâncias de grande porte. 
+A aplicação de técnicas heurísticas permite obter soluções de boa qualidade em tempo computacional razoável, 
+viabilizando sua implementação em contextos práticos.
+
+No âmbito econômico, a otimização de rotas contribui diretamente para a redução de custos operacionais 
+no setor público. A economia gerada pela minimização das distâncias percorridas reflete-se na diminuição 
+do consumo de combustível, na redução do desgaste dos veículos e no aproveitamento mais eficiente do 
+tempo dos profissionais. Essa otimização representa uma ferramenta estratégica para maximizar a eficiência 
+dos recursos disponíveis.
+
+Sob a perspectiva social, a melhoria na eficiência operacional da administração pública impacta 
+diretamente a qualidade dos serviços prestados à população. Rotas otimizadas permitem maior agilidade 
+no atendimento às demandas de manutenção urbana, reduzindo o tempo de resposta e aumentando a 
+capacidade de atendimento das equipes municipais. Esse ganho de eficiência fortalece a confiança 
+da população nas instituições públicas e contribui para a melhoria da qualidade de vida nos centros urbanos.
+
+Além disso, este trabalho insere-se no contexto contemporâneo das cidades inteligentes, 
+onde a aplicação de tecnologias da informação e técnicas de otimização tornam-se instrumentos 
+essenciais para a modernização da gestão pública. A solução proposta pode ser adaptada
+e replicada em diversos municípios, especialmente aqueles de pequeno e médio porte, 
+democratizando o acesso a ferramentas tecnológicas que promovam eficiência administrativa 
+e transparência na gestão dos recursos públicos.
+
 \section{Organização do Trabalho}
+
+Este trabalho está estruturado em cinco capítulos, organizados de forma a proporcionar uma compreensão 
+progressiva e sistemática do tema abordado.
+
+O Capítulo 1 apresenta a contextualização do problema, os objetivos da pesquisa, 
+a justificativa e a organização geral do trabalho, fornecendo uma visão panorâmica 
+dos elementos centrais desta investigação.
+
+O Capítulo 2 expõe a fundamentação teórica necessária para a compreensão do trabalho,
+abordando os conceitos de cidades inteligentes, gestão de ativos públicos, zeladoria 
+urbana, métodos de otimização e teoria dos grafos. São apresentados os principais 
+algoritmos de busca e técnicas heurísticas relevantes para a resolução do problema proposto.
+
+O Capítulo 3 descreve a revisão sistemática da literatura realizada, detalhando as 
+etapas de planejamento, condução e análise dos resultados. São apresentados os principais 
+trabalhos relacionados à otimização de rotas em contextos urbanos e cidades inteligentes, identificando estratégias 
+metodológicas, algoritmos empregados e lacunas de pesquisa.
+
+O Capítulo 4 apresenta a metodologia empregada no desenvolvimento da solução, descrevendo 
+o algoritmo proposto, os dados utilizados, os procedimentos de implementação e os critérios 
+de avaliação de desempenho.
+
+Por fim, o Capítulo 5 consolida as conclusões do trabalho, sintetizando os principais 
+resultados obtidos, discutindo as limitações da pesquisa e apontando direções para trabalhos futuros.
 
 % Estudar e selecionar uma heurística adequada para a resolução do problema;
 
