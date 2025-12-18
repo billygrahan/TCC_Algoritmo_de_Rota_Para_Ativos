@@ -17,27 +17,28 @@ busca; definição das bases de dados e definição dos critérios de inclusão 
 assim, nas próximas seções, serão descritos os passos deste protocolo.
 
 \subsection{Definição de Questões de Pesquisa}
-\textbf{QP1} - Qual a estratégia adotada no trabalho? 
-    \begin{itemize}
+\textbf{\gls{QP}1} - Qual a estratégia adotada no trabalho? 
+    \begin{alineascomponto}
         \item Criação de um framework
         \item Simulação
         \item Análise conceitual de algum tema relacionado às cidades inteligentes
         \item Análise de dados
         \item Abordagem com internet das coisas
         \item Desenvolvimento/uso de algoritmos de otimização
-    \end{itemize}
-\textbf{QP2} - Qual(is) algoritmo(s) adotado(s) no trabalho? 
-    \begin{itemize}
+    \end{alineascomponto}
+    
+\textbf{\gls{QP}2} - Qual(is) algoritmo(s) adotado(s) no trabalho? 
+    \begin{alineascomponto}
         \item Algoritmo genético
         \item Busca local
         \item Colônia de formigas
         \item Grasp
         \item Programação linear
         \item Algoritmo Híbrido
-    \end{itemize}
+    \end{alineascomponto}
 
 \subsection{Definição da \textit{string} de busca}
-Após a definição das questões de pesquisas, foi definida a seguinte string de busca: \textit{"cidades inteligentes" AND "framework" AND "serviços" AND "centro urbano" }
+Após a definição das questões de pesquisas, foi definida a seguinte string de busca: \textit{"cidades inteligentes" AND "framework" AND "problema do caixeiro viajante" }
 
 
 \subsection{Definições de bases de dados}
@@ -82,16 +83,16 @@ Na fase de condução, foi colocado em prática o planejamento definido na seç�
 
     \begin{table}[]
     \centering
-    \caption{Tabela 1 - Quantidade de artigos em cada base de dados.}
+    \caption{Quantidade de artigos em cada base de dados.}
     \label{tab:quantidade-artigos}
     \begin{tabular}{|l|c|c|c|}
     \hline
     \multicolumn{1}{|c|}{\textbf{Base de dados}} & \textbf{Resultados da busca} & \textit{\textbf{Download}} & \textbf{Inclusão/Exclusão} \\ \hline
-    Google acadêmico                             & 97                           & 73                         & 5                          \\ \hline
-    Periódicos da capes                          & 6                            & 6                          & 1                          \\ \hline
-    SBC-OpenLib                                  & 11                           & 9                          & 5                          \\ \hline
+    Google acadêmico                             & 26                           & 13                         & 3                          \\ \hline
+    Periódicos da capes                          & 10                            & 6                          & 4                          \\ \hline
+    SBC-OpenLib                                  & 3                           & 3                          & 1                          \\ \hline
     \end{tabular}
-    \caption*{Fonte: Elaborado pelos autores (2025).}
+    \caption*{Fonte: Elaborado pelo autor (2025).}
     \end{table}
 
 
@@ -105,9 +106,9 @@ organizados de acordo com as duas questões de pesquisa estabelecidas.
 % somente 1 trabalho adotou a estratégia de criação de um framework que é: o trabalho de \cite{SILVA2024}, 
 % que os altores utilizaram APIs externas para calcular rotas entre pontos extratégicos para a resolução de Problemas de
 % Roteamento de Veículos.
-A Figura \ref{fig:qp1} apresenta um gráfico de barras com os resultados da QP1, referente às estratégias metodológicas 
+A Figura \ref{fig:qp1} apresenta um gráfico de barras com os resultados da \gls{QP}1, referente às estratégias metodológicas 
 adotadas nos trabalhos selecionados. Observa-se que apenas um estudo utilizou a estratégia de criação de \textit{framework}: 
-o trabalho de \cite{SILVA2024}, no qual os autores desenvolveram uma solução baseada em APIs externas para calcular 
+o trabalho de \cite{SILVA2024}, no qual os autores desenvolveram uma solução baseada em \gls{API}s externas para calcular 
 rotas entre pontos estratégicos visando a resolução de Problemas de Roteamento de Veículos. 
 
 % Outra Alternativa da QP1 é o Desenvolvimento e/ou Uso de algoritmos de otimização, que foi a estratégia mais 
@@ -133,7 +134,7 @@ método heurístico híbrido para resolver aproximadamente o Problema do Caixeir
 		\UFCfig{}{
 			\fbox{\includegraphics[width=16cm]{figuras/qp1.png}}
 		}{
-			\Fonte{elaborada pelos autores (2025).}
+			\Fonte{elaborada pelo autor (2025).}
 		}	
     \end{figure}
 
@@ -159,10 +160,10 @@ modelo conceitual do Problema do Caixeiro Viajante para reordenação dos pontos
 % O trabalho de \cite{BARTH2016} Adotou o algoritmo Colônia de formigas em seu projeto de redes híbridas para cidades inteligentes;
 % Os trabalhos de \cite{VILLELA2017} e \cite{CHAVES2007} adotaram os algoritmos Genético e hibrido de Grasp com outros métodos de Otimização para refinar a solução construida, respectivamente,
 % para resolverem vairantes do problema do caixairo viajante; e o trabalho de \cite{SATI2020} adotou a Programação Linear para resolver o problema de roteamento de veículos em centros urbanos.
-A Figura \ref{fig:qp2} apresenta um gráfico de barras com os resultados da QP2, referente aos algoritmos 
+A Figura \ref{fig:qp2} apresenta um gráfico de barras com os resultados da \gls{QP}2, referente aos algoritmos 
 adotados nos trabalhos selecionados. \cite{PAZ2023} utilizou o Algoritmo Genético combinado com conceitos 
 de probabilidade para otimização de rotas e, para fins comparativos, também empregou os algoritmos Colônia 
-de Formigas, GRASP, A* (A estrela) e Dijkstra. \cite{BARTH2016} adotou o algoritmo Colônia de Formigas em 
+de Formigas, \gls{GRASP}, A* (A estrela) e Dijkstra. \cite{BARTH2016} adotou o algoritmo Colônia de Formigas em 
 seu projeto de redes híbridas para cidades inteligentes. \cite{VILLELA2017} e \cite{CHAVES2007} utilizaram,
  respectivamente, o Algoritmo Genético e um método híbrido de GRASP com outras técnicas de otimização para 
  refinar a solução construída, ambos aplicados à resolução de variantes do Problema do Caixeiro Viajante. 

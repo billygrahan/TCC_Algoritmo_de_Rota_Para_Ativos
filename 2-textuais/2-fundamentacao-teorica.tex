@@ -30,9 +30,9 @@ desafios contemporâneos das cidades \cite{CARVALHO2024}.
 
 A governança inteligente refere-se à aplicação de tecnologias digitais para promover a 
 participação cidadã, transparência administrativa e eficiência na gestão pública. Neste eixo, 
-sistemas de informação permitem que gestores públicos tomem decisões baseadas em dados, 
+os sistemas de informação permitem que gestores públicos tomem decisões baseadas em dados, 
 realizem o monitoramento de serviços em tempo real e promovam a interação direta com a 
-população \cite{WEISS2015}. Ferramentas como dashboards interativos e plataformas de dados 
+população \cite{WEISS2015}. Ferramentas como \textit{dashboards} interativos e plataformas de dados 
 abertos são exemplos de aplicações que facilitam o acesso à informação e fortalecem a 
 democracia participativa \cite{DIAS2019}. A gestão orientada por dados contribui para a 
 otimização de recursos públicos e para o planejamento estratégico de longo prazo, especialmente 
@@ -42,7 +42,7 @@ em contextos de restrição orçamentária.
 
 A mobilidade urbana inteligente integra sistemas de transporte, tecnologias de 
 geolocalização e análise de dados para otimizar o deslocamento de pessoas e bens nas cidades. 
-Sistemas Inteligentes de Transporte (ITS, do inglês \textit{Intelligent Transportation Systems}) 
+Sistemas Inteligentes de Transporte (\gls{ITS}, do inglês \textit{Intelligent Transportation Systems}) 
 utilizam sensores, câmeras e algoritmos de análise para monitorar o fluxo de tráfego, identificar 
 congestionamentos e propor rotas alternativas \cite{COSTA2023}. Além disso, soluções de 
 estacionamento inteligente baseadas em sistemas ciber-físicos e agentes inteligentes contribuem 
@@ -55,13 +55,13 @@ da mobilidade, auxiliando no planejamento de intervenções estruturantes no sis
 
 O eixo de urbanismo inteligente envolve o uso de geotecnologias, modelagem de informações 
 urbanas e análise espacial para o planejamento e gestão do território urbano. A adoção de 
-metodologias como \textit{City Information Modeling} (CIM) permite a integração de dados 
+metodologias como \textit{City Information Modeling} (\gls{CIM}) permite a integração de dados 
 geoespaciais, infraestrutura urbana e informações socioeconômicas em modelos tridimensionais 
 que auxiliam gestores no planejamento territorial e na tomada de decisões \cite{SANTIAGO2023}. 
 Aplicações mobile para relato de problemas urbanos por parte da população, integradas a sistemas 
 de geolocalização, possibilitam o mapeamento colaborativo de demandas e a priorização de 
 intervenções no espaço urbano \cite{SANTOS2019}. A simulação urbana integrada a sistemas 
-multi-agentes e Internet das Coisas (IoT) permite testar cenários de desenvolvimento urbano 
+multi-agentes e Internet das Coisas (\gls{IoT}) permite testar cenários de desenvolvimento urbano 
 antes de sua implementação física \cite{CASTRO2020}. 
 
 
@@ -89,7 +89,7 @@ No contexto das cidades inteligentes, a gestão de ativos públicos torna-se est
 garantir a qualidade dos serviços urbanos e a otimização dos recursos públicos. O gerenciamento 
 eficaz desses ativos demanda sistemas de informação capazes de permitir o acompanhamento em 
 tempo real, com dados precisos de localização, estado de conservação e histórico de ações 
-realizadas. A integração de tecnologias de geolocalização, sensores IoT e plataformas de 
+realizadas. A integração de tecnologias de geolocalização, sensores \gls{IoT} e plataformas de 
 gerenciamento permite que gestores públicos tenham visibilidade completa sobre o patrimônio 
 municipal \cite{SANTIAGO2023}.
 
@@ -133,9 +133,9 @@ baseada em critérios objetivos e o acompanhamento transparente do andamento das
 
 \section{Métodos de Otimização}
 
-Problemas de otimização são fundamentais na ciência da computação e em diversas aplicações 
-práticas, como o planejamento de rotas, alocação de recursos e scheduling. Esses problemas 
-buscam encontrar a melhor solução dentre um conjunto de soluções possíveis, de acordo com 
+Problemas de otimização são encontrados em diversas aplicações 
+práticas, como o planejamento de rotas, alocação de recursos e \textit{scheduling}. Esses problemas 
+buscam encontrar uma solução factível dentre um conjunto de soluções possíveis, de acordo com 
 determinado critério de otimização \cite{CORMEN2012}. Os métodos para resolver problemas 
 de otimização podem ser classificados em diferentes categorias, cada uma com características, 
 vantagens e limitações específicas.
@@ -152,7 +152,7 @@ Entre as principais técnicas exatas, destacam-se:
 \begin{itemize}
     \item \textbf{Enumeração Completa:} Consiste em avaliar todas as soluções possíveis e 
     selecionar a melhor. Embora garanta a solução ótima, torna-se impraticável para problemas 
-    com grande espaço de busca, devido ao crescimento exponencial do número de soluções.
+    com grande espaço de busca, pois geralmente possuem um crescimento exponencial do número de soluções.
     
     \item \textbf{Programação Dinâmica:} Técnica que resolve problemas complexos dividindo-os 
     em subproblemas menores e armazenando os resultados desses subproblemas para evitar 
@@ -170,7 +170,7 @@ Entre as principais técnicas exatas, destacam-se:
     esta última geralmente mais complexa computacionalmente.
 \end{itemize}
 
-A principal limitação dos métodos exatos é a complexidade computacional. Muitos problemas 
+A principal limitação dos métodos exatos é a complexidade computacional. Parte dos problemas 
 de otimização pertencem à classe NP-difícil, onde não se conhece algoritmo que encontre a 
 solução ótima em tempo polinomial. Para instâncias de grande porte, o tempo necessário para 
 obter a solução ótima pode ser impraticável, motivando o uso de métodos aproximados 
@@ -191,7 +191,7 @@ As principais características das heurísticas incluem:
     \item \textbf{Qualidade de solução:} Embora não garantam a solução ótima, frequentemente 
     produzem soluções de boa qualidade, próximas ao ótimo.
     
-    \item \textbf{Especificidade:} Muitas heurísticas são desenvolvidas explorando características 
+    \item \textbf{Especificidade:} Parte das heurísticas são desenvolvidas explorando características 
     específicas do problema, tornando-as eficazes para determinados tipos de instâncias.
 \end{itemize}
 
@@ -214,7 +214,7 @@ solução, tempo disponível para computação e recursos computacionais \cite{C
 
 \subsubsection{Algoritmos Genéticos}
 
-Os Algoritmos Genéticos (AG) constituem uma meta-heurística inspirada nos princípios da 
+Os Algoritmos Genéticos (\gls{AG}) constituem uma meta-heurística inspirada nos princípios da 
 evolução biológica, simulando o processo de seleção natural para evoluir uma população de 
 soluções candidatas ao longo de gerações sucessivas \cite{RUSSELL2013}. São particularmente 
 eficazes para problemas de otimização combinatória NP-difíceis, como o problema do caixeiro 
@@ -234,8 +234,8 @@ O algoritmo opera através de três operadores genéticos fundamentais:
     aptidão. Métodos comuns incluem seleção por torneio, roleta e ranking.
     
     \item \textbf{Cruzamento (\textit{Crossover}):} Combina características de dois 
-    cromossomos pais para gerar descendentes. Para problemas de permutação como o TSP, 
-    utiliza-se técnicas como o Cruzamento de Ordem (OX), que preserva a ordem relativa dos 
+    cromossomos pais para gerar descendentes. Para problemas de permutação como o \gls{TSP}, 
+    utiliza-se técnicas como o Cruzamento de Ordem (\gls{OX}), que preserva a ordem relativa dos 
     elementos. Outras variantes incluem cruzamento de um ponto, dois pontos e uniforme.
     
     \item \textbf{Mutação:} Introduz pequenas alterações aleatórias nos cromossomos (como 
@@ -256,10 +256,7 @@ número de pontos, onde métodos exatos seriam inviáveis. Suas principais vanta
 exploração simultânea do espaço de soluções, robustez a ótimos locais, flexibilidade para 
 diferentes representações e capacidade de paralelização \cite{CORMEN2012}.
 
-
-\section{Teoria dos Grafos e Algoritmos de Busca}
-
-\subsection{Conceitos Fundamentais de Grafos}
+\section{Teoria dos Grafos}
 
 Um grafo é uma estrutura matemática utilizada para modelar relações entre objetos, sendo 
 amplamente empregado na ciência da computação para representar redes, mapas, circuitos e 
@@ -278,7 +275,7 @@ ordenado $G = (V, E)$, onde:
 
 Os grafos podem ser classificados segundo diferentes critérios \cite{CORMEN2012}:
 
-\paragraph{Grafos Direcionados e Não-Direcionados}
+\subsection{Grafos Direcionados e Não-Direcionados}
 
 \begin{itemize}
     \item \textbf{Grafo Não-Direcionado:} As arestas não possuem direção, ou seja, a aresta 
@@ -290,7 +287,38 @@ Os grafos podem ser classificados segundo diferentes critérios \cite{CORMEN2012
     $v$ para $u$. Útil para modelar ruas de mão única, dependências entre tarefas, etc.
 \end{itemize}
 
-\paragraph{Grafos Ponderados}
+A Figura \ref{fig:grafo-nao-direcionado} ilustra duas representações de um grafo não 
+direcionado: o grafo propriamente dito, sua representação por lista de adjacências e por 
+matriz de adjacências. Já a Figura \ref{fig:grafo-direcionado} apresenta as mesmas 
+representações para um grafo direcionado, evidenciando o sentido das conexões através de setas.
+
+\begin{figure}[h!]
+    \centering
+    \captionsetup{width=14cm}
+    \Caption{\label{fig:grafo-nao-direcionado} Duas representações de um grafo não dirigido. 
+    (a) Um grafo não dirigido G com cinco vértices e sete arestas. (b) Uma representação de G 
+    por lista de adjacências. (c) A representação de G por matriz de adjacências}
+    \UFCfig{}{
+        \includegraphics[width=14cm]{figuras/Grafo_nao_direcionado}
+    }{
+        \Fonte{\cite{CORMEN2012}.}
+    }
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \captionsetup{width=14cm}
+    \Caption{\label{fig:grafo-direcionado} Duas representações de um grafo dirigido. 
+    (a) Um grafo dirigido G com seis vértices e oito arestas. (b) Uma representação de G 
+    por lista de adjacências. (c) A representação de G por matriz de adjacências}
+    \UFCfig{}{
+        \includegraphics[width=14cm]{figuras/Grafo_direcionado}
+    }{
+        \Fonte{\cite{CORMEN2012}.}
+    }
+\end{figure}
+
+\subsection{Grafos Ponderados}
 
 Em muitas aplicações práticas, as arestas possuem pesos ou custos associados. Um grafo 
 ponderado é aquele em que existe uma função $w: E \rightarrow \mathbb{R}$ que atribui um 
@@ -303,7 +331,7 @@ valor numérico a cada aresta \cite{CORMEN2012}. Esses pesos podem representar:
     \item Capacidade de transmissão de dados em redes.
 \end{itemize}
 
-\paragraph{Conceitos Adicionais}
+\subsection{Conceitos Adicionais}
 
 \begin{itemize}
     \item \textbf{Adjacência:} Dois vértices são adjacentes se existe uma aresta conectando-os.
@@ -321,7 +349,7 @@ valor numérico a cada aresta \cite{CORMEN2012}. Esses pesos podem representar:
     par de vértices.
 \end{itemize}
 
-\paragraph{Representação Computacional}
+\subsection{Representação Computacional}
 
 Grafos podem ser representados computacionalmente de duas formas principais \cite{CORMEN2012}:
 
@@ -338,11 +366,15 @@ Os algoritmos de busca em grafos são fundamentais para resolver problemas de ca
 conectividade, detecção de ciclos e otimização de rotas, constituindo ferramentas essenciais 
 para aplicações em logística, redes de computadores e planejamento urbano \cite{CORMEN2012}.
 
+\section{Algoritmos de Busca}
+Nessa seção, seram apresentados alguns dos principais algoritmos de busca em grafos, sendo eles a Busca em Largura (BFS), 
+a Busca em Profundidade (DFS), a Busca de Custo Uniforme (UCS) e o Algoritmo A* (A Estrela).
+
 \subsection{Busca em Largura (BFS)}
 
-A Busca em Largura (\textit{Breadth-First Search} - BFS) explora o grafo sistematicamente 
+A Busca em Largura (\textit{Breadth-First Search} - \gls{BFS}) explora o grafo sistematicamente 
 visitando todos os vértices a uma mesma distância da origem antes de avançar para níveis mais 
-profundos \cite{CORMEN2012}. O algoritmo utiliza uma estrutura de fila (FIFO - \textit{First In, 
+profundos \cite{CORMEN2012}. O algoritmo utiliza uma estrutura de fila (\gls{FIFO} - \textit{First In, 
 First Out}) para controlar a ordem de visitação dos vértices.
 
 A complexidade de tempo da BFS é $O(V + E)$, onde $V$ é o número de vértices e $E$ é o 
@@ -372,16 +404,16 @@ mostrando a ordem de visitação dos vértices nível por nível.
 
 \subsection{Busca em Profundidade (DFS)}
 
-A Busca em Profundidade (\textit{Depth-First Search} - DFS) percorre o grafo explorando o 
+A Busca em Profundidade (\textit{Depth-First Search} - \gls{DFS}) percorre o grafo explorando o 
 máximo possível cada caminho antes de retroceder \cite{CORMEN2012}. Pode ser implementada 
-recursivamente ou utilizando uma pilha (LIFO - \textit{Last In, First Out}). A DFS também possui 
+recursivamente ou utilizando uma pilha (\gls{LIFO} - \textit{Last In, First Out}). A \gls{DFS} também possui 
 complexidade $O(V + E)$.
 
-A DFS é especialmente adequada para:
+A \gls{DFS} é especialmente adequada para:
 
 \begin{itemize}
     \item Detecção de ciclos em grafos direcionados e não direcionados;
-    \item Ordenação topológica em grafos acíclicos direcionados (DAG);
+    \item Ordenação topológica em grafos acíclicos direcionados (\gls{DAG});
     \item Decomposição de grafos em componentes fortemente conexos;
     \item Resolução de quebra-cabeças e problemas que exigem exploração de todas as 
     possibilidades, como labirintos.
@@ -403,8 +435,8 @@ como o algoritmo explora cada ramo até seu limite antes de retroceder.
 
 \subsection{Busca de Custo Uniforme}
 
-A Busca de Custo Uniforme (\textit{Uniform-Cost Search} - UCS) é uma estratégia de busca 
-que expande o nó com menor custo de caminho acumulado, sendo uma generalização da BFS para 
+A Busca de Custo Uniforme (\textit{Uniform-Cost Search} - \gls{UCS}) é uma estratégia de busca 
+que expande o nó com menor custo de caminho acumulado, sendo uma generalização da \gls{BFS} para 
 grafos com arestas de diferentes custos \cite{RUSSELL2013}. Diferentemente da BFS, que trata 
 todas as arestas igualmente, a UCS considera os pesos associados às arestas para determinar 
 a ordem de expansão dos nós.
@@ -417,7 +449,7 @@ arestas são não-negativos \cite{RUSSELL2013}.
 
 A complexidade de tempo e espaço da busca de custo uniforme é $O(b^{1+\lfloor C^*/\epsilon \rfloor})$, 
 onde $b$ é o fator de ramificação, $C^*$ é o custo da solução ótima, e $\epsilon$ é o menor 
-custo de aresta. Na prática, com implementação eficiente usando heap binário, a complexidade 
+custo de aresta. Na prática, com implementação eficiente usando \textit{heap} binário, a complexidade 
 é $O((V + E) \log V)$.
 
 A UCS é particularmente adequada para:
