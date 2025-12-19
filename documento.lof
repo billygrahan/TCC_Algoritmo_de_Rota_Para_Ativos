@@ -1,10 +1,7 @@
 \babel@toc {brazil}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Duas representações de um grafo não dirigido. (a) Um grafo não dirigido G com cinco vértices e sete arestas. (b) Uma representação de G por lista de adjacências. (c) A representação de G por matriz de adjacências}}{23}{figure.caption.11}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Duas representações de um grafo dirigido. (a) Um grafo dirigido G com seis vértices e oito arestas. (b) Uma representação de G por lista de adjacências. (c) A representação de G por matriz de adjacências}}{23}{figure.caption.12}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Exemplo de execução da Busca em Largura (BFS) em um grafo}}{25}{figure.caption.13}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Exemplo de execução da Busca em Profundidade (DFS) em um grafo}}{26}{figure.caption.14}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Exemplo de aplicação do algoritmo A* no problema de roteamento entre cidades da Romênia}}{28}{figure.caption.15}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Resultados da Questão de Pesquisa 1 (QP1).}}{32}{figure.caption.18}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Resultados da Questão de Pesquisa 2 (QP2).}}{33}{figure.caption.19}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Gráfico de tensão considerando a impedância humana}}{39}{figure.caption.20}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Produção anual das dissertações de mestrado e teses de doutorado entre os anos de 1990 e 2008}}{40}{figure.caption.21}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Exemplo de execução da Busca em Largura (BFS) em um grafo}}{25}{figure.caption.11}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de execução da Busca em Profundidade (DFS) em um grafo}}{26}{figure.caption.12}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Resultados da Questão de Pesquisa 1 (QP1).}}{31}{figure.caption.15}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Resultados da Questão de Pesquisa 2 (QP2).}}{32}{figure.caption.16}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Gráfico de tensão considerando a impedância humana}}{38}{figure.caption.17}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Produção anual das dissertações de mestrado e teses de doutorado entre os anos de 1990 e 2008}}{39}{figure.caption.18}%
