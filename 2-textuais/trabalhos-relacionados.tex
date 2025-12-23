@@ -11,15 +11,16 @@ da pesquisa foi organizada em três etapas: Planejamento, Condução e Resultado
 descritas nas próximas seções. 
 
 \section{Planejamento}
-Segundo \cite{KITCHENHAM2009}, o Planejamento é a etapa de definição de cada passo 
+Segundo \citeonline{KITCHENHAM2009}, o Planejamento é a etapa de definição de cada passo 
 do protocolo, que consiste em: definição das Questões de Pesquisa; definição da \textit{string} de 
 busca; definição das bases de dados e definição dos critérios de inclusão e exclusão. Sendo 
 assim, nas próximas seções, serão descritos os passos deste protocolo.
 
-\subsection{Definição de Questões de Pesquisa}
+\subsection{Definição de Questões de Pesquisa (\gls{QP})}
+
 \textbf{\gls{QP}1} - Qual a estratégia adotada no trabalho? 
     \begin{alineascomponto}
-        \item Criação de um framework
+        \item Criação de um \textit{framework}
         \item Simulação
         \item Análise de dados
         \item Abordagem com internet das coisas
@@ -33,14 +34,15 @@ assim, nas próximas seções, serão descritos os passos deste protocolo.
         \item Grasp
         \item Programação linear
         \item Algoritmo Híbrido
+        \item Não se aplica
     \end{alineascomponto}
 
 \subsection{Definição da \textit{string} de busca}
-Após a definição das questões de pesquisas, foi definida a seguinte string de busca: \textit{"cidades inteligentes" AND "framework" AND "problema do caixeiro viajante" }
+Após a definição das questões de pesquisas, foi definida a seguinte \textit{string} de busca: \textit{"cidades inteligentes" AND "framework" AND "problema do caixeiro viajante" }
 
 
 \subsection{Definições de bases de dados}
-De posse da string de busca, foram selecionadas as bases de dados, conforme mostra o Quadro \ref{Bases}:
+De posse da \textit{string} de busca, foram selecionadas as bases de dados, conforme mostra o Quadro \ref{Bases}:
 	\begin{quadro}[h!]	
 		\centering
 		\Caption{\label{Bases} Bases de dados selecionadas. }		
@@ -61,23 +63,29 @@ De posse da string de busca, foram selecionadas as bases de dados, conforme most
 \subsection{Definição dos critérios de inclusão e exclusão}
 \label{cap:questoes-de-pesquisa}
 Para concluir essa etapa do planejamento, foram definidos os critérios de inclusão e exclusão que todos os artigos deverão satisfazer. Os critérios definidos são: 
+
 \textbf{Critérios de inclusão: }
-\begin{itemize}
-    \item Estudos completos publicados em revistas ou conferências alinhados ao problema de pesquisa;
-    \item Estudos teóricos ou experimentais com o objetivo de apresentar conceitos para o entendimento da área;
-    \item Acessível eletronicamente e ter sido publicado no período de 2015 a 2025.
-\end{itemize}
+    \begin{itemize}
+        \item Estudos completos publicados em revistas ou conferências alinhados ao problema de pesquisa;
+        \item Estudos teóricos ou experimentais com o objetivo de apresentar conceitos para o entendimento da área;
+        \item Acessível eletronicamente e ter sido publicado no período de 2015 a 2025.
+    \end{itemize}
+
 \textbf{Critérios de exclusão: }
-\begin{itemize}
-    \item Estudos que não estejam relacionados ao problema de pesquisa;
-    \item Estudos que não respondem a nenhuma das questões de pesquisa;
-    \item Artigos duplicados, ou seja, aqueles encontrados em mais de uma base de dados;
-    \item Artigos convidados, tutoriais, relatórios técnicos que não passam pelo critério de avaliação das conferências ou revistas;
-    \item Estudos não disponíveis para download.
-\end{itemize}
+    \begin{itemize}
+        \item Estudos que não estejam relacionados ao problema de pesquisa;
+        \item Estudos que não respondem a nenhuma das questões de pesquisa;
+        \item Artigos duplicados, ou seja, aqueles encontrados em mais de uma base de dados;
+        \item Artigos convidados, tutoriais, relatórios técnicos que não passam pelo critério de avaliação das conferências ou revistas;
+        \item Estudos não disponíveis para \textit{download}.
+    \end{itemize}
 
 \section{Condução}
-Na fase de condução, foi colocado em prática o planejamento definido na seção de Planejamento, dessa forma, a \textit{string} de busca foi inserida em cada base de dados, respeitando as especificações de cada base. De posse dos resultados da busca, foi realizado o \textit{download} dos estudos disponíveis. Em seguida, os trabalhos passaram pelos critérios de inclusão e exclusão. Na Tabela \ref{tab:quantidade-artigos}, é possível identificar a quantidade de trabalhos em cada base durante a busca, a realização do \textit{download} e a aplicação dos critérios de inclusão e exclusão.
+Na fase de condução, foi colocado em prática o planejamento definido na seção de Planejamento, dessa forma, a \textit{string} de busca 
+foi inserida em cada base de dados, respeitando as especificações de cada base. De posse dos resultados da busca, foi realizado 
+o \textit{download} dos estudos disponíveis. Em seguida, os trabalhos passaram pelos critérios de inclusão e exclusão. 
+Na Tabela \ref{tab:quantidade-artigos}, é possível identificar a quantidade de trabalhos em cada base durante a busca, 
+a realização do \textit{download} e a aplicação dos critérios de inclusão e exclusão.
 
     \begin{table}[]
     \centering
@@ -106,7 +114,7 @@ organizados de acordo com as duas questões de pesquisa estabelecidas.
 % Roteamento de Veículos.
 A Figura \ref{fig:qp1} apresenta um gráfico de barras com os resultados da \gls{QP}1, referente às estratégias metodológicas 
 adotadas nos trabalhos selecionados. Observa-se que apenas um estudo utilizou a estratégia de criação de \textit{framework}: 
-o trabalho de \cite{SILVA2024}, no qual os autores desenvolveram uma solução baseada em \gls{API}s externas para calcular 
+o trabalho de \citeonline{SILVA2024}, no qual os autores desenvolveram uma solução baseada em \gls{API}s externas para calcular 
 rotas entre pontos estratégicos visando a resolução de Problemas de Roteamento de Veículos. 
 
 % Outra Alternativa da QP1 é o Desenvolvimento e/ou Uso de algoritmos de otimização, que foi a estratégia mais 
@@ -116,18 +124,18 @@ rotas entre pontos estratégicos visando a resolução de Problemas de Roteament
 % resolver o problema do caixairo viajante em centros urbanos no contexto da entrega dos correios; \cite{VILLELA2017}, que propõe um algoritmo
 % para resolver uma variação do problema do caixeiro viajante, o caixeiro alugador, para otimizar viagens utilizando aluguel de veiculos entre cidades; 
 % e \cite{CHAVES2007} um método heurístico híbrido, para resolver aproximadamente o Problema do Caixeiro Viajante com Coleta de Prêmios.
-A estratégia mais prevalente identificada na QP1 foi o desenvolvimento e/ou uso de algoritmos de otimização, 
-totalizando quatro trabalhos. \cite{PAZ2023} desenvolveu um algoritmo para otimizar o transporte urbano 
+A estratégia mais prevalente identificada na \gls{QP}1 foi o desenvolvimento e/ou uso de algoritmos de otimização, 
+totalizando quatro trabalhos. \citeonline{PAZ2023} desenvolveu um algoritmo para otimizar o transporte urbano 
 considerando o menor trajeto no menor tempo possível, evitando gargalos como congestionamentos. 
-\cite{SILVA2022} utilizou a ferramenta externas de código aberto para resolver o Problema 
-do Caixeiro Viajante em centros urbanos, aplicado ao contexto de entregas dos correios. \cite{VILLELA2017} 
+\citeonline{SILVA2022} utilizou a ferramenta externas de código aberto para resolver o Problema 
+do Caixeiro Viajante em centros urbanos, aplicado ao contexto de entregas dos correios. \citeonline{VILLELA2017} 
 propôs um algoritmo para resolver uma variação do Problema do Caixeiro Viajante, denominada Caixeiro Alugador, 
-visando otimizar viagens com aluguel de veículos entre cidades. Por fim, \cite{CHAVES2007} apresentou um 
+visando otimizar viagens com aluguel de veículos entre cidades. Por fim, \citeonline{CHAVES2007} apresentou um 
 método heurístico híbrido para resolver aproximadamente o Problema do Caixeiro Viajante com Coleta de Prêmios.
 
 	\begin{figure}[]
         \captionsetup{width=16cm}
-		\Caption{\label{fig:qp1} Resultados da Questão de Pesquisa 1 (QP1).}
+		\Caption{\label{fig:qp1} Resultados da \gls{QP}1.}
 		%\centering
 		\UFCfig{}{
 			\fbox{\includegraphics[width=16cm]{figuras/qp1.png}}
@@ -142,13 +150,13 @@ método heurístico híbrido para resolver aproximadamente o Problema do Caixeir
 % benefícios de cada um deles para resulução do problema de roteamento de veículos em centros urbanos para transporte de funcionarios.
 % Na alternativa analize de dados o trabalho de \cite{GEORGES2014} apresenta um estudo das rotas de coleta 
 % de materiais recicláveis de uma cooperativa, utilizando apenas um modelo conceitual do Caixeiro Viajante para reordenar os pontos de coleta.
-Ainda em relação à QP1, na alternativa de Abordagem com Internet das Coisas, 
-\cite{BARTH2016} desenvolveu uma metodologia para elaboração de um sistema computacional baseado 
+Ainda em relação à \gls{QP}1, na alternativa de Abordagem com Internet das Coisas, 
+\citeonline{BARTH2016} desenvolveu uma metodologia para elaboração de um sistema computacional baseado 
 em um conjunto de regras definidas por modelagem matemática, visando apoiar o projeto de redes 
 híbridas (ópticas e sem fio) para atendimento das demandas de cidades inteligentes. Na alternativa 
-de simulação, \cite{SATI2020} utilizou e comparou três diferentes modelos matemáticos, analisando 
+de simulação, \citeonline{SATI2020} utilizou e comparou três diferentes modelos matemáticos, analisando 
 os benefícios de cada um para a resolução do problema de roteamento de veículos em centros urbanos
-voltado ao transporte de funcionários. Quanto à alternativa de análise de dados, \cite{GEORGES2014} 
+voltado ao transporte de funcionários. Quanto à alternativa de análise de dados, \citeonline{GEORGES2014} 
 apresentou um estudo das rotas de coleta de materiais recicláveis de uma cooperativa, aplicando um 
 modelo conceitual do Problema do Caixeiro Viajante para reordenação dos pontos de coleta.
 
@@ -159,30 +167,30 @@ modelo conceitual do Problema do Caixeiro Viajante para reordenação dos pontos
 % Os trabalhos de \cite{VILLELA2017} e \cite{CHAVES2007} adotaram os algoritmos Genético e hibrido de Grasp com outros métodos de Otimização para refinar a solução construida, respectivamente,
 % para resolverem vairantes do problema do caixairo viajante; e o trabalho de \cite{SATI2020} adotou a Programação Linear para resolver o problema de roteamento de veículos em centros urbanos.
 A Figura \ref{fig:qp2} apresenta um gráfico de barras com os resultados da \gls{QP}2, referente aos algoritmos 
-adotados nos trabalhos selecionados. \cite{PAZ2023} utilizou o Algoritmo Genético combinado com conceitos 
+adotados nos trabalhos selecionados. \citeonline{PAZ2023} utilizou o Algoritmo Genético combinado com conceitos 
 de probabilidade para otimização de rotas e, para fins comparativos, também empregou os algoritmos Colônia 
-de Formigas, \gls{GRASP}, A* (A estrela) e Dijkstra. \cite{BARTH2016} adotou o algoritmo Colônia de Formigas em 
-seu projeto de redes híbridas para cidades inteligentes. \cite{VILLELA2017} e \cite{CHAVES2007} utilizaram,
+de Formigas, \gls{GRASP}, A* (A estrela) e Dijkstra. \citeonline{BARTH2016} adotou o algoritmo Colônia de Formigas em 
+seu projeto de redes híbridas para cidades inteligentes. \citeonline{VILLELA2017} e \citeonline{CHAVES2007} utilizaram,
  respectivamente, o Algoritmo Genético e um método híbrido de GRASP com outras técnicas de otimização para 
  refinar a solução construída, ambos aplicados à resolução de variantes do Problema do Caixeiro Viajante. 
- Por sua vez, \cite{SATI2020} adotou Programação Linear para resolver o problema de roteamento de veículos em centros urbanos.
+ Por sua vez, \citeonline{SATI2020} adotou Programação Linear para resolver o problema de roteamento de veículos em centros urbanos.
 
     \begin{figure}[]
         \captionsetup{width=16cm}
-		\Caption{\label{fig:qp2} Resultados da Questão de Pesquisa 2 (QP2).}
+		\Caption{\label{fig:qp2} Resultados da \gls{QP}2.}
 		%\centering
 		\UFCfig{}{
 			\fbox{\includegraphics[width=16cm]{figuras/qp2.png}}
 		}{
-			\Fonte{elaborada pelos autores (2025).}
+			\Fonte{elaborada pelo autor (2025).}
 		}	
     \end{figure}
 
 % Os demais trabalhos de \cite{SILVA2024}, \cite{SILVA2022} e \cite{GEORGES2014} não adotaram nenhum dos algoritmos listados na QP2, mas sim ferramentas
 % externas para a resolução dos problemas propostos como OR-Tools (software de código aberto do Google), OpenStreetMap, Open Source Routing Machine e/ou modelos 
 % conceituais mas sem aplicar ou fazer comparações diretamente.
-Os demais trabalhos, \cite{SILVA2024}, \cite{SILVA2022} e \cite{GEORGES2014}, não adotaram nenhum dos 
-algoritmos especificados na QP2. Estes estudos utilizaram ferramentas externas para resolução dos problemas 
+Os demais trabalhos, \citeonline{SILVA2024}, \citeonline{SILVA2022} e \citeonline{GEORGES2014}, não adotaram nenhum dos 
+algoritmos especificados na \gls{QP}2. Estes estudos utilizaram ferramentas externas para resolução dos problemas 
 propostos, tais como OR-Tools (\textit{software} de código aberto do Google), OpenStreetMap, Open Source 
 Routing Machine e/ou modelos conceituais, porém sem implementação direta de algoritmos ou realização de 
 análises comparativas entre diferentes abordagens.
@@ -210,7 +218,7 @@ urbanos.
 
 Os resultados evidenciaram também a crescente utilização de ferramentas e APIs externas, como 
 OR-Tools, OpenStreetMap e Open Source Routing Machine, que facilitam a implementação de soluções 
-práticas sem a necessidade de desenvolvimento de algoritmos do zero.
+práticas sem a necessidade de reimplentação dos algoritmos.
 
 Esta revisão forneceu subsídios importantes para o desenvolvimento do presente trabalho, 
 orientando tanto a escolha da abordagem metodológica quanto a seleção de técnicas de otimização 

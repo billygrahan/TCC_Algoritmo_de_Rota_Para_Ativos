@@ -1,4 +1,4 @@
-\chapter{Contextualização}
+\chapter{Fundamentação Teórica}
 \label{cap:fundamentacao-teorica}
 
 % Alguns autores preferem fazer uma ``fundamentação teórica'' no segundo capítulo, outros, preferem fazer uma ``revisão da literatura''. Entretanto, isto é particular de cada trabalho e o autor deve escolher o título mais adequado para o capítulo. Consultar o orientador é importante para determinar o título apropriado.
@@ -45,7 +45,7 @@ em contextos de restrição orçamentária.
 
 A mobilidade urbana inteligente integra sistemas de transporte, tecnologias de 
 geolocalização e análise de dados para otimizar o deslocamento de pessoas e bens nas cidades. 
-Sistemas Inteligentes de Transporte (\gls{ITS}, do inglês \textit{Intelligent Transportation Systems}) 
+Sistemas Inteligentes de Transporte (\gls{ITS}) 
 utilizam sensores, câmeras e algoritmos de análise para monitorar o fluxo de tráfego, identificar 
 congestionamentos e propor rotas alternativas \cite{COSTA2023}. Além disso, soluções de 
 estacionamento inteligente baseadas em sistemas ciber-físicos e agentes inteligentes contribuem 
@@ -58,10 +58,10 @@ da mobilidade, auxiliando no planejamento de intervenções estruturantes no sis
 
 O eixo de urbanismo inteligente envolve o uso de geotecnologias, modelagem de informações 
 urbanas e análise espacial para o planejamento e gestão do território urbano. A adoção de 
-metodologias como \textit{City Information Modeling} (\gls{CIM}) permite a integração de dados 
+metodologias como \gls{CIM} permite a integração de dados 
 geoespaciais, infraestrutura urbana e informações socioeconômicas em modelos tridimensionais 
 que auxiliam gestores no planejamento territorial e na tomada de decisões \cite{SANTIAGO2023}. 
-Aplicações mobile para relato de problemas urbanos por parte da população, integradas a sistemas 
+Aplicações \textit{mobile} para relato de problemas urbanos por parte da população, integradas a sistemas 
 de geolocalização, possibilitam o mapeamento colaborativo de demandas e a priorização de 
 intervenções no espaço urbano \cite{SANTOS2019}. A simulação urbana integrada a sistemas 
 multi-agentes e Internet das Coisas (\gls{IoT}) permite testar cenários de desenvolvimento urbano 
@@ -137,7 +137,7 @@ baseada em critérios objetivos e o acompanhamento transparente do andamento das
 \section{Métodos de Otimização}
 
 Problemas de otimização são encontrados em diversas aplicações 
-práticas, como o planejamento de rotas, alocação de recursos e \textit{scheduling}. Esses problemas 
+práticas, por exemplo o planejamento de rotas. Esses problemas 
 buscam encontrar uma solução factível dentre um conjunto de soluções possíveis, de acordo com 
 determinado critério de otimização \cite{CORMEN2012}. Os métodos para resolver problemas 
 de otimização podem ser classificados em diferentes categorias, cada uma com características, 
@@ -215,49 +215,49 @@ A escolha entre métodos exatos, heurísticas ou meta-heurísticas depende do co
 aplicação, considerando fatores como o tamanho da instância, requisitos de qualidade da 
 solução, tempo disponível para computação e recursos computacionais \cite{CORMEN2012}.
 
-\subsubsection{Algoritmos Genéticos}
+% \subsubsection{Algoritmos Genéticos}
 
-Os Algoritmos Genéticos (\gls{AG}) constituem uma meta-heurística inspirada nos princípios da 
-evolução biológica, simulando o processo de seleção natural para evoluir uma população de 
-soluções candidatas ao longo de gerações sucessivas \cite{RUSSELL2013}. São particularmente 
-eficazes para problemas de otimização combinatória NP-difíceis, como o problema do caixeiro 
-viajante.
+% Os Algoritmos Genéticos (\gls{AG}) constituem uma meta-heurística inspirada nos princípios da 
+% evolução biológica, simulando o processo de seleção natural para evoluir uma população de 
+% soluções candidatas ao longo de gerações sucessivas \cite{RUSSELL2013}. São particularmente 
+% eficazes para problemas de otimização combinatória NP-difíceis, como o problema do caixeiro 
+% viajante.
 
-A estrutura básica de um AG envolve os seguintes componentes principais: 
-(i) \textbf{Cromossomo} - representação de uma solução candidata, codificada como sequência 
-de genes (no TSP, uma permutação das cidades); 
-(ii) \textbf{População} - conjunto de soluções que evoluem simultaneamente; 
-(iii) \textbf{Função de Aptidão (\textit{Fitness})} - métrica que avalia a qualidade de cada 
-solução, determinando sua probabilidade de reprodução.
+% A estrutura básica de um AG envolve os seguintes componentes principais: 
+% (i) \textbf{Cromossomo} - representação de uma solução candidata, codificada como sequência 
+% de genes (no TSP, uma permutação das cidades); 
+% (ii) \textbf{População} - conjunto de soluções que evoluem simultaneamente; 
+% (iii) \textbf{Função de Aptidão (\textit{Fitness})} - métrica que avalia a qualidade de cada 
+% solução, determinando sua probabilidade de reprodução.
 
-O algoritmo opera através de três operadores genéticos fundamentais:
+% O algoritmo opera através de três operadores genéticos fundamentais:
 
-\begin{itemize}
-    \item \textbf{Seleção:} Escolhe indivíduos para reprodução favorecendo aqueles com maior 
-    aptidão. Métodos comuns incluem seleção por torneio, roleta e ranking.
+% \begin{itemize}
+%     \item \textbf{Seleção:} Escolhe indivíduos para reprodução favorecendo aqueles com maior 
+%     aptidão. Métodos comuns incluem seleção por torneio, roleta e ranking.
     
-    \item \textbf{Cruzamento (\textit{Crossover}):} Combina características de dois 
-    cromossomos pais para gerar descendentes. Para problemas de permutação como o \gls{TSP}, 
-    utiliza-se técnicas como o Cruzamento de Ordem (\gls{OX}), que preserva a ordem relativa dos 
-    elementos. Outras variantes incluem cruzamento de um ponto, dois pontos e uniforme.
+%     \item \textbf{Cruzamento (\textit{Crossover}):} Combina características de dois 
+%     cromossomos pais para gerar descendentes. Para problemas de permutação como o \gls{TSP}, 
+%     utiliza-se técnicas como o Cruzamento de Ordem (\gls{OX}), que preserva a ordem relativa dos 
+%     elementos. Outras variantes incluem cruzamento de um ponto, dois pontos e uniforme.
     
-    \item \textbf{Mutação:} Introduz pequenas alterações aleatórias nos cromossomos (como 
-    troca de posições ou inversão de segmentos), mantendo a diversidade genética e evitando 
-    convergência prematura para ótimos locais.
-\end{itemize}
+%     \item \textbf{Mutação:} Introduz pequenas alterações aleatórias nos cromossomos (como 
+%     troca de posições ou inversão de segmentos), mantendo a diversidade genética e evitando 
+%     convergência prematura para ótimos locais.
+% \end{itemize}
 
-O ciclo evolutivo segue a sequência: (1) Inicialização de população aleatória; 
-(2) Avaliação da aptidão de cada indivíduo; (3) Seleção dos melhores para reprodução; 
-(4) Aplicação de cruzamento e mutação para gerar nova geração; (5) Substituição da população 
-antiga, frequentemente mantendo os melhores indivíduos (elitismo). O processo se repete até 
-atingir um critério de parada, como número máximo de gerações ou qualidade de solução 
-satisfatória.
+% O ciclo evolutivo segue a sequência: (1) Inicialização de população aleatória; 
+% (2) Avaliação da aptidão de cada indivíduo; (3) Seleção dos melhores para reprodução; 
+% (4) Aplicação de cruzamento e mutação para gerar nova geração; (5) Substituição da população 
+% antiga, frequentemente mantendo os melhores indivíduos (elitismo). O processo se repete até 
+% atingir um critério de parada, como número máximo de gerações ou qualidade de solução 
+% satisfatória.
 
-No contexto de otimização de rotas, os AGs permitem encontrar 
-soluções de boa qualidade em tempo computacional razoável, mesmo para instâncias com grande 
-número de pontos, onde métodos exatos seriam inviáveis. Suas principais vantagens incluem: 
-exploração simultânea do espaço de soluções, robustez a ótimos locais, flexibilidade para 
-diferentes representações e capacidade de paralelização \cite{CORMEN2012}.
+% No contexto de otimização de rotas, os AGs permitem encontrar 
+% soluções de boa qualidade em tempo computacional razoável, mesmo para instâncias com grande 
+% número de pontos, onde métodos exatos seriam inviáveis. Suas principais vantagens incluem: 
+% exploração simultânea do espaço de soluções, robustez a ótimos locais, flexibilidade para 
+% diferentes representações e capacidade de paralelização \cite{CORMEN2012}.
 
 \section{Teoria dos Grafos}
 
@@ -365,7 +365,7 @@ Grafos podem ser representados computacionalmente de duas formas principais \cit
     adjacentes. Mais eficiente em termos de espaço para grafos esparsos, ocupando $O(V + E)$.
 \end{itemize}
 
-Os algoritmos de busca em grafos são fundamentais para resolver problemas de caminho mínimo, 
+Os algoritmos de busca em grafos são adotados para resolver problemas de caminho mínimo, 
 conectividade, detecção de ciclos e otimização de rotas, constituindo ferramentas essenciais 
 para aplicações em logística, redes de computadores e planejamento urbano \cite{CORMEN2012}.
 
@@ -375,10 +375,9 @@ a Busca em Profundidade (DFS), a Busca de Custo Uniforme (UCS) e o Algoritmo A* 
 
 \subsection{Busca em Largura (BFS)}
 
-A Busca em Largura (\textit{Breadth-First Search} - \gls{BFS}) explora o grafo sistematicamente 
+A Busca em Largura \gls{BFS} explora o grafo sistematicamente 
 visitando todos os vértices a uma mesma distância da origem antes de avançar para níveis mais 
-profundos \cite{CORMEN2012}. O algoritmo utiliza uma estrutura de fila (\gls{FIFO} - \textit{First In, 
-First Out}) para controlar a ordem de visitação dos vértices.
+profundos \cite{CORMEN2012}. O algoritmo utiliza uma estrutura de fila \gls{FIFO} para controlar a ordem de visitação dos vértices.
 
 A complexidade de tempo da BFS é $O(V + E)$, onde $V$ é o número de vértices e $E$ é o 
 número de arestas. O algoritmo garante encontrar o caminho mais curto em termos de número 
@@ -401,15 +400,15 @@ mostrando a ordem de visitação dos vértices nível por nível.
     \UFCfig{}{
         \includegraphics[width=14cm]{figuras/exemple_BFS}
     }{
-        \Fonte{\cite{CORMEN2012}.}
+        \Fonte{\cite{RUSSELL2013}.}
     }
 \end{figure}
 
 \subsection{Busca em Profundidade (DFS)}
 
-A Busca em Profundidade (\textit{Depth-First Search} - \gls{DFS}) percorre o grafo explorando o 
+A Busca em Profundidade \gls{DFS} percorre o grafo explorando o 
 máximo possível cada caminho antes de retroceder \cite{CORMEN2012}. Pode ser implementada 
-recursivamente ou utilizando uma pilha (\gls{LIFO} - \textit{Last In, First Out}). A \gls{DFS} também possui 
+recursivamente ou utilizando uma pilha \gls{LIFO}. A \gls{DFS} também possui 
 complexidade $O(V + E)$.
 
 A \gls{DFS} é especialmente adequada para:
@@ -438,7 +437,7 @@ como o algoritmo explora cada ramo até seu limite antes de retroceder.
 
 \subsection{Busca de Custo Uniforme}
 
-A Busca de Custo Uniforme (\textit{Uniform-Cost Search} - \gls{UCS}) é uma estratégia de busca 
+A Busca de Custo Uniforme \gls{UCS} é uma estratégia de busca 
 que expande o nó com menor custo de caminho acumulado, sendo uma generalização da \gls{BFS} para 
 grafos com arestas de diferentes custos \cite{RUSSELL2013}. Diferentemente da BFS, que trata 
 todas as arestas igualmente, a UCS considera os pesos associados às arestas para determinar 
