@@ -262,33 +262,45 @@ solução, tempo disponível para computação e recursos computacionais \cite{C
 \section{Teoria dos Grafos}
 
 Um grafo é uma estrutura matemática utilizada para modelar relações entre objetos, sendo 
-amplamente empregado na ciência da computação para representar redes, mapas, circuitos e 
-diversos outros sistemas \cite{CORMEN2012}. Formalmente, um grafo $G$ é definido pelo par 
-ordenado $G = (V, E)$, onde:
+amplamente empregado na ciência da computação para representar redes, mapas e sistemas diversos 
+\cite{CORMEN2012}. Formalmente, um grafo $G$ é definido pelo par ordenado $G = (V, E)$, onde 
+$V$ é um conjunto finito de vértices (ou nós) que representam entidades, e $E$ é um conjunto 
+de arestas que representam as conexões entre os vértices, denotadas como pares $(u, v)$, 
+onde $u, v \in V$.
 
-\begin{itemize}
-    \item \textbf{Vértices (ou Nós):} $V$ é um conjunto finito não-vazio de elementos chamados 
-    vértices. Cada vértice representa uma entidade do sistema modelado. Por exemplo, em um 
-    grafo representando uma rede de cidades, cada vértice corresponde a uma cidade.
-    
-    \item \textbf{Arestas:} $E$ é um conjunto de pares de vértices, denominados arestas, que 
-    representam as conexões ou relações entre os vértices. Uma aresta $e \in E$ conecta dois 
-    vértices, podendo ser denotada como $(u, v)$, onde $u, v \in V$.
-\end{itemize}
+Os grafos podem ser classificados quanto à direcionalidade das arestas. Em grafos 
+\textbf{não-direcionados}, as arestas estabelecem conexões bidirecionais, onde $(u, v)$ 
+é equivalente a $(v, u)$, representando relações simétricas como estradas de mão dupla. 
+Já nos grafos \textbf{direcionados} (ou dígrafos), as arestas possuem orientação, 
+indicando uma conexão de $u$ para $v$ sem necessariamente existir de $v$ para $u$, 
+úteis para modelar ruas de mão única ou dependências entre tarefas.
 
-Os grafos podem ser classificados segundo diferentes critérios \cite{CORMEN2012}:
+Quanto à ponderação, grafos podem ter arestas com pesos ou custos associados, definidos 
+por uma função $w: E \rightarrow \mathbb{R}$ que atribui valores numéricos representando 
+distâncias, tempos, custos ou capacidades \cite{CORMEN2012}. Conceitos fundamentais incluem 
+\textbf{adjacência} (vértices conectados por aresta), \textbf{grau} (número de arestas 
+incidentes a um vértice), \textbf{caminho} (sequência de vértices conectados) e 
+\textbf{ciclo} (caminho que retorna ao vértice inicial).
 
-\subsection{Grafos Direcionados e Não-Direcionados}
+Computacionalmente, grafos podem ser representados de duas formas principais: 
+(i) \textbf{Matriz de Adjacência} -- matriz $A$ de dimensão $|V| \times |V|$ onde 
+$A[i][j]$ indica a existência e peso de arestas, ocupando espaço $O(V^2)$; 
+(ii) \textbf{Lista de Adjacência} -- para cada vértice mantém-se uma lista dos adjacentes, 
+mais eficiente para grafos esparsos com complexidade espacial $O(V + E)$ \cite{CORMEN2012}.
 
-\begin{itemize}
-    \item \textbf{Grafo Não-Direcionado:} As arestas não possuem direção, ou seja, a aresta 
-    $(u, v)$ é equivalente a $(v, u)$. Representa relações simétricas, como estradas de mão 
-    dupla entre cidades.
-    
-    \item \textbf{Grafo Direcionado (Dígrafo):} As arestas possuem direção, representadas por 
-    setas. A aresta $(u, v)$ indica uma conexão de $u$ para $v$, mas não necessariamente de 
-    $v$ para $u$. Útil para modelar ruas de mão única, dependências entre tarefas, etc.
-\end{itemize}
+\begin{figure}[h!]
+    \centering
+    \captionsetup{width=14cm}
+    \Caption{\label{fig:grafo-exemple} Representação de um grafo não dirigido. 
+    (a) Um grafo não dirigido G com cinco vértices e sete arestas. 
+    (b) Uma representação de G por lista de adjacências. 
+    (c) A representação de G por matriz de adjacências.}
+    \UFCfig{}{
+        \includegraphics[width=14cm]{figuras/Grafo_exemple.png}
+    }{
+        \Fonte{Fonte: Elaborado pelo autor (2025).}
+    }
+\end{figure}
 
 % A Figura \ref{fig:grafo-nao-direcionado} ilustra duas representações de um grafo não 
 % direcionado: o grafo propriamente dito, sua representação por lista de adjacências e por 
@@ -321,53 +333,6 @@ Os grafos podem ser classificados segundo diferentes critérios \cite{CORMEN2012
 %     }
 % \end{figure}
 
-\subsection{Grafos Ponderados}
-
-Em muitas aplicações práticas, as arestas possuem pesos ou custos associados. Um grafo 
-ponderado é aquele em que existe uma função $w: E \rightarrow \mathbb{R}$ que atribui um 
-valor numérico a cada aresta \cite{CORMEN2012}. Esses pesos podem representar:
-
-\begin{itemize}
-    \item Distâncias entre localizações geográficas;
-    \item Tempo de deslocamento entre pontos;
-    \item Custo de transporte;
-    \item Capacidade de transmissão de dados em redes.
-\end{itemize}
-
-\subsection{Conceitos Adicionais}
-
-\begin{itemize}
-    \item \textbf{Adjacência:} Dois vértices são adjacentes se existe uma aresta conectando-os.
-    
-    \item \textbf{Grau de um Vértice:} Em grafos não-direcionados, o grau de um vértice $v$ é 
-    o número de arestas incidentes a ele. Em grafos direcionados, distingue-se entre grau de 
-    entrada (arestas que chegam) e grau de saída (arestas que saem).
-    
-    \item \textbf{Caminho:} Sequência de vértices onde cada par consecutivo está conectado por 
-    uma aresta. O comprimento de um caminho é o número de arestas que o compõem.
-    
-    \item \textbf{Ciclo:} Caminho que começa e termina no mesmo vértice, sem repetir arestas.
-    
-    \item \textbf{Grafo Conexo:} Grafo não-direcionado onde existe um caminho entre qualquer 
-    par de vértices.
-\end{itemize}
-
-\subsection{Representação Computacional}
-
-Grafos podem ser representados computacionalmente de duas formas principais \cite{CORMEN2012}:
-
-\begin{itemize}
-    \item \textbf{Matriz de Adjacência:} Matriz $A$ de dimensão $|V| \times |V|$, onde 
-    $A[i][j] = 1$ se existe aresta entre os vértices $i$ e $j$, e $A[i][j] = 0$ caso contrário. 
-    Para grafos ponderados, $A[i][j]$ armazena o peso da aresta. Ocupa espaço $O(V^2)$.
-    
-    \item \textbf{Lista de Adjacência:} Para cada vértice, mantém-se uma lista dos vértices 
-    adjacentes. Mais eficiente em termos de espaço para grafos esparsos, ocupando $O(V + E)$.
-\end{itemize}
-
-Os algoritmos de busca em grafos são adotados para resolver problemas de caminho mínimo, 
-conectividade, detecção de ciclos e otimização de rotas, constituindo ferramentas essenciais 
-para aplicações em logística, redes de computadores e planejamento urbano \cite{CORMEN2012}.
 
 \section{Algoritmos de Busca}
 Nessa seção, seram apresentados alguns dos principais algoritmos de busca em grafos, sendo eles a Busca em Largura (BFS), 
