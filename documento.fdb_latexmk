@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex documento"] 1767578718.37614 "documento.aux" "documento.bbl" "documento" 1767579160.4081 0
+["bibtex documento"] 1767628917.6203 "documento.aux" "documento.bbl" "documento" 1767628922.29676 0
   "./3-pos-textuais/referencias.bib" 1765567809.02721 13054 b71c29b78808ec9b7dca0ef3d604d82c ""
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1543183680 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "documento.aux" 1767579159.83064 33203 bdd9840cdc70d53543aa247a8e0992cf "pdflatex"
+  "documento.aux" 1767628921.41677 34322 8fdd4ca31687fcc0287241b8375e4de8 "pdflatex"
   (generated)
   "documento.bbl"
   "documento.blg"
   (rewritten before read)
-["makeindex documento.idx"] 1767578634.84656 "documento.idx" "documento.ind" "documento" 1767579160.40791 0
-  "documento.idx" 1767579158.71734 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex documento.idx"] 1767628862.61011 "documento.idx" "documento.ind" "documento" 1767628922.29654 0
+  "documento.idx" 1767628919.34324 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "documento.ilg"
   "documento.ind"
   (rewritten before read)
-["pdflatex"] 1767579157.63037 "/home/billygrahan/Modelo_de_Trabalho_Acadêmico_UFC/documento.tex" "documento.pdf" "documento" 1767579160.40831 0
+["pdflatex"] 1767628917.83887 "/home/billygrahan/Modelo_de_Trabalho_Acadêmico_UFC/documento.tex" "documento.pdf" "documento" 1767628922.29697 0
   "/etc/texmf/web2c/texmf.cnf" 1765160907.58453 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/billygrahan/Modelo_de_Trabalho_Acadêmico_UFC/documento.tex" 1767578645.90718 11583 2fc077d2133552b7c254454f3051d734 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -231,23 +231,23 @@
   "1-pre-textuais/abstract.tex" 1766025392.83693 1679 9841e596d826adae84e2a8a978482906 ""
   "1-pre-textuais/dedicatoria.tex" 1765161380.89056 263 fac4ba2ad65ac88df6a60156cf6be291 ""
   "1-pre-textuais/epigrafe.tex" 1765161380.90628 185 da55eb8c915b3da3e30cceaf1165c71a ""
-  "1-pre-textuais/lista-de-abreviaturas-e-siglas.tex" 1767577898.10307 1237 b1581058d73b5ccbf191d8ff02c389de ""
+  "1-pre-textuais/lista-de-abreviaturas-e-siglas.tex" 1767627202.21874 1237 5477c4c48706cfcb3537457389abbb04 ""
   "1-pre-textuais/lista-de-simbolos.tex" 1766025901.4431 987 8a8c5803eb05c9b24347903a77b32d73 ""
   "1-pre-textuais/resumo.tex" 1766529962.93876 2030 a17965bce92195503172670cca5b41e9 ""
   "2-textuais/1-introducao.tex" 1767494773.28118 9473 b5765b94b7064f2f5ac6639642023e05 ""
   "2-textuais/2-fundamentacao-teorica.tex" 1767577859.52822 36584 1a58ab5258aca9d6b63e9df36a21645a ""
-  "2-textuais/3-metodologia.tex" 1767579157.52052 13351 84337332ea8b877d5982a5f6bc5dab82 ""
+  "2-textuais/3-metodologia.tex" 1767628915.44641 12768 65b4cf61f506f152c72b612465c06879 ""
   "2-textuais/trabalhos-relacionados.tex" 1766529962.93876 15977 a89342b0bee51069aff32f1e9fc3812b ""
   "3-pos-textuais/apendices/apendice-c.tex" 1767578715.84988 2737 c7cd15498f0bbb38bb37ce020d269655 ""
   "3-pos-textuais/glossario.tex" 1765161381.01725 1325 bece85bf2ed1bad79d64e9c045f5b991 ""
-  "documento.aux" 1767579159.83064 33203 bdd9840cdc70d53543aa247a8e0992cf "pdflatex"
-  "documento.bbl" 1767578718.48771 8815 16299c007a086d0b7e3bffa52f8b704c "bibtex documento"
+  "documento.aux" 1767628921.41677 34322 8fdd4ca31687fcc0287241b8375e4de8 "pdflatex"
+  "documento.bbl" 1767628917.82583 8815 16299c007a086d0b7e3bffa52f8b704c "bibtex documento"
   "documento.gls" 1766026275.79595 1969 b12ee3f398e927173436e69fb39f9e0d ""
-  "documento.ind" 1767578635.08286 0 d41d8cd98f00b204e9800998ecf8427e "makeindex documento.idx"
-  "documento.lof" 1767579159.83856 1257 a070263262e43889e5be3a21be1059dd "pdflatex"
-  "documento.lot" 1767579159.83856 151 f774ae65905c27f14898d7a1b27d367f "pdflatex"
+  "documento.ind" 1767628862.7866 0 d41d8cd98f00b204e9800998ecf8427e "makeindex documento.idx"
+  "documento.lof" 1767628921.43266 1257 f1c5b234365b0c825930cdd767303272 "pdflatex"
+  "documento.lot" 1767628921.43266 151 f774ae65905c27f14898d7a1b27d367f "pdflatex"
   "documento.tex" 1767578645.90718 11583 2fc077d2133552b7c254454f3051d734 ""
-  "documento.toc" 1767579159.83856 5574 fe91ddd5ef7a0dcb9eeb7ec5655ea78a "pdflatex"
+  "documento.toc" 1767628921.43266 5763 7a587198343a8ce5ba212db510097fb7 "pdflatex"
   "figuras/Base_de_dados_Grafico.png" 1767573323.31993 23323 cd9ae26f340f8c8089ea5baa9e9ee133 ""
   "figuras/Grafo_exemple.png" 1767318658.77506 42750 cc02e17c8dee2dc3b3818b6c54977b35 ""
   "figuras/exemple_BFS.png" 1766027242.58302 38519 6d38ed515bbfe1d9acd6f3cb91f29e77 ""

@@ -50,15 +50,6 @@ resultantes, foi possível identificar os métodos de otimização mais utilizad
 algoritmos adotados (Algoritmos Genéticos, Colônia de Formigas, \gls{GRASP}, Programação Linear), 
 as estratégias metodológicas empregadas e as métricas de avaliação comumente utilizadas.
 
-A análise dos trabalhos relacionados revelou que a maioria dos estudos adota algoritmos 
-heurísticos e meta-heurísticos para resolução de problemas de roteamento em ambientes urbanos, 
-dada a complexidade computacional de métodos exatos. Identificou-se também o uso crescente de 
-ferramentas externas como OR-Tools, OpenStreetMap e Open Source Routing Machine para 
-implementação prática de soluções. Desta forma, foi possível obter uma visão geral do estado da 
-arte em otimização de rotas urbanas e identificar lacunas que este trabalho busca preencher, 
-particularmente quanto à aplicação específica em zeladoria pública municipal com dados reais 
-de ativos urbanos.
-
 \begin{figure}[h!]
     \centering
     \captionsetup{width=14cm}
@@ -71,6 +62,15 @@ de ativos urbanos.
         \Fonte{Fonte: Elaborado pelo autor (2025).}
     }
 \end{figure}
+
+A análise dos trabalhos relacionados revelou que a maioria dos estudos adota algoritmos 
+heurísticos e meta-heurísticos para resolução de problemas de roteamento em ambientes urbanos, 
+dada a complexidade computacional de métodos exatos. Identificou-se também o uso crescente de 
+ferramentas externas como OR-Tools, OpenStreetMap e Open Source Routing Machine para 
+implementação prática de soluções. Desta forma, foi possível obter uma visão geral do estado da 
+arte em otimização de rotas urbanas e identificar lacunas que este trabalho busca preencher, 
+particularmente quanto à aplicação específica em zeladoria pública municipal com dados reais 
+de ativos urbanos.
 
 \section{Obtenção das Instâncias}
 
@@ -155,14 +155,6 @@ introduz um elemento estocástico na construção das soluções, permitindo que
 sejam exploradas ao longo das iterações, ao mesmo tempo em que favorece escolhas localmente 
 eficientes.
 
-% A formulação probabilística da seleção evita que o algoritmo fique preso em soluções subótimas 
-% determinísticas, como ocorreria com uma estratégia puramente gulosa do vizinho mais próximo. 
-% A aleatoriedade controlada pela distribuição de probabilidades permite explorar regiões diversas 
-% do espaço de soluções, aumentando as chances de encontrar configurações de rotas de melhor 
-% qualidade. 
-% Caso a distância entre o ponto atual e algum ativo seja nula, indicando que já se 
-% encontra no destino, o algoritmo seleciona deterministicamente aquele ativo, garantindo correção 
-% na construção da solução.
 
 \subsection{Algoritmos de Busca em Grafos}
 
@@ -196,4 +188,6 @@ os caminhos e distâncias reais entre eles. Esta flexibilidade torna a solução
 em cenários diversos, desde pequenos bairros até municípios inteiros, ampliando significativamente 
 seu potencial de utilização prática na gestão pública municipal.
 
-% \section{Contextualização}
+\section{Implementação dos Algoritmos}
+
+\section{Análise comparativa dos experimentos}
