@@ -46,6 +46,21 @@
 \contentsline {section}{\numberline {4.1}Contextualização}{32}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Revisão da Literatura}{33}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Obtenção das Instâncias}{33}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Definição dos Algoritmos}{33}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Definição dos Algoritmos}{35}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Estrutura Geral do Algoritmo}{35}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Mecanismo de Seleção Probabilística}{36}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Algoritmos de Busca em Grafos}{36}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Integração com APIs de Roteamento}{37}{subsection.4.4.4}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{REFER\^ENCIAS}}{35}{section*.20}%
+\contentsline {chapter}{\MakeTextUppercase []{REFER\^ENCIAS}}{38}{section*.21}%
+\contentsline {chapter}{AP\^ENDICES}{40}{section*.21}%
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\renewcommand *{\cftappendixname }{\bfseries AP\^ENDICE \space }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\normalfont Códigos Utilizados no Desenvolvimento do Trabalho}{40}{appendix.A}%
+\contentsline {chapter}{ANEXOS}{40}{algocf.3}%
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }
+\renewcommand *{\cftappendixname }{\bfseries ANEXO \space }

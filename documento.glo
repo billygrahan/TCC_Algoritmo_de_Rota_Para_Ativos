@@ -15,6 +15,9 @@
 \glossaryentry{"\textit {DAG}?\glossentry{DAG}|setentrycounter[]{page}"\glsnumberformat}{23}
 \glossaryentry{"\textit {UCS}?\glossentry{UCS}|setentrycounter[]{page}"\glsnumberformat}{23}
 \glossaryentry{"\textit {BFS}?\glossentry{BFS}|setentrycounter[]{page}"\glsnumberformat}{23}
+\glossaryentry{"\textit {A*}?\glossentry{A*}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{"\textit {A*}?\glossentry{A*}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{"\textit {A*}?\glossentry{A*}|setentrycounter[]{page}"\glsnumberformat}{25}
 \glossaryentry{QP?\glossentry{QP}|setentrycounter[]{page}"\glsnumberformat}{26}
 \glossaryentry{QP?\glossentry{QP}|setentrycounter[]{page}"\glsnumberformat}{26}
 \glossaryentry{QP?\glossentry{QP}|setentrycounter[]{page}"\glsnumberformat}{26}
@@ -31,3 +34,14 @@
 \glossaryentry{"\textit {TSP}?\glossentry{TSP}|setentrycounter[]{page}"\glsnumberformat}{32}
 \glossaryentry{"\textit {TSP}?\glossentry{TSP}|setentrycounter[]{page}"\glsnumberformat}{33}
 \glossaryentry{"\textit {GRASP}?\glossentry{GRASP}|setentrycounter[]{page}"\glsnumberformat}{33}
+\glossaryentry{"\textit {TSP}?\glossentry{TSP}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{"\textit {ORS}?\glossentry{ORS}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{"\textit {BFS}?\glossentry{BFS}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{"\textit {DFS}?\glossentry{DFS}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{"\textit {UCS}?\glossentry{UCS}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{"\textit {A*}?\glossentry{A*}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{"\textit {A*}?\glossentry{A*}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{"\textit {API}?\glossentry{API}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{"\textit {ORS}?\glossentry{ORS}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{"\textit {ORS}?\glossentry{ORS}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{"\textit {API}?\glossentry{API}|setentrycounter[]{page}"\glsnumberformat}{37}

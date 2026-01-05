@@ -288,6 +288,8 @@ $A[i][j]$ indica a existência e peso de arestas, ocupando espaço $O(V^2)$;
 (ii) \textbf{Lista de Adjacência} -- para cada vértice mantém-se uma lista dos adjacentes, 
 mais eficiente para grafos esparsos com complexidade espacial $O(V + E)$ \cite{CORMEN2012}.
 
+A Figura \ref{fig:grafo-exemple} ilustra um exemplo de grafo e sua representação por lista e matriz de adjacências.
+
 \begin{figure}[h!]
     \centering
     \captionsetup{width=14cm}
@@ -436,16 +438,16 @@ com base no custo acumulado desde a origem \cite{RUSSELL2013}.
 
 \subsection{Algoritmo A* (A Estrela)}
 
-O algoritmo A* é uma extensão da busca de custo uniforme que incorpora uma função heurística 
+O algoritmo \gls{A*} é uma extensão da busca de custo uniforme que incorpora uma função heurística 
 para guiar a busca em direção ao objetivo \cite{RUSSELL2013}. A função de avaliação é definida 
 como $f(n) = g(n) + h(n)$, onde $g(n)$ é o custo do caminho da origem até o vértice $n$, e 
 $h(n)$ é a heurística que estima o custo de $n$ até o objetivo.
 
-Para que o A* garanta encontrar o caminho ótimo, a heurística deve ser admissível, ou seja, 
+Para que o \gls{A*} garanta encontrar o caminho ótimo, a heurística deve ser admissível, ou seja, 
 nunca superestimar o custo real até o objetivo. Heurísticas comuns incluem a distância 
 euclidiana e a distância de Manhattan em espaços bidimensionais \cite{RUSSELL2013}.
 
-O A* é particularmente eficiente quando existe uma boa heurística disponível, pois reduz 
+O \gls{A*} é particularmente eficiente quando existe uma boa heurística disponível, pois reduz 
 significativamente o número de vértices explorados em comparação com Dijkstra. É amplamente 
 utilizado em:
 

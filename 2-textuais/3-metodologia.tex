@@ -74,6 +74,126 @@ de ativos urbanos.
 
 \section{Obtenção das Instâncias}
 
+As instâncias do problema foram obtidas a partir do mapeamento de um bairro de uma cidade real, 
+posteriormente transformado em uma estrutura de grafo que representa a malha viária urbana. Nesta 
+modelagem, cada ponto de interseção entre ruas constitui um vértice do grafo, enquanto as arestas 
+correspondem aos trechos de ruas que conectam esses pontos de interseção. Esta representação 
+permite capturar de forma fiel a topologia da rede viária, preservando as características 
+geográficas e as restrições de deslocamento reais do ambiente urbano estudado.
+
+A estrutura de dados escolhida para representar o grafo foi baseada em listas de adjacência, 
+organizadas em duas estruturas complementares. A primeira lista contém as distâncias reais entre 
+os pontos adjacentes, medidas em unidades métricas, permitindo o cálculo preciso dos custos de 
+deslocamento entre os vértices. A segunda lista armazena as coordenadas geográficas (latitude e 
+longitude) de cada ponto, possibilitando a visualização espacial do problema e facilitando a 
+validação das soluções obtidas. Esta abordagem dual proporciona tanto eficiência computacional 
+quanto rastreabilidade geográfica das rotas otimizadas.
+
+Para a composição das instâncias de teste, os ativos públicos a serem visitados são representados 
+por um conjunto de nós selecionados aleatoriamente a partir do grafo completo da malha viária. 
+O objetivo do algoritmo é determinar a rota de menor custo que parte de um nó inicial, visita 
+todos os ativos selecionados exatamente uma vez e retorna ao ponto de partida, caracterizando 
+assim uma instância clássica do \gls{TSP}. Este processo de seleção aleatória permite a geração 
+de múltiplas instâncias de teste com diferentes níveis de complexidade, variando o número e a 
+distribuição espacial dos ativos a serem visitados.
+
+Para a obtenção dos dados geográficos necessários à construção das instâncias, foram utilizados 
+recursos disponíveis na plataforma \gls{ORS}, que fornece dados de infraestrutura 
+viária baseados no projeto OpenStreetMap. A utilização desta plataforma garante a acurácia dos 
+dados geográficos e das distâncias entre os pontos, elementos essenciais para a validação prática 
+dos resultados obtidos. A Figura \ref{fig:grafo-bairro} ilustra o grafo gerado a partir do 
+mapeamento de um bairro real, evidenciando a malha viária e os pontos de interseção que compõem 
+a estrutura do problema.
+
+\begin{figure}[h!]
+    \centering
+    \captionsetup{width=14cm}
+    \Caption{\label{fig:grafo-bairro} Representação em grafo da malha viária de um bairro real, 
+        com destaque para os pontos de interseção (vértices) e trechos de ruas (arestas).}
+    \UFCfig{}{
+        \includegraphics[width=14cm]{figuras/grafo-bairro.png}
+    }{
+        \Fonte{Fonte: Elaborado pelo autor (2025).}
+    }
+\end{figure}
+
 \section{Definição dos Algoritmos}
+
+A solução proposta neste trabalho baseia-se no desenvolvimento de um algoritmo híbrido que combina 
+conceitos de algoritmos genéticos com técnicas de programação dinâmica para resolver o problema 
+de otimização de rotas de visitação de ativos públicos. O algoritmo completo, detalhado em 
+pseudocódigo, encontra-se apresentado no Apêndice \ref{ap:C}, onde são descritos os três 
+componentes principais da solução: o mecanismo de Roleta de Seleção, o procedimento de Geração 
+de Solução e a estratégia de busca pela Melhor Rota.
+
+\subsection{Estrutura Geral do Algoritmo}
+
+O algoritmo proposto adota uma abordagem iterativa inspirada em algoritmos genéticos, onde 
+múltiplas soluções são geradas e a melhor delas é selecionada ao longo do processo evolutivo. 
+A cada iteração, uma nova rota é construída de forma probabilística, permitindo explorar 
+diferentes configurações do espaço de soluções. Este processo de geração repetida de soluções 
+e seleção da melhor alternativa caracteriza a natureza heurística do método, que busca convergir 
+para soluções de alta qualidade sem a necessidade de explorar exaustivamente todo o espaço de 
+busca.
+
+Um elemento fundamental da solução é a aplicação de programação dinâmica para otimizar o cálculo 
+dos caminhos entre os ativos. O algoritmo mantém uma estrutura de memorização (\textit{memoization}) 
+que armazena os caminhos e distâncias já calculados entre pares de ativos, evitando recomputações 
+desnecessárias. Esta estratégia reduz significativamente o custo computacional, especialmente em 
+cenários onde um mesmo par de ativos aparece em múltiplas soluções candidatas ao longo do processo 
+iterativo. A combinação entre a exploração probabilística das rotas e a memorização eficiente dos 
+subcaminhos constitui o diferencial da abordagem proposta.
+
+\subsection{Mecanismo de Seleção Probabilística}
+
+O componente de Roleta de Seleção implementa um mecanismo de escolha probabilística para 
+determinar qual ativo será visitado em cada passo da construção da rota. A cada decisão, 
+o algoritmo considera todos os ativos ainda não visitados e calcula um peso inversamente 
+proporcional à distância entre o ponto atual e cada candidato. Quanto menor a distância até 
+um ativo, maior a probabilidade de que ele seja escolhido como próximo destino. Este mecanismo 
+introduz um elemento estocástico na construção das soluções, permitindo que diferentes rotas 
+sejam exploradas ao longo das iterações, ao mesmo tempo em que favorece escolhas localmente 
+eficientes.
+
+% A formulação probabilística da seleção evita que o algoritmo fique preso em soluções subótimas 
+% determinísticas, como ocorreria com uma estratégia puramente gulosa do vizinho mais próximo. 
+% A aleatoriedade controlada pela distribuição de probabilidades permite explorar regiões diversas 
+% do espaço de soluções, aumentando as chances de encontrar configurações de rotas de melhor 
+% qualidade. 
+% Caso a distância entre o ponto atual e algum ativo seja nula, indicando que já se 
+% encontra no destino, o algoritmo seleciona deterministicamente aquele ativo, garantindo correção 
+% na construção da solução.
+
+\subsection{Algoritmos de Busca em Grafos}
+
+Para determinar o caminho ótimo entre dois ativos no grafo da malha viária, o algoritmo utiliza 
+métodos clássicos de busca em grafos. A função genérica $algoritmo(origem, ativo)$ pode ser 
+implementada utilizando diferentes estratégias de busca, conforme apresentadas no Capítulo 
+\ref{cap:fundamentacao-teorica}. Para os experimentos realizados neste trabalho, foram 
+selecionados os algoritmos \gls{BFS}, \gls{DFS}, \gls{UCS} e \gls{A*} para avaliação comparativa 
+de desempenho. No caso do algoritmo \gls{A*}, foram utilizadas duas funções heurísticas distintas: 
+a distância euclidiana, calculada a partir das coordenadas cartesianas, e a distância haversiana, 
+que considera a curvatura da Terra para cálculo geodésico entre coordenadas geográficas. Esta 
+diversidade de algoritmos e heurísticas permite avaliar o impacto de cada estratégia na qualidade 
+das rotas geradas e no tempo computacional demandado, identificando a abordagem mais adequada 
+para o contexto de otimização de rotas urbanas em grafos de malha viária.
+
+\subsection{Integração com APIs de Roteamento}
+
+Embora o algoritmo proposto opere sobre o grafo explicitamente modelado da malha viária, a 
+arquitetura da solução permite a integração com \gls{API}s externas de roteamento, como o 
+\gls{ORS}. Esta abordagem alternativa 
+oferece vantagens significativas em contextos práticos, uma vez que elimina a necessidade de 
+mapear e manter atualizada a representação local da rede viária. Serviços como o \gls{ORS} 
+fornecem cálculos de rotas otimizadas considerando não apenas as distâncias geográficas, mas 
+também restrições de trânsito, sentidos de vias, velocidades permitidas e outras características 
+dinâmicas do ambiente urbano.
+
+A utilização de \gls{API}s externas possibilita que a solução proposta seja facilmente adaptada 
+a diferentes municípios sem a necessidade de construir um novo grafo para cada localidade. Basta 
+fornecer as coordenadas geográficas dos ativos a serem visitados, e o serviço de roteamento retorna 
+os caminhos e distâncias reais entre eles. Esta flexibilidade torna a solução escalável e aplicável 
+em cenários diversos, desde pequenos bairros até municípios inteiros, ampliando significativamente 
+seu potencial de utilização prática na gestão pública municipal.
 
 % \section{Contextualização}
