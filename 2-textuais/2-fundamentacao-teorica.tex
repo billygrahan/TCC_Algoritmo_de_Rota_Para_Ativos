@@ -300,7 +300,7 @@ A Figura \ref{fig:grafo-exemple} ilustra um exemplo de grafo e sua representaç�
     \UFCfig{}{
         \includegraphics[width=14cm]{figuras/Grafo_exemple.png}
     }{
-        \Fonte{Fonte: Elaborado pelo autor (2025).}
+        \Fonte{Elaborado pelo autor (2025).}
     }
 \end{figure}
 
@@ -438,16 +438,16 @@ com base no custo acumulado desde a origem \cite{RUSSELL2013}.
 
 \subsection{Algoritmo A* (A Estrela)}
 
-O algoritmo \gls{A*} é uma extensão da busca de custo uniforme que incorpora uma função heurística 
+O algoritmo \gls{AE} é uma extensão da busca de custo uniforme que incorpora uma função heurística 
 para guiar a busca em direção ao objetivo \cite{RUSSELL2013}. A função de avaliação é definida 
 como $f(n) = g(n) + h(n)$, onde $g(n)$ é o custo do caminho da origem até o vértice $n$, e 
 $h(n)$ é a heurística que estima o custo de $n$ até o objetivo.
 
-Para que o \gls{A*} garanta encontrar o caminho ótimo, a heurística deve ser admissível, ou seja, 
+Para que o \gls{AE} garanta encontrar o caminho ótimo, a heurística deve ser admissível, ou seja, 
 nunca superestimar o custo real até o objetivo. Heurísticas comuns incluem a distância 
 euclidiana e a distância de Manhattan em espaços bidimensionais \cite{RUSSELL2013}.
 
-O \gls{A*} é particularmente eficiente quando existe uma boa heurística disponível, pois reduz 
+O \gls{AE} é particularmente eficiente quando existe uma boa heurística disponível, pois reduz 
 significativamente o número de vértices explorados em comparação com Dijkstra. É amplamente 
 utilizado em:
 
@@ -458,20 +458,19 @@ utilizado em:
     \item Otimização de rotas considerando múltiplos critérios.
 \end{itemize}
 
-% A Figura \ref{fig:aestrela-exemplo} apresenta um exemplo clássico de aplicação do algoritmo A* 
-% para encontrar o caminho mais curto entre cidades romenas, demonstrando como a heurística 
-% guia a busca de forma eficiente.
+A Figura \ref{fig:aestrela-exemplo} apresenta um exemplo de aplicação do algoritmo A* 
+para encontrar o caminho mais curto em um grafo.
 
-% \begin{figure}[h!]
-%     \centering
-%     \captionsetup{width=14cm}
-%     \Caption{\label{fig:aestrela-exemplo} Exemplo de aplicação do algoritmo A* no problema de roteamento entre cidades da Romênia}
-%     \UFCfig{}{
-%         \includegraphics[width=14cm]{figuras/exemple_A_Estrela(Bucareste)}
-%     }{
-%         \Fonte{\cite{RUSSELL2013}.}
-%     }
-% \end{figure}
+\begin{figure}[h!]
+    \centering
+    \captionsetup{width=14cm}
+    \Caption{\label{fig:aestrela-exemplo} Exemplo de aplicação do algoritmo A* em um grafo com arestas ponderadas.}
+    \UFCfig{}{
+        \includegraphics[width=14cm]{figuras/exemple_AEstrela.png}
+    }{
+        \Fonte{Elaborada pelo autor (2025).}
+    }
+\end{figure}
 
 
 

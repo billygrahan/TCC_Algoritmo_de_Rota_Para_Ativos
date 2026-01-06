@@ -2,7 +2,8 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Representação de um grafo não dirigido. (a) Um grafo não dirigido G com cinco vértices e sete arestas. (b) Uma representação de G por lista de adjacências. (c) A representação de G por matriz de adjacências.}}{22}{figure.caption.11}%
 \contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de execução da Busca em Largura (BFS) em um grafo}}{23}{figure.caption.12}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Exemplo de execução da Busca em Profundidade (DFS) em um grafo}}{24}{figure.caption.13}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Resultados da \gls {QP}1.}}{29}{figure.caption.16}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Resultados da \gls {QP}2.}}{30}{figure.caption.17}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Quantidade de artigos obtidos após a pesquisa nas Bases de Dados, o Download e aplicação dos Critérios de Inclusão e Exclusão.}}{33}{figure.caption.18}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Representação em grafo da malha viária de um bairro real, com destaque para os pontos de interseção (vértices) e trechos de ruas (arestas).}}{35}{figure.caption.19}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Exemplo de aplicação do algoritmo A* em um grafo com arestas ponderadas.}}{26}{figure.caption.14}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Resultados da \gls {QP}1.}}{30}{figure.caption.17}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Resultados da \gls {QP}2.}}{31}{figure.caption.18}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Quantidade de artigos obtidos após a pesquisa nas Bases de Dados, o Download e aplicação dos Critérios de Inclusão e Exclusão.}}{34}{figure.caption.19}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Representação em grafo da malha viária de um bairro real, com destaque para os pontos de interseção (vértices) e trechos de ruas (arestas).}}{36}{figure.caption.20}%

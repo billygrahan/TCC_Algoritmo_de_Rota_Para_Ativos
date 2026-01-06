@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.7)  5 JAN 2026 13:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.8)  6 JAN 2026 18:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/billygrahan/Modelo_de_Trabalho_AcadÃªmico_UFC/documento.tex
-(/home/billygrahan/Modelo_de_Trabalho_AcadÃªmico_UFC/documento.tex
+**/home/billygrahan/TCC_Algoritmo_de_Rota_Para_Ativos/documento.tex
+(/home/billygrahan/TCC_Algoritmo_de_Rota_Para_Ativos/documento.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
@@ -487,9 +487,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language42). Reported on input line 105.
+(babel)             (\language46). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language42). Reported on input line 108.
+(babel)             (\language46). Reported on input line 108.
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks25
@@ -501,7 +501,7 @@ Package babel Info: Making > an active character on input line 722.
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
-(babel)             (\language82). Reported on input line 111.
+(babel)             (\language68). Reported on input line 111.
 )) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 11.
@@ -1315,7 +1315,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ] [14]) (./2-textuais/2-fundamentacao-teorica.tex [15] [16
 
 ] [17] [18] [19] [20] [21]
-<figuras/Grafo_exemple.png, id=336, 1927.2pt x 722.7pt>
+<figuras/Grafo_exemple.png, id=339, 1927.2pt x 722.7pt>
 File: figuras/Grafo_exemple.png Graphic file (type png)
 <use figuras/Grafo_exemple.png>
 Package pdftex.def Info: figuras/Grafo_exemple.png  used on input line 304.
@@ -1325,7 +1325,7 @@ File: figuras/Grafo_exemple.png Graphic file (type png)
 Package pdftex.def Info: figuras/Grafo_exemple.png  used on input line 304.
 (pdftex.def)             Requested size: 398.33858pt x 149.36748pt.
  [22 <./figuras/Grafo_exemple.png>]
-<figuras/exemple_BFS.png, id=348, 989.94844pt x 167.12437pt>
+<figuras/exemple_BFS.png, id=351, 989.94844pt x 167.12437pt>
 File: figuras/exemple_BFS.png Graphic file (type png)
 <use figuras/exemple_BFS.png>
 Package pdftex.def Info: figuras/exemple_BFS.png  used on input line 371.
@@ -1334,7 +1334,7 @@ File: figuras/exemple_BFS.png Graphic file (type png)
 <use figuras/exemple_BFS.png>
 Package pdftex.def Info: figuras/exemple_BFS.png  used on input line 371.
 (pdftex.def)             Requested size: 398.33858pt x 67.24637pt.
-<figuras/exemple_DFS.png, id=359, 837.88031pt x 672.26157pt>
+<figuras/exemple_DFS.png, id=362, 837.88031pt x 672.26157pt>
 File: figuras/exemple_DFS.png Graphic file (type png)
 <use figuras/exemple_DFS.png>
 Package pdftex.def Info: figuras/exemple_DFS.png  used on input line 402.
@@ -1347,12 +1347,26 @@ Package pdftex.def Info: figuras/exemple_DFS.png  used on input line 402.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23 <./figuras/exemple_BFS.png>] [24 <./figuras/exemple_DFS.png>]) (./2-textuais/trabalhos-relacionados.tex [25]
+[23 <./figuras/exemple_BFS.png>] [24 <./figuras/exemple_DFS.png>]
+<figuras/exemple_AEstrela.png, id=392, 1445.4pt x 813.0375pt>
+File: figuras/exemple_AEstrela.png Graphic file (type png)
+<use figuras/exemple_AEstrela.png>
+Package pdftex.def Info: figuras/exemple_AEstrela.png  used on input line 472.
+(pdftex.def)             Requested size: 398.33858pt x 224.06363pt.
+File: figuras/exemple_AEstrela.png Graphic file (type png)
+<use figuras/exemple_AEstrela.png>
+Package pdftex.def Info: figuras/exemple_AEstrela.png  used on input line 472.
+(pdftex.def)             Requested size: 398.33858pt x 224.06363pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./2-textuais/trabalhos-relacionados.tex [25] [26 <./figuras/exemple_AEstrela.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 19.
 
-[26
+[27
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -1361,7 +1375,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
- [27]
+ [28]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 90.
@@ -1370,7 +1384,7 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 136.
 
-<figuras/qp1.png, id=426, 936.49875pt x 372.39125pt>
+<figuras/qp1.png, id=434, 936.49875pt x 372.39125pt>
 File: figuras/qp1.png Graphic file (type png)
 <use figuras/qp1.png>
 Package pdftex.def Info: figuras/qp1.png  used on input line 144.
@@ -1384,12 +1398,12 @@ Overfull \hbox (11.79996pt too wide) in paragraph at lines 144--145
  []$[]$ 
  []
 
-[28]
+[29]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 178.
 
-<figuras/qp2.png, id=457, 936.49875pt x 374.39874pt>
+<figuras/qp2.png, id=465, 936.49875pt x 374.39874pt>
 File: figuras/qp2.png Graphic file (type png)
 <use figuras/qp2.png>
 Package pdftex.def Info: figuras/qp2.png  used on input line 186.
@@ -1403,10 +1417,10 @@ Overfull \hbox (11.79996pt too wide) in paragraph at lines 186--187
  []$[]$ 
  []
 
-[29 <./figuras/qp1.png>]) (./2-textuais/3-metodologia.tex [30 <./figuras/qp2.png>] [31] [32
+[30 <./figuras/qp1.png>]) (./2-textuais/3-metodologia.tex [31 <./figuras/qp2.png>] [32] [33
 
 ]
-<figuras/Base_de_dados_Grafico.png, id=496, 958.58125pt x 594.22pt>
+<figuras/Base_de_dados_Grafico.png, id=504, 958.58125pt x 594.22pt>
 File: figuras/Base_de_dados_Grafico.png Graphic file (type png)
 <use figuras/Base_de_dados_Grafico.png>
 Package pdftex.def Info: figuras/Base_de_dados_Grafico.png  used on input line 63.
@@ -1415,8 +1429,8 @@ File: figuras/Base_de_dados_Grafico.png Graphic file (type png)
 <use figuras/Base_de_dados_Grafico.png>
 Package pdftex.def Info: figuras/Base_de_dados_Grafico.png  used on input line 63.
 (pdftex.def)             Requested size: 398.33858pt x 246.93219pt.
- [33 <./figuras/Base_de_dados_Grafico.png>] [34]
-<figuras/grafo-bairro.png, id=511, 1445.4pt x 813.0375pt>
+ [34 <./figuras/Base_de_dados_Grafico.png>] [35]
+<figuras/grafo-bairro.png, id=518, 1445.4pt x 813.0375pt>
 File: figuras/grafo-bairro.png Graphic file (type png)
 <use figuras/grafo-bairro.png>
 Package pdftex.def Info: figuras/grafo-bairro.png  used on input line 117.
@@ -1425,17 +1439,16 @@ File: figuras/grafo-bairro.png Graphic file (type png)
 <use figuras/grafo-bairro.png>
 Package pdftex.def Info: figuras/grafo-bairro.png  used on input line 117.
 (pdftex.def)             Requested size: 398.33858pt x 224.06363pt.
+ [36 <./figuras/grafo-bairro.png (PNG copy)>] [37]
+Overfull \hbox (0.83939pt too wide) in paragraph at lines 207--218
+\T1/ptm/m/n/12 (-20) ritmo []3[] uti-liza mé-to-dos clás-si-cos de busca em gra-fos. A fun-ção ge-né-rica $\OML/ztmcm/m/it/12 algoritmo\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 origem; ativo\OT1/ztmcm/m/n/12 )$
+ []
 
-
-LaTeX Warning: Reference `ap:C' on page 35 undefined on input line 125.
-
-[35 <./figuras/grafo-bairro.png (PNG copy)>] [36]) (./documento.bbl [37]
+[38] [39] [40] [41]) (./documento.bbl [42]
 bibitemlist
-[38
+[43
 
-]) [39] (./3-pos-textuais/apendices/apendice-c.tex) (./documento.ind) [40
-
-] [41]
+]) [44] (./documento.ind)
 \tf@lof=\write7
 \openout7 = `documento.lof'.
 
@@ -1450,30 +1463,23 @@ bibitemlist
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 33104 strings out of 474222
- 557449 string characters out of 5748733
+ 33164 strings out of 474222
+ 558210 string characters out of 5748733
  1938975 words of memory out of 5000000
- 54303 multiletter control sequences out of 15000+600000
- 627426 words of font info for 342 fonts, out of 8000000 for 9000
+ 54343 multiletter control sequences out of 15000+600000
+ 632975 words of font info for 357 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,20n,120p,2402b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{glo:ORS} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{glo:A*} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{glo:WSL2} has been referenced but does not exist, replaced by a fixed one
 
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on documento.pdf (42 pages, 776799 bytes).
+Output written on documento.pdf (45 pages, 948133 bytes).
 PDF statistics:
- 811 PDF objects out of 1000 (max. 8388607)
- 724 compressed objects within 8 object streams
- 162 named destinations out of 1000 (max. 500000)
- 62929 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 842 PDF objects out of 1000 (max. 8388607)
+ 751 compressed objects within 8 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 69094 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -122,9 +122,11 @@ a estrutura do problema.
 A solução proposta neste trabalho baseia-se no desenvolvimento de um algoritmo híbrido que combina 
 conceitos de algoritmos genéticos com técnicas de programação dinâmica para resolver o problema 
 de otimização de rotas de visitação de ativos públicos. O algoritmo completo, detalhado em 
-pseudocódigo, encontra-se apresentado no Apêndice \ref{ap:C}, onde são descritos os três 
-componentes principais da solução: o mecanismo de Roleta de Seleção, o procedimento de Geração 
-de Solução e a estratégia de busca pela Melhor Rota.
+pseudocódigo, é apresentado a seguir através de três componentes principais da solução:
+A estratégia de busca pela Melhor Rota (Algoritmo \ref{alg:melhor-rota}), o mecanismo 
+de Roleta de Seleção (Algoritmo \ref{alg:roleta}) e o procedimento de Geração de Solução 
+(Algoritmo \ref{alg:gerar-solucao}).
+
 
 \subsection{Estrutura Geral do Algoritmo}
 
@@ -144,9 +146,26 @@ cenários onde um mesmo par de ativos aparece em múltiplas soluções candidata
 iterativo. A combinação entre a exploração probabilística das rotas e a memorização eficiente dos 
 subcaminhos constitui o diferencial da abordagem proposta.
 
+\begin{algorithm}[H]
+\caption{Melhor Rota}
+\label{alg:melhor-rota}
+\KwOut{Atualiza a melhor rota encontrada}
+
+\For{$i \gets 0$ \KwTo $iteracoes - 1$}{
+    $melhor\_rota\_copia \gets Gerar\_Solucao()$\;
+
+    \If{$melhor\_rota = \emptyset$ \textbf{ou} $melhor\_rota\_copia[-1][1] < melhor\_rota[-1][1]$}{
+        $melhor\_rota \gets melhor\_rota\_copia$\;
+    }
+}
+\end{algorithm}
+\begin{flushleft}
+\small{\textit{Fonte: Elaborado pelo autor (2025).}}
+\end{flushleft}
+
 \subsection{Mecanismo de Seleção Probabilística}
 
-O componente de Roleta de Seleção implementa um mecanismo de escolha probabilística para 
+O componente de Roleta de Seleção (Algoritmo \ref{alg:roleta}) implementa um mecanismo de escolha probabilística para 
 determinar qual ativo será visitado em cada passo da construção da rota. A cada decisão, 
 o algoritmo considera todos os ativos ainda não visitados e calcula um peso inversamente 
 proporcional à distância entre o ponto atual e cada candidato. Quanto menor a distância até 
@@ -155,20 +174,89 @@ introduz um elemento estocástico na construção das soluções, permitindo que
 sejam exploradas ao longo das iterações, ao mesmo tempo em que favorece escolhas localmente 
 eficientes.
 
+\begin{algorithm}[H]
+\caption{Roleta de Seleção}
+\label{alg:roleta}
+\KwIn{Lista de pares $(objeto, distancia)$}
+\KwOut{Objeto selecionado}
+\ForEach{$(objeto, distancia)$ em roleta}{
+    \If{$distancia = 0$}{
+        \Return $objeto$
+    }
+    Adicione $objeto$ à lista de objetos\;
+    Adicione $distancia$ à lista de distancias\;
+}
+
+\ForEach{$distancia$ em distancias}{
+    Calcule $peso = 1 / distancia$\;
+    Adicione $peso$ à lista de pesos\;
+}
+
+Calcule $probabilidades = pesos / \sum pesos$\;
+Escolha aleatoriamente um objeto com base nas probabilidades\;
+\Return objeto escolhido\;
+
+\end{algorithm}
+\begin{flushleft}
+\small{\textit{Fonte: Elaborado pelo autor (2025).}}
+\end{flushleft}
+
 
 \subsection{Algoritmos de Busca em Grafos}
 
-Para determinar o caminho ótimo entre dois ativos no grafo da malha viária, o algoritmo utiliza 
+Para determinar o caminho ótimo entre dois ativos no grafo da malha viária, o algoritmo \ref{alg:gerar-solucao} utiliza 
 métodos clássicos de busca em grafos. A função genérica $algoritmo(origem, ativo)$ pode ser 
 implementada utilizando diferentes estratégias de busca, conforme apresentadas no Capítulo 
 \ref{cap:fundamentacao-teorica}. Para os experimentos realizados neste trabalho, foram 
-selecionados os algoritmos \gls{BFS}, \gls{DFS}, \gls{UCS} e \gls{A*} para avaliação comparativa 
-de desempenho. No caso do algoritmo \gls{A*}, foram utilizadas duas funções heurísticas distintas: 
+selecionados os algoritmos \gls{BFS}, \gls{DFS}, \gls{UCS} e \gls{AE} para avaliação comparativa 
+de desempenho. No caso do algoritmo \gls{AE}, foram utilizadas duas funções heurísticas distintas: 
 a distância euclidiana, calculada a partir das coordenadas cartesianas, e a distância haversiana, 
 que considera a curvatura da Terra para cálculo geodésico entre coordenadas geográficas. Esta 
 diversidade de algoritmos e heurísticas permite avaliar o impacto de cada estratégia na qualidade 
 das rotas geradas e no tempo computacional demandado, identificando a abordagem mais adequada 
 para o contexto de otimização de rotas urbanas em grafos de malha viária.
+
+\begin{algorithm}[H]
+\caption{Gerar Solução}
+\label{alg:gerar-solucao}
+\KwOut{Melhor rota gerada}
+
+Inicialize $melhor\_rota\_copia \gets [(inicio, 0)]$\;
+$ativos\_copia \gets copia(ativos)$\;
+$origem \gets inicio$\;
+
+\While{$ativos\_copia \neq \emptyset$}{
+    Inicialize lista $roleta$\;
+
+    \ForEach{$ativo$ em $ativos\_copia$}{
+        \If{$ativo \notin distancia\_entre\_ativos[origem]$}{
+            $rota, distancia, nos, ramificacao \gets algoritmo(origem, ativo)$\;
+            Adicione $rota$ a $caminho\_entre\_ativos$\;
+            Atualize $distancia\_entre\_ativos[origem][ativo] \gets distancia$\;
+        }
+        Adicione $(ativo, distancia)$ à $roleta$\;
+    }
+
+    $elemento \gets Roleta(roleta)$\;
+    Adicione $(elemento, 0)$ à $melhor\_rota\_copia$\;
+    Remova $elemento$ de $ativos\_copia$\;
+    $origem \gets elemento$\;
+}
+
+\If{$inicio \notin distancia\_entre\_ativos[origem]$}{
+    $rota, distancia, nos, ramificacao \gets algoritmo(origem, inicio)$\;
+    Adicione $rota$ a $caminho\_entre\_ativos$\;
+    Atualize $distancia\_entre\_ativos[origem][inicio] \gets distancia$\;
+}
+Adicione $(inicio, 0)$ à $melhor\_rota\_copia$\;
+
+Chame $recalcula\_distancias(melhor\_rota\_copia)$\;
+\Return $melhor\_rota\_copia$\;
+
+\end{algorithm}
+\begin{flushleft}
+\small{\textit{Fonte: Elaborado pelo autor (2025).}}
+\end{flushleft}
 
 \subsection{Integração com APIs de Roteamento}
 
@@ -189,5 +277,73 @@ em cenários diversos, desde pequenos bairros até municípios inteiros, amplian
 seu potencial de utilização prática na gestão pública municipal.
 
 \section{Implementação dos Algoritmos}
+
+A implementação dos algoritmos propostos foi realizada na linguagem de programação Python 
+(versão 3.12.3). Para o desenvolvimento da solução, foram utilizadas as seguintes bibliotecas:
+
+\begin{itemize}
+    \item \textbf{heapq:} implementação de filas de prioridade, essencial para os algoritmos 
+    \gls{UCS} e \gls{AE}, permitindo acesso eficiente ao elemento de menor custo;
+    \item \textbf{math:} operações matemáticas fundamentais, incluindo cálculos de distâncias 
+    euclidianas e haversianas;
+    \item \textbf{random:} geração de números pseudoaleatórios para seleção probabilística e 
+    construção de instâncias de teste;
+    \item \textbf{time:} medição precisa do tempo de execução dos algoritmos;
+    \item \textbf{copy:} criação de cópias profundas de estruturas de dados, evitando efeitos 
+    colaterais indesejados;
+    \item \textbf{psutil:} monitoramento do consumo de memória durante a execução dos algoritmos;
+    \item \textbf{openpyxl:} exportação dos resultados experimentais para planilhas Excel, 
+    facilitando análises posteriores.
+\end{itemize}
+
+\subsection{Representação do Grafo}
+
+A representação computacional do grafo da malha viária foi implementada utilizando duas estruturas 
+complementares armazenadas em arquivos binários: (i) uma lista de adjacência contendo as conexões 
+entre os vértices e as distâncias correspondentes; e (ii) uma lista de coordenadas geográficas 
+(latitude e longitude) de cada vértice. Esta abordagem permite carregamento rápido dos dados e 
+consultas eficientes durante a execução dos algoritmos de busca.
+
+A escolha por arquivos binários justifica-se pela otimização do espaço de armazenamento e pela 
+velocidade de leitura, aspectos cruciais quando se trabalha com grafos de grande porte representando 
+malhas viárias complexas. A estrutura de lista de adjacência garante complexidade espacial $O(V + E)$, 
+adequada para grafos esparsos típicos de redes urbanas.
+
+\subsection{Padronização dos Experimentos}
+
+Para garantir a reprodutibilidade dos experimentos e permitir comparações justas entre diferentes 
+execuções dos algoritmos, foi adotado um conjunto padronizado de sementes aleatórias. As sementes 
+utilizadas correspondem a 18 combinações de dígitos da parte decimal da constante matemática $\pi$: 
+141592, 653589, 793238, 462643, 383279, 502884, 197169, 399375, 105820, 974944, 592307, 816406, 286208, 998628,
+34825, 342117, 67982, 148086, 513282, 306647, 93844, 609550, 582231, 725359, 408128, 481117, 450284, 102701, 938521, 105559.
+
+A escolha da constante $\pi$ para geração das sementes justifica-se por sua natureza irracional e 
+distribuição uniforme de dígitos, garantindo que as sequências pseudoaleatórias geradas apresentem 
+propriedades estatísticas adequadas para a realização de experimentos científicos. Cada execução 
+dos algoritmos utilizou uma dessas sementes de forma sequencial, permitindo a geração de múltiplas 
+instâncias de teste com características variadas.
+
+\subsection{Ambiente Computacional}
+
+Os experimentos foram conduzidos em um ambiente computacional com as seguintes especificações 
+técnicas, utilizando o \gls{WSL2} sobre o sistema operacional 
+Windows 11:
+
+\begin{itemize}
+    \item \textbf{Processador:} AMD Ryzen 5 4600G com Radeon Graphics, arquitetura Zen 2, 6 núcleos 
+    físicos com tecnologia \textit{Simultaneous Multithreading} (12 \textit{threads}), frequência 
+    de 3.693 GHz;
+    \item \textbf{Memória RAM:} 8 GiB, com 7.7 GiB disponíveis para aplicações;
+    \item \textbf{Hierarquia de Cache:} L1 de 384 KiB, L2 de 3 MiB e L3 de 4 MiB;
+    \item \textbf{Sistema Operacional:} Ubuntu 24.04.3 LTS (Noble Numbat) executado sobre 
+    \textit{kernel} Linux 6.6.87.2-microsoft-standard-WSL2;
+    \item \textbf{Compilador:} GCC versão 11.2.0;
+    \item \textbf{Armazenamento:} Disco virtual de 1 TiB com sistema de arquivos ext4.
+\end{itemize}
+
+A escolha deste ambiente justifica-se pela disponibilidade de recursos computacionais adequados 
+para a execução dos algoritmos propostos, bem como pela compatibilidade com ferramentas de 
+desenvolvimento em Python. O uso do \gls{WSL2} permite executar nativamente aplicações Linux em ambiente 
+Windows, combinando a flexibilidade do ecossistema Linux com a interface familiar do Windows.
 
 \section{Análise comparativa dos experimentos}
