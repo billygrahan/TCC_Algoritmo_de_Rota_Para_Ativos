@@ -1,22 +1,22 @@
 # Fdb version 4
-["bibtex documento"] 1767735243.6827 "documento.aux" "documento.bbl" "documento" 1767735420.51024 0
+["bibtex documento"] 1767811710.8572 "documento.aux" "documento.bbl" "documento" 1767811942.09847 0
   "./3-pos-textuais/referencias.bib" 1766171474.87964 13054 b71c29b78808ec9b7dca0ef3d604d82c ""
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1543183680 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "documento.aux" 1767735420.01175 34988 47c0fb47e606c837087977a050c26c98 "pdflatex"
+  "documento.aux" 1767811941.6347 39231 70352a52465154b2304864f0b37c77bc "pdflatex"
   (generated)
   "documento.bbl"
   "documento.blg"
   (rewritten before read)
-["makeindex documento.idx"] 1767724634.60003 "documento.idx" "documento.ind" "documento" 1767735420.5101 0
-  "documento.idx" 1767735419.00206 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex documento.idx"] 1767811322.37254 "documento.idx" "documento.ind" "documento" 1767811942.09826 0
+  "documento.idx" 1767811940.57287 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "documento.ilg"
   "documento.ind"
   (rewritten before read)
-["pdflatex"] 1767735418.11107 "/home/billygrahan/TCC_Algoritmo_de_Rota_Para_Ativos/documento.tex" "documento.pdf" "documento" 1767735420.51051 0
+["pdflatex"] 1767811939.68034 "/home/billygrahan/TCC_Algoritmo_de_Rota_Para_Ativos/documento.tex" "documento.pdf" "documento" 1767811942.09866 0
   "/etc/texmf/web2c/texmf.cnf" 1765234441.98296 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/billygrahan/TCC_Algoritmo_de_Rota_Para_Ativos/documento.tex" 1767654277.33378 11585 38b4d1a9fdfdb8ee18c4460e533443ee ""
+  "/home/billygrahan/TCC_Algoritmo_de_Rota_Para_Ativos/documento.tex" 1767810648.18687 11581 de32c43264a2397e77a289a1a6b35850 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -235,20 +235,24 @@
   "1-pre-textuais/lista-de-simbolos.tex" 1766171474.86765 987 8a8c5803eb05c9b24347903a77b32d73 ""
   "1-pre-textuais/resumo.tex" 1766342090.07802 2030 a17965bce92195503172670cca5b41e9 ""
   "2-textuais/1-introducao.tex" 1767653868.59357 9473 b5765b94b7064f2f5ac6639642023e05 ""
-  "2-textuais/2-fundamentacao-teorica.tex" 1767719860.90302 36450 53d8de2186eefaaaa3a6213f40171c8e ""
-  "2-textuais/3-metodologia.tex" 1767735416.07961 19762 786a4923733af206b0b811f4d377d333 ""
+  "2-textuais/2-fundamentacao-teorica.tex" 1767741998.89463 36450 89afff9c67ddfa1e105db0b63f846939 ""
+  "2-textuais/3-metodologia.tex" 1767811939.37375 26418 95a24fd5ec9dcb2a6754c9ba1e31c511 ""
+  "2-textuais/4-resultados.tex" 1767809502.68891 1556 0ec631e5e18672db654589e3ac58874e ""
   "2-textuais/trabalhos-relacionados.tex" 1766348294.5901 15977 a89342b0bee51069aff32f1e9fc3812b ""
   "3-pos-textuais/glossario.tex" 1766171474.87964 1325 bece85bf2ed1bad79d64e9c045f5b991 ""
-  "documento.aux" 1767735420.01175 34988 47c0fb47e606c837087977a050c26c98 "pdflatex"
-  "documento.bbl" 1767735243.8324 8815 16299c007a086d0b7e3bffa52f8b704c "bibtex documento"
+  "documento.aux" 1767811941.6347 39231 70352a52465154b2304864f0b37c77bc "pdflatex"
+  "documento.bbl" 1767811710.96484 8815 16299c007a086d0b7e3bffa52f8b704c "bibtex documento"
   "documento.gls" 1767707971.00803 2356 cf25cc8582a4c02392d5d2a4c33d0250 ""
-  "documento.ind" 1767724634.75838 0 d41d8cd98f00b204e9800998ecf8427e "makeindex documento.idx"
-  "documento.lof" 1767735420.01931 1411 6dc95a4f799739e1b42b983f7150467b "pdflatex"
-  "documento.lot" 1767735420.02309 151 d9d826d77956abdf67b40f9f086bda1d "pdflatex"
-  "documento.tex" 1767654277.33378 11585 38b4d1a9fdfdb8ee18c4460e533443ee ""
-  "documento.toc" 1767735420.02309 5381 604af2d2e1896b0d1721851ddbf2f6da "pdflatex"
+  "documento.ind" 1767811322.48498 0 d41d8cd98f00b204e9800998ecf8427e "makeindex documento.idx"
+  "documento.loa" 1767811941.64217 358 cd8d574d0c46227ab7834d3c3fc57e4c "pdflatex"
+  "documento.lof" 1767811941.64217 1550 dcfff06e7cdf705affc5dd593ec19054 "pdflatex"
+  "documento.loq" 1767811941.64217 219 ff63417c50656dadd156897f3480dbdd "pdflatex"
+  "documento.lot" 1767811941.64217 151 f5be7b3aa7c92bdef476ade3c6673f66 "pdflatex"
+  "documento.tex" 1767810648.18687 11581 de32c43264a2397e77a289a1a6b35850 ""
+  "documento.toc" 1767811941.64217 6290 4fedf77e07495131d38b3324f6d107de "pdflatex"
   "figuras/Base_de_dados_Grafico.png" 1767653868.60964 23323 cd9ae26f340f8c8089ea5baa9e9ee133 ""
   "figuras/Grafo_exemple.png" 1767653868.60964 42750 cc02e17c8dee2dc3b3818b6c54977b35 ""
+  "figuras/Passos_do_Trabalho.png" 1767741827.01736 30275 85f2c95c5b16dd2bad2189e55e2ead7e ""
   "figuras/exemple_AEstrela.png" 1767719718.45909 165715 78affb01854413e09238041766fbe08e ""
   "figuras/exemple_BFS.png" 1766171475.26971 38519 6d38ed515bbfe1d9acd6f3cb91f29e77 ""
   "figuras/exemple_DFS.png" 1766171475.26971 138324 f30db13c14dd3f44b2ef96d567284944 ""
@@ -263,8 +267,10 @@
   "documento.glo"
   "documento.idx"
   "documento.ist"
+  "documento.loa"
   "documento.lof"
   "documento.log"
+  "documento.loq"
   "documento.lot"
   "documento.pdf"
   "documento.toc"

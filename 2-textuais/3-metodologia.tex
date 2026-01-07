@@ -22,11 +22,20 @@ médio porte, onde as restrições orçamentárias são mais severas, a otimiza�
 zeladoria pode representar ganhos significativos na gestão pública.
 
 A metodologia adotada neste trabalho segue uma abordagem experimental e comparativa, 
-envolvendo as seguintes etapas principais: (i) revisão sistemática da literatura para identificação 
-do estado da arte em otimização de rotas urbanas; (ii) coleta e estruturação de dados reais de 
-ativos públicos municipais; (iii) modelagem formal do problema; (iv) seleção e implementação 
-de algoritmos heurísticos de busca; (v) definição de métricas de avaliação; (vi) execução de 
-experimentos computacionais; e (vii) análise comparativa dos resultados obtidos.
+envolvendo as seguintes etapas principais: (i) revisão da literatura; (ii) coleta e estruturação dos 
+dados e instancias do problema; (iii) Definição dos algoritmos; (iv) implementação dos algoritmos; 
+(v) analize comparativa dos experimentos. (vi) Considerações Finais.
+
+\begin{figure}[h!]
+    \centering
+    \captionsetup{width=14cm}
+    \Caption{\label{fig:Fases-do-Trabalho} Passos realizados durante o desenvolvimento desse trabalho.}
+    \UFCfig{}{
+        \includegraphics[width=14cm]{figuras/Passos_do_Trabalho.png}
+    }{
+        \Fonte{elaborada pelo autor (2025).}
+    }
+\end{figure}
 
 A escolha por métodos heurísticos justifica-se pela natureza NP-difícil do \gls{TSP}, que torna 
 inviável a obtenção de soluções ótimas em tempo razoável para instâncias de grande porte através 
@@ -59,7 +68,7 @@ as estratégias metodológicas empregadas e as métricas de avaliação comument
     \UFCfig{}{
         \includegraphics[width=14cm]{figuras/Base_de_dados_Grafico.png}
     }{
-        \Fonte{Fonte: Elaborado pelo autor (2025).}
+        \Fonte{elaborada pelo autor (2025).}
     }
 \end{figure}
 
@@ -74,7 +83,7 @@ de ativos urbanos.
 
 \section{Obtenção das Instâncias}
 
-As instâncias do problema foram obtidas a partir do mapeamento de um bairro de uma cidade real, 
+As instâncias do problema foram obtidas a partir do mapeamento de um bairro da cidade de Russas-CE, 
 posteriormente transformado em uma estrutura de grafo que representa a malha viária urbana. Nesta 
 modelagem, cada ponto de interseção entre ruas constitui um vértice do grafo, enquanto as arestas 
 correspondem aos trechos de ruas que conectam esses pontos de interseção. Esta representação 
@@ -113,7 +122,7 @@ a estrutura do problema.
     \UFCfig{}{
         \includegraphics[width=14cm]{figuras/grafo-bairro.png}
     }{
-        \Fonte{Fonte: Elaborado pelo autor (2025).}
+        \Fonte{elaborada pelo autor (2025).}
     }
 \end{figure}
 
@@ -276,6 +285,10 @@ os caminhos e distâncias reais entre eles. Esta flexibilidade torna a solução
 em cenários diversos, desde pequenos bairros até municípios inteiros, ampliando significativamente 
 seu potencial de utilização prática na gestão pública municipal.
 
+
+
+
+
 \section{Implementação dos Algoritmos}
 
 A implementação dos algoritmos propostos foi realizada na linguagem de programação Python 
@@ -310,10 +323,12 @@ malhas viárias complexas. A estrutura de lista de adjacência garante complexid
 adequada para grafos esparsos típicos de redes urbanas.
 
 \subsection{Padronização dos Experimentos}
+\label{chap:metodologia:padronizacao_dos_experimentos}
 
 Para garantir a reprodutibilidade dos experimentos e permitir comparações justas entre diferentes 
 execuções dos algoritmos, foi adotado um conjunto padronizado de sementes aleatórias. As sementes 
-utilizadas correspondem a 18 combinações de dígitos da parte decimal da constante matemática $\pi$: 
+utilizadas correspondem a 18 combinações de dígitos da parte decimal da constante matemática $\pi$, ou seja, a
+cada 6 casas decimais uma nova semente foi gerada: 
 141592, 653589, 793238, 462643, 383279, 502884, 197169, 399375, 105820, 974944, 592307, 816406, 286208, 998628,
 34825, 342117, 67982, 148086, 513282, 306647, 93844, 609550, 582231, 725359, 408128, 481117, 450284, 102701, 938521, 105559.
 
@@ -323,27 +338,142 @@ propriedades estatísticas adequadas para a realização de experimentos cientí
 dos algoritmos utilizou uma dessas sementes de forma sequencial, permitindo a geração de múltiplas 
 instâncias de teste com características variadas.
 
-\subsection{Ambiente Computacional}
 
-Os experimentos foram conduzidos em um ambiente computacional com as seguintes especificações 
-técnicas, utilizando o \gls{WSL2} sobre o sistema operacional 
-Windows 11:
 
-\begin{itemize}
-    \item \textbf{Processador:} AMD Ryzen 5 4600G com Radeon Graphics, arquitetura Zen 2, 6 núcleos 
-    físicos com tecnologia \textit{Simultaneous Multithreading} (12 \textit{threads}), frequência 
-    de 3.693 GHz;
-    \item \textbf{Memória RAM:} 8 GiB, com 7.7 GiB disponíveis para aplicações;
-    \item \textbf{Hierarquia de Cache:} L1 de 384 KiB, L2 de 3 MiB e L3 de 4 MiB;
-    \item \textbf{Sistema Operacional:} Ubuntu 24.04.3 LTS (Noble Numbat) executado sobre 
-    \textit{kernel} Linux 6.6.87.2-microsoft-standard-WSL2;
-    \item \textbf{Compilador:} GCC versão 11.2.0;
-    \item \textbf{Armazenamento:} Disco virtual de 1 TiB com sistema de arquivos ext4.
-\end{itemize}
 
-A escolha deste ambiente justifica-se pela disponibilidade de recursos computacionais adequados 
-para a execução dos algoritmos propostos, bem como pela compatibilidade com ferramentas de 
-desenvolvimento em Python. O uso do \gls{WSL2} permite executar nativamente aplicações Linux em ambiente 
-Windows, combinando a flexibilidade do ecossistema Linux com a interface familiar do Windows.
+
+
 
 \section{Análise comparativa dos experimentos}
+
+A avaliação da solução proposta neste trabalho baseia-se em uma análise comparativa sistemática 
+que visa mensurar a eficiência e a qualidade das rotas geradas pelo algoritmo híbrido desenvolvido. 
+A metodologia de análise adota múltiplas métricas complementares que permitem uma avaliação 
+abrangente do desempenho da solução, considerando tanto aspectos computacionais quanto a 
+qualidade das rotas obtidas.
+
+
+\subsection{Métricas de Avaliação}
+
+Para a análise comparativa, foram estabelecidas duas métricas principais que refletem os 
+objetivos práticos da otimização de rotas na gestão pública:
+
+\begin{itemize}
+    \item \textbf{Tempo de Execução:} Medido em segundos, representa o tempo computacional 
+    necessário para que o algoritmo gere uma solução completa. Esta métrica é fundamental 
+    para avaliar a viabilidade prática da implementação, especialmente em cenários onde 
+    decisões precisam ser tomadas em tempo hábil. Para garantir precisão nas medições, foram 
+    utilizadas as funcionalidades da biblioteca \textit{time} do Python, que permite 
+    cronometrar com alta resolução o tempo decorrido entre o início e o término da execução 
+    de cada algoritmo.
+    
+    \item \textbf{Qualidade da Solução:} Quantificada pelo custo total da rota gerada, 
+    expresso em unidades de distância (metros). Esta métrica representa a soma das distâncias 
+    de todos os trechos que compõem o percurso completo, desde a partida do ponto de origem, 
+    passando por todos os ativos a serem visitados, até o retorno ao ponto inicial. Menores 
+    valores de custo indicam rotas mais eficientes, que resultam em economia de combustível, 
+    redução de tempo de deslocamento e menor desgaste dos veículos.
+\end{itemize}
+
+\subsection{Estratégia de Comparação}
+
+A validação da solução proposta fundamenta-se na comparação com algoritmos de busca clássicos 
+que garantem encontrar o caminho ótimo entre dois pontos em um grafo. Para esta finalidade, 
+foram selecionados os algoritmos \gls{BFS} e \gls{DFS} como referências de comparação. Embora 
+esses algoritmos não sejam especificamente projetados para resolver o \gls{TSP} completo, eles 
+garantem encontrar caminhos válidos entre cada par de ativos, explorando sistematicamente todas 
+as possibilidades de conexão no grafo.
+
+A escolha desses algoritmos como base de comparação justifica-se por suas características 
+complementares. A \gls{DFS} e \gls{BFS}, ao explorar 
+profundamente cada ramo antes de retroceder e e em largura oferece uma alternativa com diferentes 
+características de uso de memória e ordem de exploração.
+
+\subsection{Análise de Viabilidade}
+
+A análise de viabilidade da solução proposta será conduzida através da comparação direta 
+entre o desempenho do algoritmo híbrido desenvolvido e os algoritmos de referência. Esta 
+comparação permitirá verificar se a abordagem heurística consegue gerar soluções competitivas 
+em termos de qualidade, mantendo tempos de execução compatíveis com aplicações práticas.
+
+Espera-se que o algoritmo híbrido, ao combinar estratégias probabilísticas de seleção com 
+técnicas de programação dinâmica, consiga explorar eficientemente o espaço de soluções sem 
+a necessidade de avaliar exaustivamente todas as possibilidades. Esta característica é 
+particularmente relevante para instâncias de maior porte, onde métodos de busca exaustiva 
+tornam-se computacionalmente inviáveis devido ao crescimento exponencial do espaço de busca.
+
+\subsection{Procedimento Experimental}
+
+Os experimentos serão conduzidos sobre múltiplas instâncias de teste, cada uma gerada com 
+uma das sementes aleatórias padronizadas descritas na seção \ref{chap:metodologia:padronizacao_dos_experimentos}. 
+Para cada instância, serão executados todos os algoritmos de busca selecionados (\gls{BFS}, \gls{DFS}, \gls{UCS} 
+e \gls{AE} com diferentes heurísticas), registrando-se os tempos de execução e os custos 
+das rotas obtidas.
+
+Os resultados serão organizados em tabelas e gráficos comparativos que evidenciam as 
+diferenças de desempenho entre as abordagens. Análises estatísticas descritivas, como 
+médias, desvios-padrão e valores extremos, permitirão caracterizar o comportamento geral 
+de cada algoritmo. Adicionalmente, será avaliado o impacto do tamanho da instância 
+(número de ativos a serem visitados) sobre o desempenho de cada abordagem, identificando 
+possíveis limites de escalabilidade.
+
+A partir desta análise comparativa abrangente, será possível não apenas validar a eficácia 
+da solução proposta, mas também fornecer recomendações práticas sobre quais algoritmos de 
+busca são mais adequados para diferentes cenários de aplicação na gestão pública municipal.
+
+\section{Considerações Finais}
+
+Este capítulo apresentou a metodologia adotada para o desenvolvimento da solução de otimização de 
+rotas para visitação de ativos públicos municipais. A abordagem proposta combina técnicas de 
+algoritmos genéticos com programação dinâmica, aplicadas sobre um grafo real da malha viária urbana 
+da cidade de Russas-CE. A revisão sistemática da literatura fundamentou a escolha dos algoritmos 
+de busca (\gls{BFS}, \gls{DFS}, \gls{UCS} e \gls{AE}) utilizados para comparação experimental, 
+enquanto a padronização das instâncias de teste, baseada em sementes derivadas da constante $\pi$, 
+garante a reprodutibilidade dos experimentos.
+
+As métricas de avaliação estabelecidas (tempo de execução e qualidade da solução) permitirão 
+analisar não apenas a eficiência computacional dos algoritmos, mas também a viabilidade prática 
+de sua aplicação na gestão pública municipal. A estrutura modular da implementação, com suporte 
+para integração com \gls{API}s externas de roteamento, confere escalabilidade e adaptabilidade 
+da solução para diferentes contextos urbanos.
+
+O Quadro \ref{qua:cronograma-tcc1} apresenta o cronograma das atividades realizadas e previstas 
+para a conclusão deste trabalho. As próximas etapas contemplam a análise aprofundada dos resultados 
+experimentais, o desenvolvimento de visualizações gráficas das rotas otimizadas e a construção de 
+uma aplicação visual para demonstração prática da solução, culminando na escrita final do documento.
+
+\begin{quadro}[h!]	
+\centering
+\Caption{\label{qua:cronograma-tcc1} Cronograma de execução - TCC}		
+\UFCqua{}{
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|p{4.2cm}|c|c|c|c|c|c|c|c|c|c|}
+            \hline
+            \textbf{Atividade} & \textbf{Set/25} & \textbf{Out/25} & \textbf{Nov/25} & \textbf{Dez/25} & 
+            \textbf{Jan/26} & \textbf{Fev/26} & \textbf{Mar/26} & \textbf{Abr/26} & 
+            \textbf{Mai/26} & \textbf{Jun/26} \\
+            \hline
+            Revisão Bibliográfica & X & X & & & & & & & & \\
+            \hline
+            Obtenção das Instâncias & & X & X & & & & & & & \\
+            \hline
+            Implementação dos Algoritmos & & & X & X & & & & & & \\
+            \hline
+            Execução dos Experimentos & & & & X & X & X & & & & \\
+            \hline
+            Escrita e ajustes TCC1 & & & & X & X & & & & & \\
+            \hline
+            Análise dos Resultados & & & & & & X & X & X & & \\
+            \hline
+            Desenvolvimento de diagramas e figuras & & & & & & & X & X & & \\
+            \hline
+            Desenvolvimento de aplicação visual & & & & & & & & X & X & \\
+            \hline
+            Escrita e ajustes do TCC2 & & & & & & & & & X & X\\
+            \hline
+        \end{tabular}
+    }
+}{
+    \Fonte{elaborado pelo autor.}
+}
+\end{quadro}

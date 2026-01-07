@@ -5,56 +5,66 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{13}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Objetivos}{13}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Objetivos específicos}{13}{subsection.1.1.1}%
-\contentsline {section}{\numberline {1.2}Justificativa}{14}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Organização do Trabalho}{15}{section.1.3}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{16}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Cidades inteligentes}{16}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Eixos das Cidades Inteligentes}{16}{subsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}Governança Inteligente}{16}{subsubsection.2.1.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.2}Mobilidade Urbana Inteligente}{17}{subsubsection.2.1.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.1.3}Urbanismo e Planejamento Urbano}{17}{subsubsection.2.1.1.3}%
-\contentsline {section}{\numberline {2.2}Gestão de ativos públicos}{18}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Zeladoria Urbana}{18}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Métodos de Otimização}{19}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Métodos Exatos}{19}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Heurísticas}{20}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Meta-heurísticas}{21}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Teoria dos Grafos}{21}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Algoritmos de Busca}{22}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Busca em Largura (BFS)}{22}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Busca em Profundidade (DFS)}{23}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Busca de Custo Uniforme}{23}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}Algoritmo A* (A Estrela)}{25}{subsection.2.6.4}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Revisão da Literatura}}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Contextualização}{27}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Planejamento}{27}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Definição de Questões de Pesquisa (\gls {QP})}{27}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Definição da \textit {string} de busca}{28}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Definições de bases de dados}{28}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Definição dos critérios de inclusão e exclusão}{28}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Condução}{29}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Resultados}{29}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Considerações Finais}{31}{section.3.5}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Metodologia}}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Contextualização}{33}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Revisão da Literatura}{34}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Obtenção das Instâncias}{35}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Definição dos Algoritmos}{36}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Estrutura Geral do Algoritmo}{36}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Mecanismo de Seleção Probabilística}{37}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Algoritmos de Busca em Grafos}{38}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Integração com APIs de Roteamento}{40}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Implementação dos Algoritmos}{40}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Representação do Grafo}{41}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Padronização dos Experimentos}{41}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Ambiente Computacional}{41}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Análise comparativa dos experimentos}{42}{section.4.6}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{REFER\^ENCIAS}}{43}{section*.22}%
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{15}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivos}{15}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Objetivos específicos}{15}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Justificativa}{16}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Organização do Trabalho}{17}{section.1.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Cidades inteligentes}{18}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Eixos das Cidades Inteligentes}{18}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Governança Inteligente}{18}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Mobilidade Urbana Inteligente}{19}{subsubsection.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.3}Urbanismo e Planejamento Urbano}{19}{subsubsection.2.1.1.3}%
+\contentsline {section}{\numberline {2.2}Gestão de ativos públicos}{20}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Zeladoria Urbana}{20}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Métodos de Otimização}{21}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Métodos Exatos}{21}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Heurísticas}{22}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Meta-heurísticas}{23}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Teoria dos Grafos}{23}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Algoritmos de Busca}{24}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Busca em Largura (BFS)}{24}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Busca em Profundidade (DFS)}{25}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Busca de Custo Uniforme}{25}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Algoritmo A* (A Estrela)}{27}{subsection.2.6.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Revisão da Literatura}}{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Contextualização}{29}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Planejamento}{29}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Definição de Questões de Pesquisa (\gls {QP})}{29}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Definição da \textit {string} de busca}{30}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Definições de bases de dados}{30}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Definição dos critérios de inclusão e exclusão}{30}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Condução}{31}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Resultados}{31}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Considerações Finais}{33}{section.3.5}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Metodologia}}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Contextualização}{35}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Revisão da Literatura}{36}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Obtenção das Instâncias}{37}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Definição dos Algoritmos}{38}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Estrutura Geral do Algoritmo}{38}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Mecanismo de Seleção Probabilística}{39}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Algoritmos de Busca em Grafos}{40}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Integração com APIs de Roteamento}{42}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Implementação dos Algoritmos}{42}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Representação do Grafo}{43}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Padronização dos Experimentos}{43}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Análise comparativa dos experimentos}{43}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Métricas de Avaliação}{44}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Estratégia de Comparação}{44}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Análise de Viabilidade}{44}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Procedimento Experimental}{45}{subsection.4.6.4}%
+\contentsline {section}{\numberline {4.7}Considerações Finais}{45}{section.4.7}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Resultados}}{47}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Ambiente Computacional}{47}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Execução dos Algoritmos}{47}{section.5.2}%
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase []{REFER\^ENCIAS}}{48}{section*.26}%
