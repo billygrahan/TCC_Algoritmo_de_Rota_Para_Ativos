@@ -66,5 +66,7 @@
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Resultados}}{47}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Ambiente Computacional}{47}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Execução dos Algoritmos}{47}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Configuração dos Experimentos}{48}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Resultados Preliminares}{48}{subsection.5.2.2}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{REFER\^ENCIAS}}{48}{section*.26}%
+\contentsline {chapter}{\MakeTextUppercase []{REFER\^ENCIAS}}{50}{section*.27}%
