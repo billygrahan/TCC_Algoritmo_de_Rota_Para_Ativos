@@ -30,7 +30,7 @@
 \contentsline {section}{\numberline {2.6}Algoritmos de Busca}{24}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Busca em Largura (BFS)}{24}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}Busca em Profundidade (DFS)}{25}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Busca de Custo Uniforme}{25}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.3}Busca de Custo Uniforme}{26}{subsection.2.6.3}%
 \contentsline {subsection}{\numberline {2.6.4}Algoritmo A* (A Estrela)}{27}{subsection.2.6.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Revisão da Literatura}}{29}{chapter.3}%

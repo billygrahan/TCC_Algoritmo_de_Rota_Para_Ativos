@@ -1,9 +1,9 @@
-PWD /home/billygrahan/Modelo_de_Trabalho_Acadêmico_UFC
+PWD /home/billygrahan/TCC_Algoritmo_de_Rota_Para_Ativos
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/billygrahan/Modelo_de_Trabalho_Acadêmico_UFC/documento.tex
+INPUT /home/billygrahan/TCC_Algoritmo_de_Rota_Para_Ativos/documento.tex
 OUTPUT documento.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
