@@ -6,7 +6,6 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{15}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Objetivos}{15}{section.1.1}%
@@ -69,4 +68,4 @@
 \contentsline {subsection}{\numberline {5.2.1}Configuração dos Experimentos}{48}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}Resultados Preliminares}{48}{subsection.5.2.2}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{REFER\^ENCIAS}}{50}{section*.27}%
+\contentsline {chapter}{\MakeTextUppercase []{REFER\^ENCIAS}}{50}{section*.25}%

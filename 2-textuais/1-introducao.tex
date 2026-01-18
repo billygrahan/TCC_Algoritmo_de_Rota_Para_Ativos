@@ -21,14 +21,16 @@
 A gestão eficiente dos ativos públicos constitui um desafio constante para as administrações municipais, 
 especialmente quando demanda visitas periódicas para inspeção, manutenção ou levantamento de informações. 
 Esses ativos — como praças, escolas, unidades de saúde, postes de iluminação, equipamentos urbanos, entre outros — 
-encontram-se com algum Problema por diferentes regiões da cidade, exigindo um planejamento logístico criterioso que minimize 
+encontram-se com algum problema, seja para conserto, manutenção ou reposição por diferentes regiões da cidade, exigindo um planejamento logístico criterioso que minimize 
 o tempo de deslocamento e os custos operacionais das equipes responsáveis.
 
-No contexto das cidades inteligentes, a otimização de rotas torna-se fundamental para a eficiência 
+No contexto das cidades inteligentes — ambientes urbanos que utilizam Tecnologias da Informação e 
+Comunicação (TIC) para melhorar a infraestrutura, os serviços públicos e a qualidade de vida dos 
+cidadãos \cite{WEISS2015} — a otimização de rotas torna-se fundamental para a eficiência 
 operacional dos serviços públicos. A ausência de planejamento adequado resulta em desperdício de recursos, 
 aumento do tempo de resposta às demandas da população e ineficiência na prestação de serviços essenciais. 
 Este cenário é particularmente crítico em municípios de pequeno e médio porte, onde as limitações orçamentárias 
-e de infraestrutura são mais acentuadas.
+e de infraestrutura são mais acentuadas \cite{SANTIAGO2023}.
 
 O desafio consiste em determinar a rota mais eficiente para que 
 profissionais da prefeitura percorram todos os pontos de visitação necessários e retornem ao ponto de origem, 
@@ -42,17 +44,16 @@ minimizando a distância total percorrida e, consequentemente, o tempo e os cust
 
 Diante do contexto apresentado, o objetivo geral deste trabalho consiste em desenvolver e avaliar um algoritmo 
 capaz de gerar rotas otimizadas para a visitação de ativos públicos por profissionais da administração municipal, 
-aplicando técnicas heurísticas para resolver o Problema do Caixeiro Viajante (do inglês, \gls{TSP})
-adaptado à realidade da gestão pública.
+utilizando um algoritmo heuristico conforme a realidade da gestão pública.
 
 \subsection{Objetivos específicos}
     Para alcançar o objetivo geral, estabelecem-se os seguintes objetivos específicos:
 \begin{itemize}
-    \item Realizar uma revisão sistemática da literatura para identificar os principais trabalhos relacionados 
+    \item Obter um levantamento dos principais trabalhos relacionados 
     à otimização de rotas em contextos urbanos e cidades inteligentes, bem como as técnicas e algoritmos empregados;
-    \item Identificar o Problema do Caixeiro Viajante e suas variantes, contextualizando suas 
+    \item Identificar os principais conceitos sobre o Problema do Caixeiro Viajante e suas variantes, contextualizando suas 
     aplicações na gestão de ativos públicos municipais;
-    \item Obter um algoritmo heurístico para geração de rotas otimizadas, 
+    \item Identificar um algoritmo heurístico para geração de rotas otimizadas, 
     considerando as especificidades da gestão pública;
     \item Obter uma avaliação do desempenho do algoritmo desenvolvido por meio de análise comparativa utilizando 
     dados de ativos municipais;
@@ -109,7 +110,10 @@ O Capítulo 4 apresenta a metodologia empregada no desenvolvimento da solução,
 o algoritmo proposto, os dados utilizados, os procedimentos de implementação e os critérios 
 de avaliação de desempenho.
 
-Por fim, o Capítulo 5 consolida as conclusões do trabalho, sintetizando os principais 
+O Capítulo 5 detalha a implementação do algoritmo desenvolvido, apresentando os resultados 
+obtidos a partir de testes realizados gerar graficos comparativos e análises de desempenho.
+
+Por fim, o Capítulo 6 consolida as conclusões do trabalho, sintetizando os principais 
 resultados obtidos, discutindo as limitações da pesquisa e apontando direções para trabalhos futuros.
 
 % Estudar e selecionar uma heurística adequada para a resolução do problema;
