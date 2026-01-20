@@ -344,7 +344,8 @@ a Busca em Profundidade (DFS), a Busca de Custo Uniforme (UCS) e o Algoritmo A* 
 
 A Busca em Largura (do inglês, \gls{BFS}) explora o grafo sistematicamente 
 visitando todos os vértices a uma mesma distância da origem antes de avançar para níveis mais 
-profundos \cite{CORMEN2012}. O algoritmo utiliza uma estrutura de fila (do inglês, \gls{FIFO}) para controlar a ordem de visitação dos vértices.
+profundos \cite{CORMEN2012}. O algoritmo utiliza uma estrutura de fila (do inglês, \gls{FIFO})
+, onde o primeiro que entrar é o primeiro que sai, para controlar a ordem de visitação dos vértices.
 
 A complexidade de tempo da BFS é $O(V + E)$, onde $V$ é o número de vértices e $E$ é o 
 número de arestas. O algoritmo garante encontrar o caminho mais curto em termos de número 
@@ -375,7 +376,7 @@ mostrando a ordem de visitação dos vértices nível por nível.
 
 A Busca em Profundidade (do inglês, \gls{DFS}) percorre o grafo explorando o 
 máximo possível cada caminho antes de retroceder \cite{CORMEN2012}. Pode ser implementada 
-recursivamente ou utilizando uma pilha (do inglês, \gls{LIFO}). A \gls{DFS} também possui 
+recursivamente ou utilizando uma pilha (do inglês, \gls{LIFO}), onde o último que entrar será o primeiro a sair. A \gls{DFS} também possui 
 complexidade $O(V + E)$.
 
 A \gls{DFS} é especialmente adequada para:

@@ -23,7 +23,7 @@ zeladoria pode representar ganhos significativos na gestão pública.
 
 A metodologia adotada neste trabalho segue uma abordagem experimental e comparativa, 
 envolvendo as seguintes etapas principais: (i) revisão da literatura; (ii) coleta e estruturação dos 
-dados e instancias do problema; (iii) Definição dos algoritmos; (iv) implementação dos algoritmos; 
+dados e instâncias do problema; (iii) Definição dos algoritmos; (iv) implementação dos algoritmos; 
 (v) analize comparativa dos experimentos. (vi) Considerações Finais.
 
 \begin{figure}[h!]
@@ -63,7 +63,7 @@ as estratégias metodológicas empregadas e as métricas de avaliação comument
     \centering
     \captionsetup{width=14cm}
     \Caption{\label{fig:Base-de-dados-Grafico} Quantidade de artigos obtidos após a pesquisa nas Bases de Dados, 
-        o Download e aplicação dos
+        o \textit{download} e aplicação dos
         Critérios de Inclusão e Exclusão.}
     \UFCfig{}{
         \includegraphics[width=14cm]{figuras/Base_de_dados_Grafico.png}
@@ -147,9 +147,10 @@ e seleção da melhor alternativa caracteriza a natureza heurística do método,
 para soluções de alta qualidade sem a necessidade de explorar exaustivamente todo o espaço de 
 busca.
 
-Um elemento fundamental da solução é a aplicação de programação dinâmica para otimizar o cálculo 
-dos caminhos entre os ativos. O algoritmo mantém uma estrutura de memorização (\textit{memoization}) 
-que armazena os caminhos e distâncias já calculados entre pares de ativos, evitando recomputações 
+Um elemento fundamental da solução é o armazenamento da distância entre dois ativos, evitando o recálculo a 
+cada consulta, com o intuito de otimizar o cálculo dos caminhos entre os ativos. 
+O algoritmo mantém uma estrutura de memorização (do inglês, \textit{memoization}) 
+que armazena os caminhos e as distâncias já calculadas entre pares de ativos, evitando recomputações 
 desnecessárias. Esta estratégia reduz significativamente o custo computacional, especialmente em 
 cenários onde um mesmo par de ativos aparece em múltiplas soluções candidatas ao longo do processo 
 iterativo. A combinação entre a exploração probabilística das rotas e a memorização eficiente dos 
@@ -169,7 +170,7 @@ subcaminhos constitui o diferencial da abordagem proposta.
 }
 \end{algorithm}
 \begin{flushleft}
-\small{\textit{Fonte: Elaborado pelo autor (2025).}}
+\small{Fonte: elaborado pelo autor (2025).}
 \end{flushleft}
 
 \subsection{Mecanismo de Seleção Probabilística}
@@ -201,19 +202,19 @@ eficientes.
     Adicione $peso$ à lista de pesos\;
 }
 
-Calcule $probabilidades = pesos / \sum pesos$\;
+Calcule $probabilidades = pesos / sum(pesos)$\;
 Escolha aleatoriamente um objeto com base nas probabilidades\;
 \Return objeto escolhido\;
 
 \end{algorithm}
 \begin{flushleft}
-\small{\textit{Fonte: Elaborado pelo autor (2025).}}
+\small{Fonte: elaborado pelo autor (2025).}
 \end{flushleft}
 
 
 \subsection{Algoritmos de Busca em Grafos}
 
-Para determinar o caminho ótimo entre dois ativos no grafo da malha viária, o algoritmo \ref{alg:gerar-solucao} utiliza 
+Para determinar o caminho entre dois ativos no grafo da malha viária, o algoritmo \ref{alg:gerar-solucao} utiliza 
 métodos clássicos de busca em grafos. A função genérica $algoritmo(origem, ativo)$ pode ser 
 implementada utilizando diferentes estratégias de busca, conforme apresentadas no Capítulo 
 \ref{cap:fundamentacao-teorica}. Para os experimentos realizados neste trabalho, foram 
@@ -234,11 +235,11 @@ Inicialize $melhor\_rota\_copia \gets [(inicio, 0)]$\;
 $ativos\_copia \gets copia(ativos)$\;
 $origem \gets inicio$\;
 
-\While{$ativos\_copia \neq \emptyset$}{
+\While{$ativos\_copia $<>$ \emptyset$}{
     Inicialize lista $roleta$\;
 
     \ForEach{$ativo$ em $ativos\_copia$}{
-        \If{$ativo \notin distancia\_entre\_ativos[origem]$}{
+        \If{$ativo$ $not\ in$ $distancia\_entre\_ativos[origem]$}{
             $rota, distancia, nos, ramificacao \gets algoritmo(origem, ativo)$\;
             Adicione $rota$ a $caminho\_entre\_ativos$\;
             Atualize $distancia\_entre\_ativos[origem][ativo] \gets distancia$\;
@@ -252,7 +253,7 @@ $origem \gets inicio$\;
     $origem \gets elemento$\;
 }
 
-\If{$inicio \notin distancia\_entre\_ativos[origem]$}{
+\If{$inicio$ $not\ in$ $distancia\_entre\_ativos[origem]$}{
     $rota, distancia, nos, ramificacao \gets algoritmo(origem, inicio)$\;
     Adicione $rota$ a $caminho\_entre\_ativos$\;
     Atualize $distancia\_entre\_ativos[origem][inicio] \gets distancia$\;
@@ -264,7 +265,7 @@ Chame $recalcula\_distancias(melhor\_rota\_copia)$\;
 
 \end{algorithm}
 \begin{flushleft}
-\small{\textit{Fonte: Elaborado pelo autor (2025).}}
+\small{Fonte: elaborado pelo autor (2025).}
 \end{flushleft}
 
 \subsection{Integração com APIs de Roteamento}
@@ -476,6 +477,6 @@ uma aplicação visual para demonstração prática da solução, culminando na 
         \end{tabular}
     }
 }{
-    \Fonte{elaborado pelo autor.}
+    \Fonte{elaborado pelo autor(2026).}
 }
 \end{quadro}
