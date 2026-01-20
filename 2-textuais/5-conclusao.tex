@@ -1,17 +1,76 @@
-\chapter{Conclusões e Trabalhos Futuros}
+\chapter{Conclusão}
 \label{chap:conclusoes-e-trabalhos-futuros}
 
-Parte final do texto na qual se apresentam as conclusões apoiadas no desenvolvimento do assunto. É a recapitulação sintética dos resultados obtidos. Pode apresentar recomendações e sugestões para pesquisas futuras.
+Este trabalho investigou algoritmos de busca aplicados à otimização de rotas para visitação de 
+ativos públicos municipais no contexto da zeladoria urbana. O objetivo central foi desenvolver e 
+avaliar soluções computacionais que auxiliem gestores públicos na geração de rotas eficientes para 
+equipes de manutenção que precisam visitar múltiplos pontos distribuídos geograficamente pela cidade.
 
-%\label{sec:contribuicoes-do-trabalho}
+\section{Atividades Realizadas}
 
+Até o presente momento, foram desenvolvidas as seguintes etapas do trabalho:
 
+\begin{itemize}
+    \item \textbf{Revisão Sistemática da Literatura:} Conduzida seguindo o protocolo de 
+    \citeonline{KITCHENHAM2009}, resultando na identificação de 8 trabalhos primários relevantes 
+    sobre otimização de rotas urbanas e aplicações do \gls{TSP} em gestão pública;
+    
+    \item \textbf{Modelagem do Problema:} Obtenção e estruturação de grafos representando a malha 
+    viária do município de Russas-CE, utilizando dados geográficos do \gls{ORS}, com grafos 
+    variando de 13 a 81 nós;
+    
+    \item \textbf{Implementação dos Algoritmos:} Desenvolvimento em Python de cinco algoritmos de 
+    busca para resolução do problema: \gls{DFS}, \gls{BFS}, \gls{UCS}, \gls{AE} com heurística 
+    euclidiana e \gls{AE} com heurística haversiana;
+    
+    \item \textbf{Execução dos Experimentos:} Realização de testes automatizados sobre diferentes 
+    instâncias do problema, variando o tamanho do grafo e a quantidade de ativos a serem visitados 
+    (5 a 40 pontos);
+    
+    \item \textbf{Resultados Preliminares:} Obtenção de dados comparativos sobre tempo de execução 
+    e distância das rotas geradas por cada algoritmo, evidenciando a superioridade dos algoritmos 
+    de busca informada (\gls{UCS} e \gls{AE}) em relação aos não-informados (\gls{DFS} e \gls{BFS}).
+\end{itemize}
 
-%\label{sec:limitacoes}
+Os resultados preliminares indicam que todos os algoritmos convergem para soluções com distâncias 
+equivalentes quando há convergência, porém os algoritmos informados apresentam desempenho temporal 
+substancialmente superior, com tempos de execução inferiores a 1 segundo mesmo para as instâncias 
+mais complexas, enquanto os algoritmos não-informados não convergem para grafos maiores.
 
+\section{Próximas Etapas}
 
+Conforme estabelecido no cronograma de trabalho, as atividades previstas para conclusão do TCC são:
 
+\begin{itemize}
+    \item \textbf{Análise Aprofundada dos Resultados:} Realizar análises estatísticas mais 
+    detalhadas dos dados experimentais, incluindo médias, desvios-padrão e comparações de 
+    escalabilidade entre os algoritmos;
+    
+    \item \textbf{Desenvolvimento de Visualizações Gráficas:} Criar representações visuais das 
+    rotas otimizadas sobre os mapas reais, facilitando a interpretação e validação das soluções 
+    geradas;
+    
+    \item \textbf{Construção de Aplicação Visual:} Desenvolver uma interface gráfica demonstrativa 
+    que permita visualizar o funcionamento dos algoritmos e as rotas geradas sobre a malha viária;
+    
+    \item \textbf{Redação Final do Documento:} Consolidar todas as seções do trabalho, incorporando 
+    as análises finais, discussões aprofundadas e considerações conclusivas sobre a aplicabilidade 
+    prática da solução proposta.
+\end{itemize}
 
+\section{Considerações Parciais}
 
+Os resultados obtidos até o momento demonstram a viabilidade técnica de aplicar algoritmos de 
+busca informada para otimização de rotas na gestão pública municipal. A abordagem desenvolvida 
+mostrou-se adequada para resolver problemas reais de zeladoria urbana em escalas compatíveis com 
+municípios de pequeno e médio porte, oferecendo tempos de execução compatíveis com aplicações 
+práticas.
+
+Espera-se que, ao término do trabalho, seja possível fornecer subsídios técnicos concretos para 
+que gestores públicos possam implementar sistemas de otimização de rotas em suas administrações, 
+contribuindo para a redução de custos operacionais, economia de recursos públicos e melhoria na 
+eficiência dos serviços prestados à população. A continuidade do trabalho também poderá servir 
+como base para futuros desenvolvimentos na área, incluindo a avaliação de meta-heurísticas, 
+incorporação de restrições adicionais e aplicação em outros contextos de roteamento urbano.
 
 

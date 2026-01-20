@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex build/documento"] 1768918150.88076 "build/documento.aux" "build/documento.bbl" "build/documento" 1768918263.82527 0
+["bibtex build/documento"] 1768930853.46896 "build/documento.aux" "build/documento.bbl" "build/documento" 1768930856.33374 0
   "./3-pos-textuais/referencias.bib" 1766171474.87964 13054 b71c29b78808ec9b7dca0ef3d604d82c ""
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1543183680 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "build/documento.aux" 1768918263.25829 41347 a521beb9eb4dea89e43cb4095d6d2357 "pdflatex"
+  "build/documento.aux" 1768930855.77469 42343 251850db7f120877f0c62e5aa0a4d0d9 "pdflatex"
   (generated)
   "build/documento.bbl"
   "build/documento.blg"
   (rewritten before read)
-["makeindex build/documento.idx"] 1768874154.90138 "build/documento.idx" "build/documento.ind" "build/documento" 1768918263.82511 0
-  "build/documento.idx" 1768918261.99451 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex build/documento.idx"] 1768874154.90138 "build/documento.idx" "build/documento.ind" "build/documento" 1768930856.33358 0
+  "build/documento.idx" 1768930854.52611 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "build/documento.ilg"
   "build/documento.ind"
   (rewritten before read)
-["pdflatex"] 1768918260.75529 "/home/billygrahan/TCC_Algoritmo_de_Rota_Para_Ativos/documento.tex" "build/documento.pdf" "documento" 1768918263.82544 0
+["pdflatex"] 1768930853.62916 "/home/billygrahan/TCC_Algoritmo_de_Rota_Para_Ativos/documento.tex" "build/documento.pdf" "documento" 1768930856.33392 0
   "/etc/texmf/web2c/texmf.cnf" 1765234441.98296 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/billygrahan/TCC_Algoritmo_de_Rota_Para_Ativos/documento.tex" 1768918146.87376 11600 bd713047821122579f3ff30154462317 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -241,18 +241,18 @@
   "2-textuais/2-fundamentacao-teorica.tex" 1768860949.74926 36661 de12a70dcc57d591aaaec5cc57d6057b ""
   "2-textuais/3-metodologia.tex" 1768875579.18146 26564 928ff70052e2dbc936e7b41189f7470e ""
   "2-textuais/4-resultados.tex" 1768874426.07979 25090 ebbd599811964fc21d436756dd9ad499 ""
-  "2-textuais/5-conclusao.tex" 1768918259.96003 91 244c262d28a13c9238266ad78b344700 ""
+  "2-textuais/5-conclusao.tex" 1768930849.26786 4461 a0af2f36a1cd4170c9e1423523861df8 ""
   "2-textuais/trabalhos-relacionados.tex" 1768863008.97989 16121 698425a118d87d1f2de79bb66d4501fc ""
   "3-pos-textuais/glossario.tex" 1766171474.87964 1325 bece85bf2ed1bad79d64e9c045f5b991 ""
-  "build/documento.aux" 1768918263.25829 41347 a521beb9eb4dea89e43cb4095d6d2357 "pdflatex"
-  "build/documento.bbl" 1768918151.06018 8815 16299c007a086d0b7e3bffa52f8b704c "bibtex build/documento"
+  "build/documento.aux" 1768930855.77469 42343 251850db7f120877f0c62e5aa0a4d0d9 "pdflatex"
+  "build/documento.bbl" 1768930853.61432 8815 16299c007a086d0b7e3bffa52f8b704c "bibtex build/documento"
   "build/documento.gls" 0 -1 0 ""
   "build/documento.ind" 1768874155.05985 0 d41d8cd98f00b204e9800998ecf8427e "makeindex build/documento.idx"
-  "build/documento.loa" 1768918263.26658 378 a77e33eadbb3f02f8bea662d433182e6 "pdflatex"
-  "build/documento.lof" 1768918263.26658 1560 4ad13cddb448a54baeda268a5dd9840a "pdflatex"
-  "build/documento.loq" 1768918263.26658 219 fcd014c5f9a38d58b96e4c48d3a46d65 "pdflatex"
-  "build/documento.lot" 1768918263.26658 314 7fb276bd6473695511a9e0d394b8598b "pdflatex"
-  "build/documento.toc" 1768918263.26658 6604 b72e92d014d652a7c298626bf4421d84 "pdflatex"
+  "build/documento.loa" 1768930855.78669 378 a77e33eadbb3f02f8bea662d433182e6 "pdflatex"
+  "build/documento.lof" 1768930855.78669 1560 4ad13cddb448a54baeda268a5dd9840a "pdflatex"
+  "build/documento.loq" 1768930855.78669 219 fcd014c5f9a38d58b96e4c48d3a46d65 "pdflatex"
+  "build/documento.lot" 1768930855.78669 314 7fb276bd6473695511a9e0d394b8598b "pdflatex"
+  "build/documento.toc" 1768930855.78669 6827 15f376eb6aae232758728f036729acc2 "pdflatex"
   "documento.gls" 0 -1 0 ""
   "documento.tex" 1768918146.87376 11600 bd713047821122579f3ff30154462317 ""
   "figuras/Base_de_dados_Grafico.png" 1767653868.60964 23323 cd9ae26f340f8c8089ea5baa9e9ee133 ""
