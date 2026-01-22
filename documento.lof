@@ -1,0 +1,10 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Representação de um grafo não dirigido. (a) Um grafo não dirigido G com cinco vértices e sete arestas. (b) Uma representação de G por lista de adjacências. (c) A representação de G por matriz de adjacências.}}{23}{figure.caption.11}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de execução da Busca em Largura (BFS) em um grafo}}{24}{figure.caption.12}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Exemplo de execução da Busca em Profundidade (DFS) em um grafo}}{25}{figure.caption.13}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Exemplo de aplicação do algoritmo A* em um grafo com arestas ponderadas.}}{27}{figure.caption.14}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Resultados da \gls {QP}1.}}{31}{figure.caption.17}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Resultados da \gls {QP}2.}}{32}{figure.caption.18}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Passos realizados durante o desenvolvimento desse trabalho.}}{34}{figure.caption.19}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Quantidade de artigos obtidos após a pesquisa nas Bases de Dados, o \textit {download} e aplicação dos Critérios de Inclusão e Exclusão.}}{35}{figure.caption.20}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Representação em grafo da malha viária de um bairro real, com destaque para os pontos de interseção (vértices) e trechos de ruas (arestas).}}{37}{figure.caption.21}%

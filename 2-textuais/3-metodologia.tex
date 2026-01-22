@@ -21,10 +21,10 @@ rotas e aumentar a eficiência dos serviços prestados à população. Em munic�
 médio porte, onde as restrições orçamentárias são mais severas, a otimização das rotas de 
 zeladoria pode representar ganhos significativos na gestão pública.
 
-A metodologia adotada neste trabalho segue uma abordagem experimental e comparativa, 
+A metodologia adotada neste trabalho segue uma abordagem experimental e comparativa, conforme mostra a Figura \ref{fig:Fases-do-Trabalho}, 
 envolvendo as seguintes etapas principais: (i) revisão da literatura; (ii) coleta e estruturação dos 
 dados e instâncias do problema; (iii) Definição dos algoritmos; (iv) implementação dos algoritmos; 
-(v) analize comparativa dos experimentos. (vi) Considerações Finais.
+(v) análise comparativa dos experimentos. (vi) Considerações finais.
 
 \begin{figure}[h!]
     \centering
@@ -328,19 +328,14 @@ adequada para grafos esparsos típicos de redes urbanas.
 
 Para garantir a reprodutibilidade dos experimentos e permitir comparações justas entre diferentes 
 execuções dos algoritmos, foi adotado um conjunto padronizado de sementes aleatórias. As sementes 
-utilizadas correspondem a 18 combinações de dígitos da parte decimal da constante matemática $\pi$, ou seja, a
+utilizadas correspondem a 30 combinações de dígitos da parte decimal da constante matemática $\pi$, ou seja, a
 cada 6 casas decimais uma nova semente foi gerada: 
-141592, 653589, 793238, 462643, 383279, 502884, 197169, 399375, 105820, 974944, 592307, 816406, 286208, 998628,
-34825, 342117, 67982, 148086, 513282, 306647, 93844, 609550, 582231, 725359, 408128, 481117, 450284, 102701, 938521, 105559.
+$s_1=$141592, $s_2=$653589, $s_3=$793238, ... ,$s_{29}=$938521, $s_{30}=$105559.
 
-A escolha da constante $\pi$ para geração das sementes justifica-se por sua natureza irracional e 
-distribuição uniforme de dígitos, garantindo que as sequências pseudoaleatórias geradas apresentem 
-propriedades estatísticas adequadas para a realização de experimentos científicos. Cada execução 
+A escolha da constante $\pi$ para geração das sementes justifica-se por sua natureza irracional, 
+permitindo a geração das sequências pseudoaleatórias. Cada execução 
 dos algoritmos utilizou uma dessas sementes de forma sequencial, permitindo a geração de múltiplas 
 instâncias de teste com características variadas.
-
-
-
 
 
 
